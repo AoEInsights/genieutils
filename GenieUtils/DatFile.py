@@ -163,6 +163,53 @@ class ISerializable(object):
 _DatFile.ISerializable_swigregister(ISerializable)
 cvar = _DatFile.cvar
 
+class Graphic(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.Graphic_swiginit(self, _DatFile.new_Graphic())
+    __swig_destroy__ = _DatFile.delete_Graphic
+
+    def setGameVersion(self, gv):
+        return _DatFile.Graphic_setGameVersion(self, gv)
+
+    def getNameSize(self):
+        return _DatFile.Graphic_getNameSize(self)
+    Name = property(_DatFile.Graphic_Name_get, _DatFile.Graphic_Name_set)
+
+    def getName2Size(self):
+        return _DatFile.Graphic_getName2Size(self)
+    FileName = property(_DatFile.Graphic_FileName_get, _DatFile.Graphic_FileName_set)
+    ParticleEffectName = property(_DatFile.Graphic_ParticleEffectName_get, _DatFile.Graphic_ParticleEffectName_set)
+    FirstFrame = property(_DatFile.Graphic_FirstFrame_get, _DatFile.Graphic_FirstFrame_set)
+    SLP = property(_DatFile.Graphic_SLP_get, _DatFile.Graphic_SLP_set)
+    IsLoaded = property(_DatFile.Graphic_IsLoaded_get, _DatFile.Graphic_IsLoaded_set)
+    OldColorFlag = property(_DatFile.Graphic_OldColorFlag_get, _DatFile.Graphic_OldColorFlag_set)
+    Layer = property(_DatFile.Graphic_Layer_get, _DatFile.Graphic_Layer_set)
+    PlayerColor = property(_DatFile.Graphic_PlayerColor_get, _DatFile.Graphic_PlayerColor_set)
+    Rainbow = property(_DatFile.Graphic_Rainbow_get, _DatFile.Graphic_Rainbow_set)
+    TransparentSelection = property(_DatFile.Graphic_TransparentSelection_get, _DatFile.Graphic_TransparentSelection_set)
+    Coordinates = property(_DatFile.Graphic_Coordinates_get, _DatFile.Graphic_Coordinates_set)
+    SoundID = property(_DatFile.Graphic_SoundID_get, _DatFile.Graphic_SoundID_set)
+    WwiseSoundID = property(_DatFile.Graphic_WwiseSoundID_get, _DatFile.Graphic_WwiseSoundID_set)
+    AngleSoundsUsed = property(_DatFile.Graphic_AngleSoundsUsed_get, _DatFile.Graphic_AngleSoundsUsed_set)
+    FrameCount = property(_DatFile.Graphic_FrameCount_get, _DatFile.Graphic_FrameCount_set)
+    AngleCount = property(_DatFile.Graphic_AngleCount_get, _DatFile.Graphic_AngleCount_set)
+    SpeedMultiplier = property(_DatFile.Graphic_SpeedMultiplier_get, _DatFile.Graphic_SpeedMultiplier_set)
+    FrameDuration = property(_DatFile.Graphic_FrameDuration_get, _DatFile.Graphic_FrameDuration_set)
+    AnimationDuration = property(_DatFile.Graphic_AnimationDuration_get, _DatFile.Graphic_AnimationDuration_set)
+    ReplayDelay = property(_DatFile.Graphic_ReplayDelay_get, _DatFile.Graphic_ReplayDelay_set)
+    SequenceType = property(_DatFile.Graphic_SequenceType_get, _DatFile.Graphic_SequenceType_set)
+    ID = property(_DatFile.Graphic_ID_get, _DatFile.Graphic_ID_set)
+    MirroringMode = property(_DatFile.Graphic_MirroringMode_get, _DatFile.Graphic_MirroringMode_set)
+    EditorFlag = property(_DatFile.Graphic_EditorFlag_get, _DatFile.Graphic_EditorFlag_set)
+    Deltas = property(_DatFile.Graphic_Deltas_get, _DatFile.Graphic_Deltas_set)
+    AngleSounds = property(_DatFile.Graphic_AngleSounds_get, _DatFile.Graphic_AngleSounds_set)
+
+# Register Graphic in _DatFile:
+_DatFile.Graphic_swigregister(Graphic)
+
 UT_EyeCandy = _DatFile.UT_EyeCandy
 UT_Trees = _DatFile.UT_Trees
 UT_Flag = _DatFile.UT_Flag
@@ -510,6 +557,139 @@ class UnitVector(object):
 
 # Register UnitVector in _DatFile:
 _DatFile.UnitVector_swigregister(UnitVector)
+
+class GraphicVector(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        return _DatFile.GraphicVector_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        return _DatFile.GraphicVector___nonzero__(self)
+
+    def __bool__(self):
+        return _DatFile.GraphicVector___bool__(self)
+
+    def __len__(self):
+        return _DatFile.GraphicVector___len__(self)
+
+    def __getslice__(self, i, j):
+        return _DatFile.GraphicVector___getslice__(self, i, j)
+
+    def __setslice__(self, *args):
+        return _DatFile.GraphicVector___setslice__(self, *args)
+
+    def __delslice__(self, i, j):
+        return _DatFile.GraphicVector___delslice__(self, i, j)
+
+    def __delitem__(self, *args):
+        return _DatFile.GraphicVector___delitem__(self, *args)
+
+    def __getitem__(self, *args):
+        return _DatFile.GraphicVector___getitem__(self, *args)
+
+    def __setitem__(self, *args):
+        return _DatFile.GraphicVector___setitem__(self, *args)
+
+    def pop(self):
+        return _DatFile.GraphicVector_pop(self)
+
+    def append(self, x):
+        return _DatFile.GraphicVector_append(self, x)
+
+    def empty(self):
+        return _DatFile.GraphicVector_empty(self)
+
+    def size(self):
+        return _DatFile.GraphicVector_size(self)
+
+    def swap(self, v):
+        return _DatFile.GraphicVector_swap(self, v)
+
+    def begin(self):
+        return _DatFile.GraphicVector_begin(self)
+
+    def end(self):
+        return _DatFile.GraphicVector_end(self)
+
+    def rbegin(self):
+        return _DatFile.GraphicVector_rbegin(self)
+
+    def rend(self):
+        return _DatFile.GraphicVector_rend(self)
+
+    def clear(self):
+        return _DatFile.GraphicVector_clear(self)
+
+    def get_allocator(self):
+        return _DatFile.GraphicVector_get_allocator(self)
+
+    def pop_back(self):
+        return _DatFile.GraphicVector_pop_back(self)
+
+    def erase(self, *args):
+        return _DatFile.GraphicVector_erase(self, *args)
+
+    def __init__(self, *args):
+        _DatFile.GraphicVector_swiginit(self, _DatFile.new_GraphicVector(*args))
+
+    def push_back(self, x):
+        return _DatFile.GraphicVector_push_back(self, x)
+
+    def front(self):
+        return _DatFile.GraphicVector_front(self)
+
+    def back(self):
+        return _DatFile.GraphicVector_back(self)
+
+    def assign(self, n, x):
+        return _DatFile.GraphicVector_assign(self, n, x)
+
+    def resize(self, *args):
+        return _DatFile.GraphicVector_resize(self, *args)
+
+    def insert(self, *args):
+        return _DatFile.GraphicVector_insert(self, *args)
+
+    def reserve(self, n):
+        return _DatFile.GraphicVector_reserve(self, n)
+
+    def capacity(self):
+        return _DatFile.GraphicVector_capacity(self)
+    __swig_destroy__ = _DatFile.delete_GraphicVector
+
+# Register GraphicVector in _DatFile:
+_DatFile.GraphicVector_swigregister(GraphicVector)
+
+class Int16Pair(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        _DatFile.Int16Pair_swiginit(self, _DatFile.new_Int16Pair(*args))
+    first = property(_DatFile.Int16Pair_first_get, _DatFile.Int16Pair_first_set)
+    second = property(_DatFile.Int16Pair_second_get, _DatFile.Int16Pair_second_set)
+    def __len__(self):
+        return 2
+    def __repr__(self):
+        return str((self.first, self.second))
+    def __getitem__(self, index): 
+        if not (index % 2):
+            return self.first
+        else:
+            return self.second
+    def __setitem__(self, index, val):
+        if not (index % 2):
+            self.first = val
+        else:
+            self.second = val
+    __swig_destroy__ = _DatFile.delete_Int16Pair
+
+# Register Int16Pair in _DatFile:
+_DatFile.Int16Pair_swigregister(Int16Pair)
 
 GV_None = _DatFile.GV_None
 GV_TEST = _DatFile.GV_TEST

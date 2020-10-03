@@ -1,6 +1,6 @@
 .idea/
 build/
-!var/build/
+!GenieUtils/var/build/
 venv/
 __pycache__/
 

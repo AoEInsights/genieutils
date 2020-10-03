@@ -2698,58 +2698,64 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 #define SWIGTYPE_p_allocator_type swig_types[3]
 #define SWIGTYPE_p_char swig_types[4]
 #define SWIGTYPE_p_difference_type swig_types[5]
-#define SWIGTYPE_p_genie__Civ swig_types[6]
-#define SWIGTYPE_p_genie__DatFile swig_types[7]
-#define SWIGTYPE_p_genie__IFile swig_types[8]
-#define SWIGTYPE_p_genie__ISerializable swig_types[9]
-#define SWIGTYPE_p_genie__RandomMaps swig_types[10]
-#define SWIGTYPE_p_genie__TechTree swig_types[11]
-#define SWIGTYPE_p_genie__TerrainBlock swig_types[12]
-#define SWIGTYPE_p_genie__Unit swig_types[13]
-#define SWIGTYPE_p_genie__XYZF swig_types[14]
-#define SWIGTYPE_p_int swig_types[15]
-#define SWIGTYPE_p_long_long swig_types[16]
-#define SWIGTYPE_p_p_PyObject swig_types[17]
-#define SWIGTYPE_p_short swig_types[18]
-#define SWIGTYPE_p_signed_char swig_types[19]
-#define SWIGTYPE_p_size_type swig_types[20]
-#define SWIGTYPE_p_std__allocatorT_genie__Civ_t swig_types[21]
-#define SWIGTYPE_p_std__allocatorT_genie__Unit_t swig_types[22]
-#define SWIGTYPE_p_std__invalid_argument swig_types[23]
-#define SWIGTYPE_p_std__istream swig_types[24]
-#define SWIGTYPE_p_std__ostream swig_types[25]
-#define SWIGTYPE_p_std__pairT_float_float_t swig_types[26]
-#define SWIGTYPE_p_std__pairT_short_short_t swig_types[27]
-#define SWIGTYPE_p_std__streampos swig_types[28]
-#define SWIGTYPE_p_std__vectorT_Effect_std__allocatorT_Effect_t_t swig_types[29]
-#define SWIGTYPE_p_std__vectorT_Graphic_std__allocatorT_Graphic_t_t swig_types[30]
-#define SWIGTYPE_p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t swig_types[31]
-#define SWIGTYPE_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t swig_types[32]
-#define SWIGTYPE_p_std__vectorT_Sound_std__allocatorT_Sound_t_t swig_types[33]
-#define SWIGTYPE_p_std__vectorT_Tech_std__allocatorT_Tech_t_t swig_types[34]
-#define SWIGTYPE_p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t swig_types[35]
-#define SWIGTYPE_p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t swig_types[36]
-#define SWIGTYPE_p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t swig_types[37]
-#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[38]
-#define SWIGTYPE_p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t swig_types[39]
-#define SWIGTYPE_p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t swig_types[40]
-#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[41]
-#define SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t swig_types[42]
-#define SWIGTYPE_p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t swig_types[43]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[44]
-#define SWIGTYPE_p_unit__Bird swig_types[45]
-#define SWIGTYPE_p_unit__Building swig_types[46]
-#define SWIGTYPE_p_unit__Creatable swig_types[47]
-#define SWIGTYPE_p_unit__DeadFish swig_types[48]
-#define SWIGTYPE_p_unit__Projectile swig_types[49]
-#define SWIGTYPE_p_unit__Type50 swig_types[50]
-#define SWIGTYPE_p_unsigned_char swig_types[51]
-#define SWIGTYPE_p_unsigned_int swig_types[52]
-#define SWIGTYPE_p_unsigned_long_long swig_types[53]
-#define SWIGTYPE_p_unsigned_short swig_types[54]
-#define SWIGTYPE_p_value_type swig_types[55]
-static swig_type_info *swig_types[57];
-static swig_module_info swig_module = {swig_types, 56, 0, 0, 0, 0};
+#define SWIGTYPE_p_first_type swig_types[6]
+#define SWIGTYPE_p_genie__Civ swig_types[7]
+#define SWIGTYPE_p_genie__DatFile swig_types[8]
+#define SWIGTYPE_p_genie__Graphic swig_types[9]
+#define SWIGTYPE_p_genie__IFile swig_types[10]
+#define SWIGTYPE_p_genie__ISerializable swig_types[11]
+#define SWIGTYPE_p_genie__RandomMaps swig_types[12]
+#define SWIGTYPE_p_genie__TechTree swig_types[13]
+#define SWIGTYPE_p_genie__TerrainBlock swig_types[14]
+#define SWIGTYPE_p_genie__Unit swig_types[15]
+#define SWIGTYPE_p_genie__XYZF swig_types[16]
+#define SWIGTYPE_p_int swig_types[17]
+#define SWIGTYPE_p_long_long swig_types[18]
+#define SWIGTYPE_p_p_PyObject swig_types[19]
+#define SWIGTYPE_p_second_type swig_types[20]
+#define SWIGTYPE_p_short swig_types[21]
+#define SWIGTYPE_p_signed_char swig_types[22]
+#define SWIGTYPE_p_size_type swig_types[23]
+#define SWIGTYPE_p_std__allocatorT_genie__Civ_t swig_types[24]
+#define SWIGTYPE_p_std__allocatorT_genie__Graphic_t swig_types[25]
+#define SWIGTYPE_p_std__allocatorT_genie__Unit_t swig_types[26]
+#define SWIGTYPE_p_std__invalid_argument swig_types[27]
+#define SWIGTYPE_p_std__istream swig_types[28]
+#define SWIGTYPE_p_std__ostream swig_types[29]
+#define SWIGTYPE_p_std__pairT_float_float_t swig_types[30]
+#define SWIGTYPE_p_std__pairT_short_short_t swig_types[31]
+#define SWIGTYPE_p_std__streampos swig_types[32]
+#define SWIGTYPE_p_std__vectorT_Effect_std__allocatorT_Effect_t_t swig_types[33]
+#define SWIGTYPE_p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t swig_types[34]
+#define SWIGTYPE_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t swig_types[35]
+#define SWIGTYPE_p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t swig_types[36]
+#define SWIGTYPE_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t swig_types[37]
+#define SWIGTYPE_p_std__vectorT_Sound_std__allocatorT_Sound_t_t swig_types[38]
+#define SWIGTYPE_p_std__vectorT_Tech_std__allocatorT_Tech_t_t swig_types[39]
+#define SWIGTYPE_p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t swig_types[40]
+#define SWIGTYPE_p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t swig_types[41]
+#define SWIGTYPE_p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t swig_types[42]
+#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[43]
+#define SWIGTYPE_p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t swig_types[44]
+#define SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t swig_types[45]
+#define SWIGTYPE_p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t swig_types[46]
+#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[47]
+#define SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t swig_types[48]
+#define SWIGTYPE_p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t swig_types[49]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[50]
+#define SWIGTYPE_p_unit__Bird swig_types[51]
+#define SWIGTYPE_p_unit__Building swig_types[52]
+#define SWIGTYPE_p_unit__Creatable swig_types[53]
+#define SWIGTYPE_p_unit__DeadFish swig_types[54]
+#define SWIGTYPE_p_unit__Projectile swig_types[55]
+#define SWIGTYPE_p_unit__Type50 swig_types[56]
+#define SWIGTYPE_p_unsigned_char swig_types[57]
+#define SWIGTYPE_p_unsigned_int swig_types[58]
+#define SWIGTYPE_p_unsigned_long_long swig_types[59]
+#define SWIGTYPE_p_unsigned_short swig_types[60]
+#define SWIGTYPE_p_value_type swig_types[61]
+static swig_type_info *swig_types[63];
+static swig_module_info swig_module = {swig_types, 62, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3364,6 +3370,10 @@ SWIG_AsVal_ptrdiff_t (PyObject * obj, ptrdiff_t *val)
 #include <vector>
 
 
+#include <utility>
+
+
+#include "var/genieutils/include/genie/dat/Graphic.h"
 #include "var/genieutils/include/genie/dat/Unit.h"
 #include "var/genieutils/include/genie/dat/Civ.h"
 #include "var/genieutils/include/genie/dat/DatFile.h"
@@ -3660,6 +3670,45 @@ SWIG_From_std_string  (const std::string& s)
 }
 
 
+SWIGINTERNINLINE PyObject *
+SWIG_From_unsigned_SS_short  (unsigned short value)
+{    
+  return SWIG_From_unsigned_SS_long  (value);
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_unsigned_SS_short (PyObject * obj, unsigned short *val)
+{
+  unsigned long v;
+  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v > USHRT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< unsigned short >(v);
+    }
+  }  
+  return res;
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_int (PyObject * obj, int *val)
+{
+  long v;
+  int res = SWIG_AsVal_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v < INT_MIN || v > INT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< int >(v);
+    }
+  }  
+  return res;
+}
+
+
 SWIGINTERNINLINE PyObject*
   SWIG_From_int  (int value)
 {
@@ -3714,22 +3763,6 @@ SWIG_From_short  (short value)
 
 
 SWIGINTERN int
-SWIG_AsVal_int (PyObject * obj, int *val)
-{
-  long v;
-  int res = SWIG_AsVal_long (obj, &v);
-  if (SWIG_IsOK(res)) {
-    if ((v < INT_MIN || v > INT_MAX)) {
-      return SWIG_OverflowError;
-    } else {
-      if (val) *val = static_cast< int >(v);
-    }
-  }  
-  return res;
-}
-
-
-SWIGINTERN int
 SWIG_AsVal_unsigned_SS_int (PyObject * obj, unsigned int *val)
 {
   unsigned long v;
@@ -3770,13 +3803,6 @@ SWIG_AsVal_unsigned_SS_char (PyObject * obj, unsigned char *val)
 
 SWIGINTERNINLINE PyObject *
 SWIG_From_unsigned_SS_char  (unsigned char value)
-{    
-  return SWIG_From_unsigned_SS_long  (value);
-}
-
-
-SWIGINTERNINLINE PyObject *
-SWIG_From_unsigned_SS_short  (unsigned short value)
 {    
   return SWIG_From_unsigned_SS_long  (value);
 }
@@ -5224,6 +5250,300 @@ SWIGINTERN std::vector< genie::Unit >::iterator std_vector_Sl_genie_Unit_Sg__era
 SWIGINTERN std::vector< genie::Unit >::iterator std_vector_Sl_genie_Unit_Sg__insert__SWIG_0(std::vector< genie::Unit > *self,std::vector< genie::Unit >::iterator pos,std::vector< genie::Unit >::value_type const &x){ return self->insert(pos, x); }
 SWIGINTERN void std_vector_Sl_genie_Unit_Sg__insert__SWIG_1(std::vector< genie::Unit > *self,std::vector< genie::Unit >::iterator pos,std::vector< genie::Unit >::size_type n,std::vector< genie::Unit >::value_type const &x){ self->insert(pos, n, x); }
 
+  namespace swig {
+    template <>  struct traits< genie::Graphic > {
+      typedef pointer_category category;
+      static const char* type_name() { return"genie::Graphic"; }
+    };
+  }
+
+
+      namespace swig {
+	template <>  struct traits<std::vector< genie::Graphic, std::allocator< genie::Graphic > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "genie::Graphic" "," "std::allocator< genie::Graphic >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_genie_Graphic_Sg__iterator(std::vector< genie::Graphic > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_genie_Graphic_Sg____nonzero__(std::vector< genie::Graphic > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_genie_Graphic_Sg____bool__(std::vector< genie::Graphic > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< genie::Graphic >::size_type std_vector_Sl_genie_Graphic_Sg____len__(std::vector< genie::Graphic > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< genie::Graphic,std::allocator< genie::Graphic > > *std_vector_Sl_genie_Graphic_Sg____getslice__(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::difference_type i,std::vector< genie::Graphic >::difference_type j){
+      return swig::getslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg____setslice____SWIG_0(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::difference_type i,std::vector< genie::Graphic >::difference_type j){
+      swig::setslice(self, i, j, 1, std::vector< genie::Graphic,std::allocator< genie::Graphic > >());
+    }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg____setslice____SWIG_1(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::difference_type i,std::vector< genie::Graphic >::difference_type j,std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &v){
+      swig::setslice(self, i, j, 1, v);
+    }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg____delslice__(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::difference_type i,std::vector< genie::Graphic >::difference_type j){
+      swig::delslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg____delitem____SWIG_0(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::difference_type i){
+      swig::erase(self, swig::getpos(self, i));
+    }
+SWIGINTERN std::vector< genie::Graphic,std::allocator< genie::Graphic > > *std_vector_Sl_genie_Graphic_Sg____getitem____SWIG_0(std::vector< genie::Graphic > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::Graphic,std::allocator< genie::Graphic > >::difference_type id = i;
+      std::vector< genie::Graphic,std::allocator< genie::Graphic > >::difference_type jd = j;
+      return swig::getslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg____setitem____SWIG_0(std::vector< genie::Graphic > *self,PySliceObject *slice,std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::Graphic,std::allocator< genie::Graphic > >::difference_type id = i;
+      std::vector< genie::Graphic,std::allocator< genie::Graphic > >::difference_type jd = j;
+      swig::setslice(self, id, jd, step, v);
+    }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg____setitem____SWIG_1(std::vector< genie::Graphic > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::Graphic,std::allocator< genie::Graphic > >::difference_type id = i;
+      std::vector< genie::Graphic,std::allocator< genie::Graphic > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg____delitem____SWIG_1(std::vector< genie::Graphic > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::Graphic,std::allocator< genie::Graphic > >::difference_type id = i;
+      std::vector< genie::Graphic,std::allocator< genie::Graphic > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN std::vector< genie::Graphic >::value_type const &std_vector_Sl_genie_Graphic_Sg____getitem____SWIG_1(std::vector< genie::Graphic > const *self,std::vector< genie::Graphic >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg____setitem____SWIG_2(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::difference_type i,std::vector< genie::Graphic >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN std::vector< genie::Graphic >::value_type std_vector_Sl_genie_Graphic_Sg__pop(std::vector< genie::Graphic > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector< genie::Graphic,std::allocator< genie::Graphic > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg__append(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::value_type const &x){
+      self->push_back(x);
+    }
+SWIGINTERN std::vector< genie::Graphic >::iterator std_vector_Sl_genie_Graphic_Sg__erase__SWIG_0(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::iterator pos){ return self->erase(pos); }
+SWIGINTERN std::vector< genie::Graphic >::iterator std_vector_Sl_genie_Graphic_Sg__erase__SWIG_1(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::iterator first,std::vector< genie::Graphic >::iterator last){ return self->erase(first, last); }
+SWIGINTERN std::vector< genie::Graphic >::iterator std_vector_Sl_genie_Graphic_Sg__insert__SWIG_0(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::iterator pos,std::vector< genie::Graphic >::value_type const &x){ return self->insert(pos, x); }
+SWIGINTERN void std_vector_Sl_genie_Graphic_Sg__insert__SWIG_1(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::iterator pos,std::vector< genie::Graphic >::size_type n,std::vector< genie::Graphic >::value_type const &x){ self->insert(pos, n, x); }
+
+namespace swig {
+  template <> struct traits< short > {
+    typedef value_category category;
+    static const char* type_name() { return"short"; }
+  };
+  template <>  struct traits_asval< short > {
+    typedef short value_type;
+    static int asval(PyObject *obj, value_type *val) {
+      return SWIG_AsVal_short (obj, val);
+    }
+  };
+  template <>  struct traits_from< short > {
+    typedef short value_type;
+    static PyObject *from(const value_type& val) {
+      return SWIG_From_short  (val);
+    }
+  };
+}
+
+
+  namespace swig {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    template <class T, class U >
+    struct traits_asptr<std::pair<T,U> >  {
+      typedef std::pair<T,U> value_type;
+
+      static int get_pair(PyObject* first, PyObject* second,
+			  std::pair<T,U> **val) 
+      {
+	if (val) {
+	  value_type *vp = (new std::pair<T,U>());
+	  T *pfirst = &(vp->first);
+	  int res1 = swig::asval((PyObject*)first, pfirst);
+	  if (!SWIG_IsOK(res1)) {
+	    delete vp;
+	    return res1;
+	  }
+	  U *psecond = &(vp->second);
+	  int res2 = swig::asval((PyObject*)second, psecond);
+	  if (!SWIG_IsOK(res2)) {
+	    delete vp;
+	    return res2;
+	  }
+	  *val = vp;
+	  return SWIG_AddNewMask(res1 > res2 ? res1 : res2);
+	} else {
+	  T *pfirst = 0;
+	  int res1 = swig::asval((PyObject*)first, pfirst);
+	  if (!SWIG_IsOK(res1)) return res1;
+	  U *psecond = 0;
+	  int res2 = swig::asval((PyObject*)second, psecond);
+	  if (!SWIG_IsOK(res2)) return res2;
+	  return res1 > res2 ? res1 : res2;
+	}
+      }
+
+      static int asptr(PyObject *obj, std::pair<T,U> **val) {
+	int res = SWIG_ERROR;
+	if (PyTuple_Check(obj)) {
+	  if (PyTuple_GET_SIZE(obj) == 2) {
+	    res = get_pair(PyTuple_GET_ITEM(obj,0),PyTuple_GET_ITEM(obj,1), val);
+	  }
+	} else if (PySequence_Check(obj)) {
+	  if (PySequence_Size(obj) == 2) {
+	    swig::SwigVar_PyObject first = PySequence_GetItem(obj,0);
+	    swig::SwigVar_PyObject second = PySequence_GetItem(obj,1);
+	    res = get_pair(first, second, val);
+	  }
+	} else {
+	  value_type *p = 0;
+	  swig_type_info *descriptor = swig::type_info<value_type>();
+	  res = descriptor ? SWIG_ConvertPtr(obj, (void **)&p, descriptor, 0) : SWIG_ERROR;
+	  if (SWIG_IsOK(res) && val)  *val = p;
+	}
+	return res;
+      }
+    };
+
+
+    template <class T, class U >
+    struct traits_from<std::pair<T,U> >   {
+      static PyObject *from(const std::pair<T,U>& val) {
+	PyObject* obj = PyTuple_New(2);
+	PyTuple_SetItem(obj,0,swig::from(val.first));
+	PyTuple_SetItem(obj,1,swig::from(val.second));
+	return obj;
+      }
+    };
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      namespace swig {
+	template <>  struct traits<std::pair< short, short > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::pair<" "short" "," "short" " >";
+	  }
+	};
+      }
+    
+
 
 
 
@@ -5245,22 +5565,6 @@ SWIG_AsVal_bool (PyObject *obj, bool *val)
     return SWIG_ERROR;
   if (val) *val = r ? true : false;
   return SWIG_OK;
-}
-
-
-SWIGINTERN int
-SWIG_AsVal_unsigned_SS_short (PyObject * obj, unsigned short *val)
-{
-  unsigned long v;
-  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
-  if (SWIG_IsOK(res)) {
-    if ((v > USHRT_MAX)) {
-      return SWIG_OverflowError;
-    } else {
-      if (val) *val = static_cast< unsigned short >(v);
-    }
-  }  
-  return res;
 }
 
 #ifdef __cplusplus
@@ -6518,6 +6822,1560 @@ SWIGINTERN PyObject *ISerializable_swigregister(PyObject *SWIGUNUSEDPARM(self), 
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_new_Graphic(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_Graphic", 0, 0, 0)) SWIG_fail;
+  result = (genie::Graphic *)new genie::Graphic();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__Graphic, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Graphic(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Graphic" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_setGameVersion" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Graphic_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Graphic_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_getNameSize(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  unsigned short result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_getNameSize" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (unsigned short)(arg1)->getNameSize();
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Name_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_Name_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Name_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Graphic_Name_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Graphic_Name_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (arg1) (arg1)->Name = *arg2;
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Name_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Name_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (std::string *) & ((arg1)->Name);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_getName2Size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  unsigned short result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_getName2Size" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (unsigned short)(arg1)->getName2Size();
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_FileName_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_FileName_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_FileName_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Graphic_FileName_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Graphic_FileName_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (arg1) (arg1)->FileName = *arg2;
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_FileName_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_FileName_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (std::string *) & ((arg1)->FileName);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_ParticleEffectName_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_ParticleEffectName_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_ParticleEffectName_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Graphic_ParticleEffectName_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Graphic_ParticleEffectName_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (arg1) (arg1)->ParticleEffectName = *arg2;
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_ParticleEffectName_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_ParticleEffectName_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (std::string *) & ((arg1)->ParticleEffectName);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_FirstFrame_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_FirstFrame_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_FirstFrame_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_FirstFrame_set" "', argument " "2"" of type '" "uint16_t""'");
+  } 
+  arg2 = static_cast< uint16_t >(val2);
+  if (arg1) (arg1)->FirstFrame = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_FirstFrame_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_FirstFrame_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (uint16_t) ((arg1)->FirstFrame);
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_SLP_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_SLP_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_SLP_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_SLP_set" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  if (arg1) (arg1)->SLP = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_SLP_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_SLP_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int32_t) ((arg1)->SLP);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_IsLoaded_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_IsLoaded_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_IsLoaded_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_IsLoaded_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->IsLoaded = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_IsLoaded_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_IsLoaded_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->IsLoaded);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_OldColorFlag_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_OldColorFlag_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_OldColorFlag_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_OldColorFlag_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->OldColorFlag = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_OldColorFlag_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_OldColorFlag_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->OldColorFlag);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Layer_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_Layer_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Layer_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_Layer_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->Layer = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Layer_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Layer_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->Layer);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_PlayerColor_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_PlayerColor_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_PlayerColor_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_PlayerColor_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->PlayerColor = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_PlayerColor_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_PlayerColor_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->PlayerColor);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Rainbow_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_Rainbow_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Rainbow_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_Rainbow_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->Rainbow = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Rainbow_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Rainbow_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->Rainbow);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_TransparentSelection_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_TransparentSelection_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_TransparentSelection_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_TransparentSelection_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->TransparentSelection = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_TransparentSelection_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_TransparentSelection_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->TransparentSelection);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Coordinates_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  std::vector< int16_t,std::allocator< int16_t > > *arg2 = (std::vector< int16_t,std::allocator< int16_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_Coordinates_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Coordinates_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Graphic_Coordinates_set" "', argument " "2"" of type '" "std::vector< int16_t,std::allocator< int16_t > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< int16_t,std::allocator< int16_t > > * >(argp2);
+  if (arg1) (arg1)->Coordinates = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Coordinates_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int16_t,std::allocator< int16_t > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Coordinates_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (std::vector< int16_t,std::allocator< int16_t > > *)& ((arg1)->Coordinates);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_SoundID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_SoundID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_SoundID_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_SoundID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->SoundID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_SoundID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_SoundID_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int16_t) ((arg1)->SoundID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_WwiseSoundID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_WwiseSoundID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_WwiseSoundID_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_WwiseSoundID_set" "', argument " "2"" of type '" "uint32_t""'");
+  } 
+  arg2 = static_cast< uint32_t >(val2);
+  if (arg1) (arg1)->WwiseSoundID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_WwiseSoundID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_WwiseSoundID_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (uint32_t) ((arg1)->WwiseSoundID);
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_AngleSoundsUsed_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_AngleSoundsUsed_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_AngleSoundsUsed_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_AngleSoundsUsed_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->AngleSoundsUsed = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_AngleSoundsUsed_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_AngleSoundsUsed_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->AngleSoundsUsed);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_FrameCount_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_FrameCount_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_FrameCount_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_FrameCount_set" "', argument " "2"" of type '" "uint16_t""'");
+  } 
+  arg2 = static_cast< uint16_t >(val2);
+  if (arg1) (arg1)->FrameCount = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_FrameCount_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_FrameCount_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (uint16_t) ((arg1)->FrameCount);
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_AngleCount_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_AngleCount_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_AngleCount_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_AngleCount_set" "', argument " "2"" of type '" "uint16_t""'");
+  } 
+  arg2 = static_cast< uint16_t >(val2);
+  if (arg1) (arg1)->AngleCount = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_AngleCount_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_AngleCount_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (uint16_t) ((arg1)->AngleCount);
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_SpeedMultiplier_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_SpeedMultiplier_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_SpeedMultiplier_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_SpeedMultiplier_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->SpeedMultiplier = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_SpeedMultiplier_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_SpeedMultiplier_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (float) ((arg1)->SpeedMultiplier);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_FrameDuration_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_FrameDuration_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_FrameDuration_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_FrameDuration_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->FrameDuration = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_FrameDuration_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_FrameDuration_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (float) ((arg1)->FrameDuration);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_AnimationDuration_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_AnimationDuration_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_AnimationDuration_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_AnimationDuration_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->AnimationDuration = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_AnimationDuration_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_AnimationDuration_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (float) ((arg1)->AnimationDuration);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_ReplayDelay_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_ReplayDelay_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_ReplayDelay_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_ReplayDelay_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->ReplayDelay = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_ReplayDelay_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_ReplayDelay_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (float) ((arg1)->ReplayDelay);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_SequenceType_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_SequenceType_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_SequenceType_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_SequenceType_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->SequenceType = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_SequenceType_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_SequenceType_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->SequenceType);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_ID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_ID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_ID_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_ID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->ID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_ID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_ID_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int16_t) ((arg1)->ID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_MirroringMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_MirroringMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_MirroringMode_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_MirroringMode_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->MirroringMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_MirroringMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_MirroringMode_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->MirroringMode);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_EditorFlag_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_EditorFlag_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_EditorFlag_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_EditorFlag_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->EditorFlag = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_EditorFlag_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_EditorFlag_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (int8_t) ((arg1)->EditorFlag);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Deltas_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  std::vector< GraphicDelta,std::allocator< GraphicDelta > > *arg2 = (std::vector< GraphicDelta,std::allocator< GraphicDelta > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_Deltas_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Deltas_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Graphic_Deltas_set" "', argument " "2"" of type '" "std::vector< GraphicDelta,std::allocator< GraphicDelta > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< GraphicDelta,std::allocator< GraphicDelta > > * >(argp2);
+  if (arg1) (arg1)->Deltas = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_Deltas_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< GraphicDelta,std::allocator< GraphicDelta > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_Deltas_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (std::vector< GraphicDelta,std::allocator< GraphicDelta > > *)& ((arg1)->Deltas);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_AngleSounds_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  std::vector< GraphicAngleSound,std::allocator< GraphicAngleSound > > *arg2 = (std::vector< GraphicAngleSound,std::allocator< GraphicAngleSound > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Graphic_AngleSounds_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_AngleSounds_set" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Graphic_AngleSounds_set" "', argument " "2"" of type '" "std::vector< GraphicAngleSound,std::allocator< GraphicAngleSound > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< GraphicAngleSound,std::allocator< GraphicAngleSound > > * >(argp2);
+  if (arg1) (arg1)->AngleSounds = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Graphic_AngleSounds_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Graphic *arg1 = (genie::Graphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< GraphicAngleSound,std::allocator< GraphicAngleSound > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_AngleSounds_get" "', argument " "1"" of type '" "genie::Graphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Graphic * >(argp1);
+  result = (std::vector< GraphicAngleSound,std::allocator< GraphicAngleSound > > *)& ((arg1)->AngleSounds);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Graphic_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__Graphic, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *Graphic_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_new_Unit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *result = 0 ;
@@ -6853,10 +8711,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_StandingGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  std::pair< int16_t,int16_t > arg2 ;
+  std::pair< int16_t,int16_t > *arg2 = (std::pair< int16_t,int16_t > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -6866,20 +8724,12 @@ SWIGINTERN PyObject *_wrap_Unit_StandingGraphic_set(PyObject *SWIGUNUSEDPARM(sel
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_StandingGraphic_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__pairT_short_short_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_StandingGraphic_set" "', argument " "2"" of type '" "std::pair< int16_t,int16_t >""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_StandingGraphic_set" "', argument " "2"" of type '" "std::pair< int16_t,int16_t >""'");
-    } else {
-      std::pair< int16_t,int16_t > * temp = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_StandingGraphic_set" "', argument " "2"" of type '" "std::pair< int16_t,int16_t > *""'"); 
   }
-  if (arg1) (arg1)->StandingGraphic = arg2;
+  arg2 = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp2);
+  if (arg1) (arg1)->StandingGraphic = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -6893,7 +8743,7 @@ SWIGINTERN PyObject *_wrap_Unit_StandingGraphic_get(PyObject *SWIGUNUSEDPARM(sel
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::pair< int16_t,int16_t > result;
+  std::pair< int16_t,int16_t > *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -6902,8 +8752,8 @@ SWIGINTERN PyObject *_wrap_Unit_StandingGraphic_get(PyObject *SWIGUNUSEDPARM(sel
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_StandingGraphic_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->StandingGraphic);
-  resultobj = SWIG_NewPointerObj((new std::pair< int16_t,int16_t >(static_cast< const std::pair< int16_t,int16_t >& >(result))), SWIGTYPE_p_std__pairT_short_short_t, SWIG_POINTER_OWN |  0 );
+  result = (std::pair< int16_t,int16_t > *)& ((arg1)->StandingGraphic);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -7961,10 +9811,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_PlacementSideTerrain_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  std::pair< int16_t,int16_t > arg2 ;
+  std::pair< int16_t,int16_t > *arg2 = (std::pair< int16_t,int16_t > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -7974,20 +9824,12 @@ SWIGINTERN PyObject *_wrap_Unit_PlacementSideTerrain_set(PyObject *SWIGUNUSEDPAR
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_PlacementSideTerrain_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__pairT_short_short_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_PlacementSideTerrain_set" "', argument " "2"" of type '" "std::pair< int16_t,int16_t >""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_PlacementSideTerrain_set" "', argument " "2"" of type '" "std::pair< int16_t,int16_t >""'");
-    } else {
-      std::pair< int16_t,int16_t > * temp = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_PlacementSideTerrain_set" "', argument " "2"" of type '" "std::pair< int16_t,int16_t > *""'"); 
   }
-  if (arg1) (arg1)->PlacementSideTerrain = arg2;
+  arg2 = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp2);
+  if (arg1) (arg1)->PlacementSideTerrain = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -8001,7 +9843,7 @@ SWIGINTERN PyObject *_wrap_Unit_PlacementSideTerrain_get(PyObject *SWIGUNUSEDPAR
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::pair< int16_t,int16_t > result;
+  std::pair< int16_t,int16_t > *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -8010,8 +9852,8 @@ SWIGINTERN PyObject *_wrap_Unit_PlacementSideTerrain_get(PyObject *SWIGUNUSEDPAR
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_PlacementSideTerrain_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->PlacementSideTerrain);
-  resultobj = SWIG_NewPointerObj((new std::pair< int16_t,int16_t >(static_cast< const std::pair< int16_t,int16_t >& >(result))), SWIGTYPE_p_std__pairT_short_short_t, SWIG_POINTER_OWN |  0 );
+  result = (std::pair< int16_t,int16_t > *)& ((arg1)->PlacementSideTerrain);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -8021,10 +9863,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_PlacementTerrain_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  std::pair< int16_t,int16_t > arg2 ;
+  std::pair< int16_t,int16_t > *arg2 = (std::pair< int16_t,int16_t > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -8034,20 +9876,12 @@ SWIGINTERN PyObject *_wrap_Unit_PlacementTerrain_set(PyObject *SWIGUNUSEDPARM(se
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_PlacementTerrain_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__pairT_short_short_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_PlacementTerrain_set" "', argument " "2"" of type '" "std::pair< int16_t,int16_t >""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_PlacementTerrain_set" "', argument " "2"" of type '" "std::pair< int16_t,int16_t >""'");
-    } else {
-      std::pair< int16_t,int16_t > * temp = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_PlacementTerrain_set" "', argument " "2"" of type '" "std::pair< int16_t,int16_t > *""'"); 
   }
-  if (arg1) (arg1)->PlacementTerrain = arg2;
+  arg2 = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp2);
+  if (arg1) (arg1)->PlacementTerrain = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -8061,7 +9895,7 @@ SWIGINTERN PyObject *_wrap_Unit_PlacementTerrain_get(PyObject *SWIGUNUSEDPARM(se
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::pair< int16_t,int16_t > result;
+  std::pair< int16_t,int16_t > *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -8070,8 +9904,8 @@ SWIGINTERN PyObject *_wrap_Unit_PlacementTerrain_get(PyObject *SWIGUNUSEDPARM(se
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_PlacementTerrain_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->PlacementTerrain);
-  resultobj = SWIG_NewPointerObj((new std::pair< int16_t,int16_t >(static_cast< const std::pair< int16_t,int16_t >& >(result))), SWIGTYPE_p_std__pairT_short_short_t, SWIG_POINTER_OWN |  0 );
+  result = (std::pair< int16_t,int16_t > *)& ((arg1)->PlacementTerrain);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -8081,10 +9915,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_ClearanceSize_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  std::pair< float,float > arg2 ;
+  std::pair< float,float > *arg2 = (std::pair< float,float > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -8094,20 +9928,12 @@ SWIGINTERN PyObject *_wrap_Unit_ClearanceSize_set(PyObject *SWIGUNUSEDPARM(self)
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_ClearanceSize_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__pairT_float_float_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_ClearanceSize_set" "', argument " "2"" of type '" "std::pair< float,float >""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_ClearanceSize_set" "', argument " "2"" of type '" "std::pair< float,float >""'");
-    } else {
-      std::pair< float,float > * temp = reinterpret_cast< std::pair< float,float > * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__pairT_float_float_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_ClearanceSize_set" "', argument " "2"" of type '" "std::pair< float,float > *""'"); 
   }
-  if (arg1) (arg1)->ClearanceSize = arg2;
+  arg2 = reinterpret_cast< std::pair< float,float > * >(argp2);
+  if (arg1) (arg1)->ClearanceSize = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -8121,7 +9947,7 @@ SWIGINTERN PyObject *_wrap_Unit_ClearanceSize_get(PyObject *SWIGUNUSEDPARM(self)
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::pair< float,float > result;
+  std::pair< float,float > *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -8130,8 +9956,8 @@ SWIGINTERN PyObject *_wrap_Unit_ClearanceSize_get(PyObject *SWIGUNUSEDPARM(self)
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_ClearanceSize_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->ClearanceSize);
-  resultobj = SWIG_NewPointerObj((new std::pair< float,float >(static_cast< const std::pair< float,float >& >(result))), SWIGTYPE_p_std__pairT_float_float_t, SWIG_POINTER_OWN |  0 );
+  result = (std::pair< float,float > *)& ((arg1)->ClearanceSize);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_float_float_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -15145,6 +16971,2081 @@ SWIGINTERN PyObject *UnitVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObjec
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_GraphicVector_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_iterator" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (swig::SwigPyIterator *)std_vector_Sl_genie_Graphic_Sg__iterator(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___nonzero__" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (bool)std_vector_Sl_genie_Graphic_Sg____nonzero__((std::vector< genie::Graphic > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___bool__" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (bool)std_vector_Sl_genie_Graphic_Sg____bool__((std::vector< genie::Graphic > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___len__" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = std_vector_Sl_genie_Graphic_Sg____len__((std::vector< genie::Graphic > const *)arg1);
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::difference_type arg2 ;
+  std::vector< genie::Graphic >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  std::vector< genie::Graphic,std::allocator< genie::Graphic > > *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "GraphicVector___getslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___getslice__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector___getslice__" "', argument " "2"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "GraphicVector___getslice__" "', argument " "3"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Graphic >::difference_type >(val3);
+  try {
+    result = (std::vector< genie::Graphic,std::allocator< genie::Graphic > > *)std_vector_Sl_genie_Graphic_Sg____getslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::difference_type arg2 ;
+  std::vector< genie::Graphic >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___setslice__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector___setslice__" "', argument " "2"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "GraphicVector___setslice__" "', argument " "3"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Graphic >::difference_type >(val3);
+  try {
+    std_vector_Sl_genie_Graphic_Sg____setslice____SWIG_0(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::difference_type arg2 ;
+  std::vector< genie::Graphic >::difference_type arg3 ;
+  std::vector< genie::Graphic,std::allocator< genie::Graphic > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___setslice__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector___setslice__" "', argument " "2"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "GraphicVector___setslice__" "', argument " "3"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Graphic >::difference_type >(val3);
+  {
+    std::vector< genie::Graphic,std::allocator< genie::Graphic > > *ptr = (std::vector< genie::Graphic,std::allocator< genie::Graphic > > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "GraphicVector___setslice__" "', argument " "4"" of type '" "std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector___setslice__" "', argument " "4"" of type '" "std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    std_vector_Sl_genie_Graphic_Sg____setslice____SWIG_1(arg1,arg2,arg3,(std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &)*arg4);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___setslice__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "GraphicVector___setslice__", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_GraphicVector___setslice____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_GraphicVector___setslice____SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'GraphicVector___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Graphic >::__setslice__(std::vector< genie::Graphic >::difference_type,std::vector< genie::Graphic >::difference_type)\n"
+    "    std::vector< genie::Graphic >::__setslice__(std::vector< genie::Graphic >::difference_type,std::vector< genie::Graphic >::difference_type,std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::difference_type arg2 ;
+  std::vector< genie::Graphic >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "GraphicVector___delslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___delslice__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector___delslice__" "', argument " "2"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "GraphicVector___delslice__" "', argument " "3"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Graphic >::difference_type >(val3);
+  try {
+    std_vector_Sl_genie_Graphic_Sg____delslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___delitem__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector___delitem__" "', argument " "2"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::difference_type >(val2);
+  try {
+    std_vector_Sl_genie_Graphic_Sg____delitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< genie::Graphic,std::allocator< genie::Graphic > > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___getitem__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    result = (std::vector< genie::Graphic,std::allocator< genie::Graphic > > *)std_vector_Sl_genie_Graphic_Sg____getitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< genie::Graphic,std::allocator< genie::Graphic > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  {
+    std::vector< genie::Graphic,std::allocator< genie::Graphic > > *ptr = (std::vector< genie::Graphic,std::allocator< genie::Graphic > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "GraphicVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    std_vector_Sl_genie_Graphic_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_genie_Graphic_Sg____setitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___delitem__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_genie_Graphic_Sg____delitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___delitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "GraphicVector___delitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_GraphicVector___delitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_GraphicVector___delitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'GraphicVector___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Graphic >::__delitem__(std::vector< genie::Graphic >::difference_type)\n"
+    "    std::vector< genie::Graphic >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< genie::Graphic >::value_type *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___getitem__" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector___getitem__" "', argument " "2"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::difference_type >(val2);
+  try {
+    result = (std::vector< genie::Graphic >::value_type *) &std_vector_Sl_genie_Graphic_Sg____getitem____SWIG_1((std::vector< genie::Graphic > const *)arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::Graphic >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___getitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "GraphicVector___getitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_GraphicVector___getitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_GraphicVector___getitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'GraphicVector___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Graphic >::__getitem__(PySliceObject *)\n"
+    "    std::vector< genie::Graphic >::__getitem__(std::vector< genie::Graphic >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::difference_type arg2 ;
+  std::vector< genie::Graphic >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector___setitem__" "', argument " "2"" of type '" "std::vector< genie::Graphic >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::difference_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__Graphic,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "GraphicVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::Graphic >::value_type * >(argp3);
+  try {
+    std_vector_Sl_genie_Graphic_Sg____setitem____SWIG_2(arg1,arg2,(genie::Graphic const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector___setitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "GraphicVector___setitem__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_GraphicVector___setitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_GraphicVector___setitem____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__Graphic, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_GraphicVector___setitem____SWIG_2(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'GraphicVector___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Graphic >::__setitem__(PySliceObject *,std::vector< genie::Graphic,std::allocator< genie::Graphic > > const &)\n"
+    "    std::vector< genie::Graphic >::__setitem__(PySliceObject *)\n"
+    "    std::vector< genie::Graphic >::__setitem__(std::vector< genie::Graphic >::difference_type,std::vector< genie::Graphic >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::value_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_pop" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  try {
+    result = std_vector_Sl_genie_Graphic_Sg__pop(arg1);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< genie::Graphic >::value_type(static_cast< const std::vector< genie::Graphic >::value_type& >(result))), SWIGTYPE_p_genie__Graphic, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "GraphicVector_append", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_append" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__Graphic,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GraphicVector_append" "', argument " "2"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector_append" "', argument " "2"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::Graphic >::value_type * >(argp2);
+  std_vector_Sl_genie_Graphic_Sg__append(arg1,(genie::Graphic const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_GraphicVector__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *result = 0 ;
+  
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  result = (std::vector< genie::Graphic > *)new std::vector< genie::Graphic >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_GraphicVector__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::vector< genie::Graphic > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::vector< genie::Graphic,std::allocator< genie::Graphic > > *ptr = (std::vector< genie::Graphic,std::allocator< genie::Graphic > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_GraphicVector" "', argument " "1"" of type '" "std::vector< genie::Graphic > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_GraphicVector" "', argument " "1"" of type '" "std::vector< genie::Graphic > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  result = (std::vector< genie::Graphic > *)new std::vector< genie::Graphic >((std::vector< genie::Graphic > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_empty" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (bool)((std::vector< genie::Graphic > const *)arg1)->empty();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_size" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = ((std::vector< genie::Graphic > const *)arg1)->size();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "GraphicVector_swap", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_swap" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GraphicVector_swap" "', argument " "2"" of type '" "std::vector< genie::Graphic > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector_swap" "', argument " "2"" of type '" "std::vector< genie::Graphic > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::Graphic > * >(argp2);
+  (arg1)->swap(*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_begin" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (arg1)->begin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Graphic >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_end" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (arg1)->end();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Graphic >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_rbegin" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (arg1)->rbegin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Graphic >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_rend" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (arg1)->rend();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Graphic >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_clear" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  (arg1)->clear();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::allocator< genie::Graphic > > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_get_allocator" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = ((std::vector< genie::Graphic > const *)arg1)->get_allocator();
+  resultobj = SWIG_NewPointerObj((new std::vector< genie::Graphic >::allocator_type(static_cast< const std::vector< genie::Graphic >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_genie__Graphic_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_GraphicVector__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< genie::Graphic > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_GraphicVector" "', argument " "1"" of type '" "std::vector< genie::Graphic >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< genie::Graphic >::size_type >(val1);
+  result = (std::vector< genie::Graphic > *)new std::vector< genie::Graphic >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_pop_back" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  (arg1)->pop_back();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_resize" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector_resize" "', argument " "2"" of type '" "std::vector< genie::Graphic >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::size_type >(val2);
+  (arg1)->resize(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  std::vector< genie::Graphic >::iterator result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_erase" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_erase" "', argument " "2"" of type '" "std::vector< genie::Graphic >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_erase" "', argument " "2"" of type '" "std::vector< genie::Graphic >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_genie_Graphic_Sg__erase__SWIG_0(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Graphic >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::iterator arg2 ;
+  std::vector< genie::Graphic >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  std::vector< genie::Graphic >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_erase" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_erase" "', argument " "2"" of type '" "std::vector< genie::Graphic >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_erase" "', argument " "2"" of type '" "std::vector< genie::Graphic >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_erase" "', argument " "3"" of type '" "std::vector< genie::Graphic >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_erase" "', argument " "3"" of type '" "std::vector< genie::Graphic >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_genie_Graphic_Sg__erase__SWIG_1(arg1,arg2,arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Graphic >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_erase(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "GraphicVector_erase", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_GraphicVector_erase__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_GraphicVector_erase__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'GraphicVector_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Graphic >::erase(std::vector< genie::Graphic >::iterator)\n"
+    "    std::vector< genie::Graphic >::erase(std::vector< genie::Graphic >::iterator,std::vector< genie::Graphic >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_GraphicVector__SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic >::size_type arg1 ;
+  std::vector< genie::Graphic >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  std::vector< genie::Graphic > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_GraphicVector" "', argument " "1"" of type '" "std::vector< genie::Graphic >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< genie::Graphic >::size_type >(val1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__Graphic,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_GraphicVector" "', argument " "2"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_GraphicVector" "', argument " "2"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::Graphic >::value_type * >(argp2);
+  result = (std::vector< genie::Graphic > *)new std::vector< genie::Graphic >(arg1,(std::vector< genie::Graphic >::value_type const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_GraphicVector(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_GraphicVector", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_GraphicVector__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_GraphicVector__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_GraphicVector__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_genie__Graphic, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_GraphicVector__SWIG_3(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_GraphicVector'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Graphic >::vector()\n"
+    "    std::vector< genie::Graphic >::vector(std::vector< genie::Graphic > const &)\n"
+    "    std::vector< genie::Graphic >::vector(std::vector< genie::Graphic >::size_type)\n"
+    "    std::vector< genie::Graphic >::vector(std::vector< genie::Graphic >::size_type,std::vector< genie::Graphic >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "GraphicVector_push_back", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_push_back" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__Graphic,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "GraphicVector_push_back" "', argument " "2"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector_push_back" "', argument " "2"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::Graphic >::value_type * >(argp2);
+  (arg1)->push_back((std::vector< genie::Graphic >::value_type const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_front" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (std::vector< genie::Graphic >::value_type *) &((std::vector< genie::Graphic > const *)arg1)->front();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::Graphic >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_back" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = (std::vector< genie::Graphic >::value_type *) &((std::vector< genie::Graphic > const *)arg1)->back();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__Graphic, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::Graphic >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::size_type arg2 ;
+  std::vector< genie::Graphic >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "GraphicVector_assign", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_assign" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector_assign" "', argument " "2"" of type '" "std::vector< genie::Graphic >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__Graphic,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "GraphicVector_assign" "', argument " "3"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector_assign" "', argument " "3"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::Graphic >::value_type * >(argp3);
+  (arg1)->assign(arg2,(std::vector< genie::Graphic >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::size_type arg2 ;
+  std::vector< genie::Graphic >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_resize" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector_resize" "', argument " "2"" of type '" "std::vector< genie::Graphic >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__Graphic,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "GraphicVector_resize" "', argument " "3"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector_resize" "', argument " "3"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::Graphic >::value_type * >(argp3);
+  (arg1)->resize(arg2,(std::vector< genie::Graphic >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_resize(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "GraphicVector_resize", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_GraphicVector_resize__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__Graphic, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_GraphicVector_resize__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'GraphicVector_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Graphic >::resize(std::vector< genie::Graphic >::size_type)\n"
+    "    std::vector< genie::Graphic >::resize(std::vector< genie::Graphic >::size_type,std::vector< genie::Graphic >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::iterator arg2 ;
+  std::vector< genie::Graphic >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  std::vector< genie::Graphic >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_insert" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_insert" "', argument " "2"" of type '" "std::vector< genie::Graphic >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_insert" "', argument " "2"" of type '" "std::vector< genie::Graphic >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__Graphic,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "GraphicVector_insert" "', argument " "3"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector_insert" "', argument " "3"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::Graphic >::value_type * >(argp3);
+  result = std_vector_Sl_genie_Graphic_Sg__insert__SWIG_0(arg1,arg2,(genie::Graphic const &)*arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Graphic >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::iterator arg2 ;
+  std::vector< genie::Graphic >::size_type arg3 ;
+  std::vector< genie::Graphic >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_insert" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_insert" "', argument " "2"" of type '" "std::vector< genie::Graphic >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "GraphicVector_insert" "', argument " "2"" of type '" "std::vector< genie::Graphic >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "GraphicVector_insert" "', argument " "3"" of type '" "std::vector< genie::Graphic >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Graphic >::size_type >(val3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_genie__Graphic,  0  | 0);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "GraphicVector_insert" "', argument " "4"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "GraphicVector_insert" "', argument " "4"" of type '" "std::vector< genie::Graphic >::value_type const &""'"); 
+  }
+  arg4 = reinterpret_cast< std::vector< genie::Graphic >::value_type * >(argp4);
+  std_vector_Sl_genie_Graphic_Sg__insert__SWIG_1(arg1,arg2,arg3,(genie::Graphic const &)*arg4);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_insert(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "GraphicVector_insert", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__Graphic, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_GraphicVector_insert__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Graphic,std::allocator< genie::Graphic > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Graphic >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_genie__Graphic, SWIG_POINTER_NO_NULL | 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_GraphicVector_insert__SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'GraphicVector_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Graphic >::insert(std::vector< genie::Graphic >::iterator,std::vector< genie::Graphic >::value_type const &)\n"
+    "    std::vector< genie::Graphic >::insert(std::vector< genie::Graphic >::iterator,std::vector< genie::Graphic >::size_type,std::vector< genie::Graphic >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  std::vector< genie::Graphic >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "GraphicVector_reserve", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_reserve" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GraphicVector_reserve" "', argument " "2"" of type '" "std::vector< genie::Graphic >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Graphic >::size_type >(val2);
+  (arg1)->reserve(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GraphicVector_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Graphic >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GraphicVector_capacity" "', argument " "1"" of type '" "std::vector< genie::Graphic > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  result = ((std::vector< genie::Graphic > const *)arg1)->capacity();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_GraphicVector(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Graphic > *arg1 = (std::vector< genie::Graphic > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_GraphicVector" "', argument " "1"" of type '" "std::vector< genie::Graphic > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Graphic > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *GraphicVector_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *GraphicVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_Int16Pair__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::pair< int16_t,int16_t > *result = 0 ;
+  
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  result = (std::pair< int16_t,int16_t > *)new std::pair< int16_t,int16_t >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_short_short_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Int16Pair__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  short arg1 ;
+  short arg2 ;
+  short val1 ;
+  int ecode1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  std::pair< int16_t,int16_t > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_short(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Int16Pair" "', argument " "1"" of type '" "short""'");
+  } 
+  arg1 = static_cast< short >(val1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_Int16Pair" "', argument " "2"" of type '" "short""'");
+  } 
+  arg2 = static_cast< short >(val2);
+  result = (std::pair< int16_t,int16_t > *)new std::pair< int16_t,int16_t >(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_short_short_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Int16Pair__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::pair< int16_t,int16_t > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::pair< int16_t,int16_t > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::pair< short,short > *ptr = (std::pair< short,short > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Int16Pair" "', argument " "1"" of type '" "std::pair< int16_t,int16_t > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_Int16Pair" "', argument " "1"" of type '" "std::pair< int16_t,int16_t > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  result = (std::pair< int16_t,int16_t > *)new std::pair< int16_t,int16_t >((std::pair< int16_t,int16_t > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_short_short_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_Int16Pair(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_Int16Pair", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_Int16Pair__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::pair< short,short >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_Int16Pair__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_short(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      {
+        int res = SWIG_AsVal_short(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_new_Int16Pair__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_Int16Pair'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::pair< int16_t,int16_t >::pair()\n"
+    "    std::pair< int16_t,int16_t >::pair(short,short)\n"
+    "    std::pair< int16_t,int16_t >::pair(std::pair< int16_t,int16_t > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_Int16Pair_first_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< int16_t,int16_t > *arg1 = (std::pair< int16_t,int16_t > *) 0 ;
+  short arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Int16Pair_first_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Int16Pair_first_set" "', argument " "1"" of type '" "std::pair< int16_t,int16_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Int16Pair_first_set" "', argument " "2"" of type '" "short""'");
+  } 
+  arg2 = static_cast< short >(val2);
+  if (arg1) (arg1)->first = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Int16Pair_first_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< int16_t,int16_t > *arg1 = (std::pair< int16_t,int16_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  short result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Int16Pair_first_get" "', argument " "1"" of type '" "std::pair< int16_t,int16_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp1);
+  result = (short) ((arg1)->first);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Int16Pair_second_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< int16_t,int16_t > *arg1 = (std::pair< int16_t,int16_t > *) 0 ;
+  short arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Int16Pair_second_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Int16Pair_second_set" "', argument " "1"" of type '" "std::pair< int16_t,int16_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Int16Pair_second_set" "', argument " "2"" of type '" "short""'");
+  } 
+  arg2 = static_cast< short >(val2);
+  if (arg1) (arg1)->second = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Int16Pair_second_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< int16_t,int16_t > *arg1 = (std::pair< int16_t,int16_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  short result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_short_short_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Int16Pair_second_get" "', argument " "1"" of type '" "std::pair< int16_t,int16_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp1);
+  result = (short) ((arg1)->second);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Int16Pair(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< int16_t,int16_t > *arg1 = (std::pair< int16_t,int16_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_short_short_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Int16Pair" "', argument " "1"" of type '" "std::pair< int16_t,int16_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< int16_t,int16_t > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Int16Pair_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__pairT_short_short_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *Int16Pair_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN int Swig_var_GV_LatestTap_set(PyObject *_val) {
   if (sizeof(int) != sizeof(genie::GV_LatestTap)) {
     SWIG_exception_fail(SWIG_ArgError(SWIG_AttributeError), "in variable '""arch, read-only genie::GV_LatestTap""' of type '""genie::GameVersion""'");
@@ -16154,7 +20055,7 @@ fail:
 SWIGINTERN PyObject *_wrap_DatFile_Graphics_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::DatFile *arg1 = (genie::DatFile *) 0 ;
-  std::vector< Graphic,std::allocator< Graphic > > *arg2 = (std::vector< Graphic,std::allocator< Graphic > > *) 0 ;
+  std::vector< genie::Graphic,std::allocator< genie::Graphic > > *arg2 = (std::vector< genie::Graphic,std::allocator< genie::Graphic > > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -16167,11 +20068,11 @@ SWIGINTERN PyObject *_wrap_DatFile_Graphics_set(PyObject *SWIGUNUSEDPARM(self), 
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DatFile_Graphics_set" "', argument " "1"" of type '" "genie::DatFile *""'"); 
   }
   arg1 = reinterpret_cast< genie::DatFile * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_Graphic_std__allocatorT_Graphic_t_t, 0 |  0 );
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DatFile_Graphics_set" "', argument " "2"" of type '" "std::vector< Graphic,std::allocator< Graphic > > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DatFile_Graphics_set" "', argument " "2"" of type '" "std::vector< genie::Graphic,std::allocator< genie::Graphic > > *""'"); 
   }
-  arg2 = reinterpret_cast< std::vector< Graphic,std::allocator< Graphic > > * >(argp2);
+  arg2 = reinterpret_cast< std::vector< genie::Graphic,std::allocator< genie::Graphic > > * >(argp2);
   if (arg1) (arg1)->Graphics = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -16186,7 +20087,7 @@ SWIGINTERN PyObject *_wrap_DatFile_Graphics_get(PyObject *SWIGUNUSEDPARM(self), 
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< Graphic,std::allocator< Graphic > > *result = 0 ;
+  std::vector< genie::Graphic,std::allocator< genie::Graphic > > *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -16195,8 +20096,8 @@ SWIGINTERN PyObject *_wrap_DatFile_Graphics_get(PyObject *SWIGUNUSEDPARM(self), 
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DatFile_Graphics_get" "', argument " "1"" of type '" "genie::DatFile *""'"); 
   }
   arg1 = reinterpret_cast< genie::DatFile * >(argp1);
-  result = (std::vector< Graphic,std::allocator< Graphic > > *)& ((arg1)->Graphics);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_Graphic_std__allocatorT_Graphic_t_t, 0 |  0 );
+  result = (std::vector< genie::Graphic,std::allocator< genie::Graphic > > *)& ((arg1)->Graphics);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -17422,6 +21323,67 @@ static PyMethodDef SwigMethods[] = {
 	 { "ISerializable_scn_trigger_ver_get", _wrap_ISerializable_scn_trigger_ver_get, METH_VARARGS, NULL},
 	 { "ISerializable_scn_trigger_ver_set", _wrap_ISerializable_scn_trigger_ver_set, METH_O, NULL},
 	 { "ISerializable_swigregister", ISerializable_swigregister, METH_O, NULL},
+	 { "new_Graphic", _wrap_new_Graphic, METH_NOARGS, NULL},
+	 { "delete_Graphic", _wrap_delete_Graphic, METH_O, NULL},
+	 { "Graphic_setGameVersion", _wrap_Graphic_setGameVersion, METH_VARARGS, NULL},
+	 { "Graphic_getNameSize", _wrap_Graphic_getNameSize, METH_O, NULL},
+	 { "Graphic_Name_set", _wrap_Graphic_Name_set, METH_VARARGS, NULL},
+	 { "Graphic_Name_get", _wrap_Graphic_Name_get, METH_O, NULL},
+	 { "Graphic_getName2Size", _wrap_Graphic_getName2Size, METH_O, NULL},
+	 { "Graphic_FileName_set", _wrap_Graphic_FileName_set, METH_VARARGS, NULL},
+	 { "Graphic_FileName_get", _wrap_Graphic_FileName_get, METH_O, NULL},
+	 { "Graphic_ParticleEffectName_set", _wrap_Graphic_ParticleEffectName_set, METH_VARARGS, NULL},
+	 { "Graphic_ParticleEffectName_get", _wrap_Graphic_ParticleEffectName_get, METH_O, NULL},
+	 { "Graphic_FirstFrame_set", _wrap_Graphic_FirstFrame_set, METH_VARARGS, NULL},
+	 { "Graphic_FirstFrame_get", _wrap_Graphic_FirstFrame_get, METH_O, NULL},
+	 { "Graphic_SLP_set", _wrap_Graphic_SLP_set, METH_VARARGS, NULL},
+	 { "Graphic_SLP_get", _wrap_Graphic_SLP_get, METH_O, NULL},
+	 { "Graphic_IsLoaded_set", _wrap_Graphic_IsLoaded_set, METH_VARARGS, NULL},
+	 { "Graphic_IsLoaded_get", _wrap_Graphic_IsLoaded_get, METH_O, NULL},
+	 { "Graphic_OldColorFlag_set", _wrap_Graphic_OldColorFlag_set, METH_VARARGS, NULL},
+	 { "Graphic_OldColorFlag_get", _wrap_Graphic_OldColorFlag_get, METH_O, NULL},
+	 { "Graphic_Layer_set", _wrap_Graphic_Layer_set, METH_VARARGS, NULL},
+	 { "Graphic_Layer_get", _wrap_Graphic_Layer_get, METH_O, NULL},
+	 { "Graphic_PlayerColor_set", _wrap_Graphic_PlayerColor_set, METH_VARARGS, NULL},
+	 { "Graphic_PlayerColor_get", _wrap_Graphic_PlayerColor_get, METH_O, NULL},
+	 { "Graphic_Rainbow_set", _wrap_Graphic_Rainbow_set, METH_VARARGS, NULL},
+	 { "Graphic_Rainbow_get", _wrap_Graphic_Rainbow_get, METH_O, NULL},
+	 { "Graphic_TransparentSelection_set", _wrap_Graphic_TransparentSelection_set, METH_VARARGS, NULL},
+	 { "Graphic_TransparentSelection_get", _wrap_Graphic_TransparentSelection_get, METH_O, NULL},
+	 { "Graphic_Coordinates_set", _wrap_Graphic_Coordinates_set, METH_VARARGS, NULL},
+	 { "Graphic_Coordinates_get", _wrap_Graphic_Coordinates_get, METH_O, NULL},
+	 { "Graphic_SoundID_set", _wrap_Graphic_SoundID_set, METH_VARARGS, NULL},
+	 { "Graphic_SoundID_get", _wrap_Graphic_SoundID_get, METH_O, NULL},
+	 { "Graphic_WwiseSoundID_set", _wrap_Graphic_WwiseSoundID_set, METH_VARARGS, NULL},
+	 { "Graphic_WwiseSoundID_get", _wrap_Graphic_WwiseSoundID_get, METH_O, NULL},
+	 { "Graphic_AngleSoundsUsed_set", _wrap_Graphic_AngleSoundsUsed_set, METH_VARARGS, NULL},
+	 { "Graphic_AngleSoundsUsed_get", _wrap_Graphic_AngleSoundsUsed_get, METH_O, NULL},
+	 { "Graphic_FrameCount_set", _wrap_Graphic_FrameCount_set, METH_VARARGS, NULL},
+	 { "Graphic_FrameCount_get", _wrap_Graphic_FrameCount_get, METH_O, NULL},
+	 { "Graphic_AngleCount_set", _wrap_Graphic_AngleCount_set, METH_VARARGS, NULL},
+	 { "Graphic_AngleCount_get", _wrap_Graphic_AngleCount_get, METH_O, NULL},
+	 { "Graphic_SpeedMultiplier_set", _wrap_Graphic_SpeedMultiplier_set, METH_VARARGS, NULL},
+	 { "Graphic_SpeedMultiplier_get", _wrap_Graphic_SpeedMultiplier_get, METH_O, NULL},
+	 { "Graphic_FrameDuration_set", _wrap_Graphic_FrameDuration_set, METH_VARARGS, NULL},
+	 { "Graphic_FrameDuration_get", _wrap_Graphic_FrameDuration_get, METH_O, NULL},
+	 { "Graphic_AnimationDuration_set", _wrap_Graphic_AnimationDuration_set, METH_VARARGS, NULL},
+	 { "Graphic_AnimationDuration_get", _wrap_Graphic_AnimationDuration_get, METH_O, NULL},
+	 { "Graphic_ReplayDelay_set", _wrap_Graphic_ReplayDelay_set, METH_VARARGS, NULL},
+	 { "Graphic_ReplayDelay_get", _wrap_Graphic_ReplayDelay_get, METH_O, NULL},
+	 { "Graphic_SequenceType_set", _wrap_Graphic_SequenceType_set, METH_VARARGS, NULL},
+	 { "Graphic_SequenceType_get", _wrap_Graphic_SequenceType_get, METH_O, NULL},
+	 { "Graphic_ID_set", _wrap_Graphic_ID_set, METH_VARARGS, NULL},
+	 { "Graphic_ID_get", _wrap_Graphic_ID_get, METH_O, NULL},
+	 { "Graphic_MirroringMode_set", _wrap_Graphic_MirroringMode_set, METH_VARARGS, NULL},
+	 { "Graphic_MirroringMode_get", _wrap_Graphic_MirroringMode_get, METH_O, NULL},
+	 { "Graphic_EditorFlag_set", _wrap_Graphic_EditorFlag_set, METH_VARARGS, NULL},
+	 { "Graphic_EditorFlag_get", _wrap_Graphic_EditorFlag_get, METH_O, NULL},
+	 { "Graphic_Deltas_set", _wrap_Graphic_Deltas_set, METH_VARARGS, NULL},
+	 { "Graphic_Deltas_get", _wrap_Graphic_Deltas_get, METH_O, NULL},
+	 { "Graphic_AngleSounds_set", _wrap_Graphic_AngleSounds_set, METH_VARARGS, NULL},
+	 { "Graphic_AngleSounds_get", _wrap_Graphic_AngleSounds_get, METH_O, NULL},
+	 { "Graphic_swigregister", Graphic_swigregister, METH_O, NULL},
+	 { "Graphic_swiginit", Graphic_swiginit, METH_VARARGS, NULL},
 	 { "new_Unit", _wrap_new_Unit, METH_NOARGS, NULL},
 	 { "delete_Unit", _wrap_delete_Unit, METH_O, NULL},
 	 { "Unit_setGameVersion", _wrap_Unit_setGameVersion, METH_VARARGS, NULL},
@@ -17683,6 +21645,49 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_UnitVector", _wrap_delete_UnitVector, METH_O, NULL},
 	 { "UnitVector_swigregister", UnitVector_swigregister, METH_O, NULL},
 	 { "UnitVector_swiginit", UnitVector_swiginit, METH_VARARGS, NULL},
+	 { "GraphicVector_iterator", _wrap_GraphicVector_iterator, METH_O, NULL},
+	 { "GraphicVector___nonzero__", _wrap_GraphicVector___nonzero__, METH_O, NULL},
+	 { "GraphicVector___bool__", _wrap_GraphicVector___bool__, METH_O, NULL},
+	 { "GraphicVector___len__", _wrap_GraphicVector___len__, METH_O, NULL},
+	 { "GraphicVector___getslice__", _wrap_GraphicVector___getslice__, METH_VARARGS, NULL},
+	 { "GraphicVector___setslice__", _wrap_GraphicVector___setslice__, METH_VARARGS, NULL},
+	 { "GraphicVector___delslice__", _wrap_GraphicVector___delslice__, METH_VARARGS, NULL},
+	 { "GraphicVector___delitem__", _wrap_GraphicVector___delitem__, METH_VARARGS, NULL},
+	 { "GraphicVector___getitem__", _wrap_GraphicVector___getitem__, METH_VARARGS, NULL},
+	 { "GraphicVector___setitem__", _wrap_GraphicVector___setitem__, METH_VARARGS, NULL},
+	 { "GraphicVector_pop", _wrap_GraphicVector_pop, METH_O, NULL},
+	 { "GraphicVector_append", _wrap_GraphicVector_append, METH_VARARGS, NULL},
+	 { "GraphicVector_empty", _wrap_GraphicVector_empty, METH_O, NULL},
+	 { "GraphicVector_size", _wrap_GraphicVector_size, METH_O, NULL},
+	 { "GraphicVector_swap", _wrap_GraphicVector_swap, METH_VARARGS, NULL},
+	 { "GraphicVector_begin", _wrap_GraphicVector_begin, METH_O, NULL},
+	 { "GraphicVector_end", _wrap_GraphicVector_end, METH_O, NULL},
+	 { "GraphicVector_rbegin", _wrap_GraphicVector_rbegin, METH_O, NULL},
+	 { "GraphicVector_rend", _wrap_GraphicVector_rend, METH_O, NULL},
+	 { "GraphicVector_clear", _wrap_GraphicVector_clear, METH_O, NULL},
+	 { "GraphicVector_get_allocator", _wrap_GraphicVector_get_allocator, METH_O, NULL},
+	 { "GraphicVector_pop_back", _wrap_GraphicVector_pop_back, METH_O, NULL},
+	 { "GraphicVector_erase", _wrap_GraphicVector_erase, METH_VARARGS, NULL},
+	 { "new_GraphicVector", _wrap_new_GraphicVector, METH_VARARGS, NULL},
+	 { "GraphicVector_push_back", _wrap_GraphicVector_push_back, METH_VARARGS, NULL},
+	 { "GraphicVector_front", _wrap_GraphicVector_front, METH_O, NULL},
+	 { "GraphicVector_back", _wrap_GraphicVector_back, METH_O, NULL},
+	 { "GraphicVector_assign", _wrap_GraphicVector_assign, METH_VARARGS, NULL},
+	 { "GraphicVector_resize", _wrap_GraphicVector_resize, METH_VARARGS, NULL},
+	 { "GraphicVector_insert", _wrap_GraphicVector_insert, METH_VARARGS, NULL},
+	 { "GraphicVector_reserve", _wrap_GraphicVector_reserve, METH_VARARGS, NULL},
+	 { "GraphicVector_capacity", _wrap_GraphicVector_capacity, METH_O, NULL},
+	 { "delete_GraphicVector", _wrap_delete_GraphicVector, METH_O, NULL},
+	 { "GraphicVector_swigregister", GraphicVector_swigregister, METH_O, NULL},
+	 { "GraphicVector_swiginit", GraphicVector_swiginit, METH_VARARGS, NULL},
+	 { "new_Int16Pair", _wrap_new_Int16Pair, METH_VARARGS, NULL},
+	 { "Int16Pair_first_set", _wrap_Int16Pair_first_set, METH_VARARGS, NULL},
+	 { "Int16Pair_first_get", _wrap_Int16Pair_first_get, METH_O, NULL},
+	 { "Int16Pair_second_set", _wrap_Int16Pair_second_set, METH_VARARGS, NULL},
+	 { "Int16Pair_second_get", _wrap_Int16Pair_second_get, METH_O, NULL},
+	 { "delete_Int16Pair", _wrap_delete_Int16Pair, METH_O, NULL},
+	 { "Int16Pair_swigregister", Int16Pair_swigregister, METH_O, NULL},
+	 { "Int16Pair_swiginit", Int16Pair_swiginit, METH_VARARGS, NULL},
 	 { "XYZF_x_set", _wrap_XYZF_x_set, METH_VARARGS, NULL},
 	 { "XYZF_x_get", _wrap_XYZF_x_get, METH_O, NULL},
 	 { "XYZF_y_set", _wrap_XYZF_y_set, METH_VARARGS, NULL},
@@ -17781,6 +21786,9 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 static void *_p_genie__DatFileTo_p_genie__IFile(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::IFile *)  ((genie::DatFile *) x));
 }
+static void *_p_genie__GraphicTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::Graphic *) x));
+}
 static void *_p_genie__IFileTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::ISerializable *)  ((genie::IFile *) x));
 }
@@ -17799,8 +21807,10 @@ static swig_type_info _swigt__p_XYZF = {"_p_XYZF", "XYZF *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "difference_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_first_type = {"_p_first_type", "first_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__Civ = {"_p_genie__Civ", "std::vector< genie::Civ >::value_type *|genie::Civ *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__DatFile = {"_p_genie__DatFile", "genie::DatFile *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__Graphic = {"_p_genie__Graphic", "std::vector< genie::Graphic >::value_type *|genie::Graphic *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__IFile = {"_p_genie__IFile", "genie::IFile *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__ISerializable = {"_p_genie__ISerializable", "genie::ISerializable *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__RandomMaps = {"_p_genie__RandomMaps", "genie::RandomMaps *", 0, 0, (void*)0, 0};
@@ -17811,10 +21821,12 @@ static swig_type_info _swigt__p_genie__XYZF = {"_p_genie__XYZF", "genie::XYZF *"
 static swig_type_info _swigt__p_int = {"_p_int", "intptr_t *|int *|int_least32_t *|int_fast32_t *|int32_t *|int_fast16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_long_long = {"_p_long_long", "int_least64_t *|int_fast64_t *|int64_t *|long long *|intmax_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_PyObject = {"_p_p_PyObject", "PyObject **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_second_type = {"_p_second_type", "second_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_short = {"_p_short", "short *|int_least16_t *|int16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_signed_char = {"_p_signed_char", "signed char *|int_least8_t *|int_fast8_t *|int8_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_genie__Civ_t = {"_p_std__allocatorT_genie__Civ_t", "std::vector< genie::Civ >::allocator_type *|std::allocator< genie::Civ > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_genie__Graphic_t = {"_p_std__allocatorT_genie__Graphic_t", "std::vector< genie::Graphic >::allocator_type *|std::allocator< genie::Graphic > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_genie__Unit_t = {"_p_std__allocatorT_genie__Unit_t", "std::vector< genie::Unit >::allocator_type *|std::allocator< genie::Unit > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__invalid_argument = {"_p_std__invalid_argument", "std::invalid_argument *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__istream = {"_p_std__istream", "std::istream *", 0, 0, (void*)0, 0};
@@ -17823,7 +21835,8 @@ static swig_type_info _swigt__p_std__pairT_float_float_t = {"_p_std__pairT_float
 static swig_type_info _swigt__p_std__pairT_short_short_t = {"_p_std__pairT_short_short_t", "std::pair< short,short > *|std::pair< int16_t,int16_t > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__streampos = {"_p_std__streampos", "std::streampos *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_Effect_std__allocatorT_Effect_t_t = {"_p_std__vectorT_Effect_std__allocatorT_Effect_t_t", "std::vector< Effect,std::allocator< Effect > > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_Graphic_std__allocatorT_Graphic_t_t = {"_p_std__vectorT_Graphic_std__allocatorT_Graphic_t_t", "std::vector< Graphic,std::allocator< Graphic > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t = {"_p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t", "std::vector< GraphicAngleSound,std::allocator< GraphicAngleSound > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t = {"_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t", "std::vector< GraphicDelta,std::allocator< GraphicDelta > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t = {"_p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t", "std::vector< PlayerColour,std::allocator< PlayerColour > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t = {"_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t", "std::vector< genie::Unit::ResourceStorage,std::allocator< genie::Unit::ResourceStorage > > *|std::vector< ResourceUsage< short,float,signed char >,std::allocator< ResourceUsage< short,float,signed char > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_Sound_std__allocatorT_Sound_t_t = {"_p_std__vectorT_Sound_std__allocatorT_Sound_t_t", "std::vector< Sound,std::allocator< Sound > > *", 0, 0, (void*)0, 0};
@@ -17833,6 +21846,7 @@ static swig_type_info _swigt__p_std__vectorT_UnitHeader_std__allocatorT_UnitHead
 static swig_type_info _swigt__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t = {"_p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t", "std::vector< UnitLine,std::allocator< UnitLine > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_float_std__allocatorT_float_t_t = {"_p_std__vectorT_float_std__allocatorT_float_t_t", "std::vector< float,std::allocator< float > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t = {"_p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t", "std::vector< genie::Civ > *|std::vector< genie::Civ,std::allocator< genie::Civ > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t = {"_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t", "std::vector< genie::Graphic,std::allocator< genie::Graphic > > *|std::vector< genie::Graphic > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t = {"_p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t", "std::vector< genie::Unit > *|std::vector< genie::Unit,std::allocator< genie::Unit > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_int_std__allocatorT_int_t_t = {"_p_std__vectorT_int_std__allocatorT_int_t_t", "std::vector< int,std::allocator< int > > *|std::vector< int32_t,std::allocator< int32_t > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_short_std__allocatorT_short_t_t = {"_p_std__vectorT_short_std__allocatorT_short_t_t", "std::vector< short,std::allocator< short > > *|std::vector< int16_t,std::allocator< int16_t > > *", 0, 0, (void*)0, 0};
@@ -17857,8 +21871,10 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_allocator_type,
   &_swigt__p_char,
   &_swigt__p_difference_type,
+  &_swigt__p_first_type,
   &_swigt__p_genie__Civ,
   &_swigt__p_genie__DatFile,
+  &_swigt__p_genie__Graphic,
   &_swigt__p_genie__IFile,
   &_swigt__p_genie__ISerializable,
   &_swigt__p_genie__RandomMaps,
@@ -17869,10 +21885,12 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_int,
   &_swigt__p_long_long,
   &_swigt__p_p_PyObject,
+  &_swigt__p_second_type,
   &_swigt__p_short,
   &_swigt__p_signed_char,
   &_swigt__p_size_type,
   &_swigt__p_std__allocatorT_genie__Civ_t,
+  &_swigt__p_std__allocatorT_genie__Graphic_t,
   &_swigt__p_std__allocatorT_genie__Unit_t,
   &_swigt__p_std__invalid_argument,
   &_swigt__p_std__istream,
@@ -17881,7 +21899,8 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__pairT_short_short_t,
   &_swigt__p_std__streampos,
   &_swigt__p_std__vectorT_Effect_std__allocatorT_Effect_t_t,
-  &_swigt__p_std__vectorT_Graphic_std__allocatorT_Graphic_t_t,
+  &_swigt__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t,
+  &_swigt__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t,
   &_swigt__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t,
   &_swigt__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t,
   &_swigt__p_std__vectorT_Sound_std__allocatorT_Sound_t_t,
@@ -17891,6 +21910,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t,
   &_swigt__p_std__vectorT_float_std__allocatorT_float_t_t,
   &_swigt__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t,
+  &_swigt__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t,
   &_swigt__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t,
   &_swigt__p_std__vectorT_int_std__allocatorT_int_t_t,
   &_swigt__p_std__vectorT_short_std__allocatorT_short_t_t,
@@ -17915,10 +21935,12 @@ static swig_cast_info _swigc__p_XYZF[] = {  {&_swigt__p_XYZF, 0, 0, 0},{0, 0, 0,
 static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_first_type[] = {  {&_swigt__p_first_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__Civ[] = {  {&_swigt__p_genie__Civ, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__DatFile[] = {  {&_swigt__p_genie__DatFile, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__Graphic[] = {  {&_swigt__p_genie__Graphic, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__IFile[] = {  {&_swigt__p_genie__IFile, 0, 0, 0},  {&_swigt__p_genie__DatFile, _p_genie__DatFileTo_p_genie__IFile, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_genie__ISerializable[] = {  {&_swigt__p_genie__Unit, _p_genie__UnitTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Civ, _p_genie__CivTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__ISerializable, 0, 0, 0},  {&_swigt__p_genie__IFile, _p_genie__IFileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__DatFile, _p_genie__DatFileTo_p_genie__ISerializable, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__ISerializable[] = {  {&_swigt__p_genie__Unit, _p_genie__UnitTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Civ, _p_genie__CivTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__ISerializable, 0, 0, 0},  {&_swigt__p_genie__Graphic, _p_genie__GraphicTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__IFile, _p_genie__IFileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__DatFile, _p_genie__DatFileTo_p_genie__ISerializable, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__RandomMaps[] = {  {&_swigt__p_genie__RandomMaps, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__TechTree[] = {  {&_swigt__p_genie__TechTree, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__TerrainBlock[] = {  {&_swigt__p_genie__TerrainBlock, 0, 0, 0},{0, 0, 0, 0}};
@@ -17927,10 +21949,12 @@ static swig_cast_info _swigc__p_genie__XYZF[] = {  {&_swigt__p_genie__XYZF, 0, 0
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_PyObject[] = {  {&_swigt__p_p_PyObject, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_second_type[] = {  {&_swigt__p_second_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_short[] = {  {&_swigt__p_short, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_signed_char[] = {  {&_swigt__p_signed_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_genie__Civ_t[] = {  {&_swigt__p_std__allocatorT_genie__Civ_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_genie__Graphic_t[] = {  {&_swigt__p_std__allocatorT_genie__Graphic_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_genie__Unit_t[] = {  {&_swigt__p_std__allocatorT_genie__Unit_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__invalid_argument[] = {  {&_swigt__p_std__invalid_argument, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__istream[] = {  {&_swigt__p_std__istream, 0, 0, 0},{0, 0, 0, 0}};
@@ -17939,7 +21963,8 @@ static swig_cast_info _swigc__p_std__pairT_float_float_t[] = {  {&_swigt__p_std_
 static swig_cast_info _swigc__p_std__pairT_short_short_t[] = {  {&_swigt__p_std__pairT_short_short_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__streampos[] = {  {&_swigt__p_std__streampos, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_Effect_std__allocatorT_Effect_t_t[] = {  {&_swigt__p_std__vectorT_Effect_std__allocatorT_Effect_t_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__vectorT_Graphic_std__allocatorT_Graphic_t_t[] = {  {&_swigt__p_std__vectorT_Graphic_std__allocatorT_Graphic_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t[] = {  {&_swigt__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t[] = {  {&_swigt__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t[] = {  {&_swigt__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t[] = {  {&_swigt__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_Sound_std__allocatorT_Sound_t_t[] = {  {&_swigt__p_std__vectorT_Sound_std__allocatorT_Sound_t_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -17949,6 +21974,7 @@ static swig_cast_info _swigc__p_std__vectorT_UnitHeader_std__allocatorT_UnitHead
 static swig_cast_info _swigc__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t[] = {  {&_swigt__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_float_std__allocatorT_float_t_t[] = {  {&_swigt__p_std__vectorT_float_std__allocatorT_float_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t[] = {  {&_swigt__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t[] = {  {&_swigt__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t[] = {  {&_swigt__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_int_std__allocatorT_int_t_t[] = {  {&_swigt__p_std__vectorT_int_std__allocatorT_int_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_short_std__allocatorT_short_t_t[] = {  {&_swigt__p_std__vectorT_short_std__allocatorT_short_t_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -17973,8 +21999,10 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_allocator_type,
   _swigc__p_char,
   _swigc__p_difference_type,
+  _swigc__p_first_type,
   _swigc__p_genie__Civ,
   _swigc__p_genie__DatFile,
+  _swigc__p_genie__Graphic,
   _swigc__p_genie__IFile,
   _swigc__p_genie__ISerializable,
   _swigc__p_genie__RandomMaps,
@@ -17985,10 +22013,12 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_int,
   _swigc__p_long_long,
   _swigc__p_p_PyObject,
+  _swigc__p_second_type,
   _swigc__p_short,
   _swigc__p_signed_char,
   _swigc__p_size_type,
   _swigc__p_std__allocatorT_genie__Civ_t,
+  _swigc__p_std__allocatorT_genie__Graphic_t,
   _swigc__p_std__allocatorT_genie__Unit_t,
   _swigc__p_std__invalid_argument,
   _swigc__p_std__istream,
@@ -17997,7 +22027,8 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__pairT_short_short_t,
   _swigc__p_std__streampos,
   _swigc__p_std__vectorT_Effect_std__allocatorT_Effect_t_t,
-  _swigc__p_std__vectorT_Graphic_std__allocatorT_Graphic_t_t,
+  _swigc__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t,
+  _swigc__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t,
   _swigc__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t,
   _swigc__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t,
   _swigc__p_std__vectorT_Sound_std__allocatorT_Sound_t_t,
@@ -18007,6 +22038,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t,
   _swigc__p_std__vectorT_float_std__allocatorT_float_t_t,
   _swigc__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t,
+  _swigc__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t,
   _swigc__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t,
   _swigc__p_std__vectorT_int_std__allocatorT_int_t_t,
   _swigc__p_std__vectorT_short_std__allocatorT_short_t_t,
