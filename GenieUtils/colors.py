@@ -1,5 +1,6 @@
 import logging
 import math
+import os
 
 from PIL import Image, ImageDraw
 
@@ -7,7 +8,40 @@ from PIL import Image, ImageDraw
 logger = logging.getLogger(__name__)
 
 
-class ColorTable():
+class PaletteConfig(object):
+    def __init__(self, path, palette_overrides={50500: 0}):
+        self.palettes = dict()
+        self.palette_overrides = palette_overrides
+        self.basename = os.path.dirname(path)
+
+        with open(path, "rb") as file:
+            data = file.read()
+
+        lines = data.decode('ascii').split('\r\n')
+
+        for line in lines:
+            if line.startswith("//"):
+                continue
+
+            entry = line.split(",")
+
+            if len(entry) != 2:
+                continue
+
+            palette_id, filename = entry
+
+            self.palettes[int(palette_id)] = filename
+
+    def get_palette(self, palette_id):
+        palette_id = self.palette_overrides.get(palette_id, palette_id)
+
+        if palette_id in self.palettes:
+            return ColorPalette.from_file(os.path.join(self.basename, self.palettes[palette_id]))
+
+        raise FileNotFoundError
+
+
+class ColorPalette(object):
     name_struct = "palette_color"
     name_struct_file = "color"
     struct_description = "indexed color storage."
@@ -21,6 +55,11 @@ class ColorTable():
             self.fill_from_array(data)
         else:
             self.fill(data)
+
+    @classmethod
+    def from_file(cls, path):
+        with open(path, "rb") as file:
+            return cls(file.read())
 
     def fill_from_array(self, ar):
         self.palette = [tuple(e) for e in ar]
@@ -39,7 +78,7 @@ class ColorTable():
                             "instead: %r" % self.header)
 
         if self.version != "0100":
-            raise Exception("palette version mispatch, got %s" % self.version)
+            raise Exception("palette version mismatch, got %s" % self.version)
 
         entry_count = int(lines[2])
 
@@ -104,8 +143,8 @@ class ColorTable():
             for y in range(imgside_length):
                 for x in range(imgside_length):
                     if drawn < len(self.palette):
-                        r, g, b = self.palette[drawn]
-                        draw.point((x, y), fill=(r, g, b, 255))
+                        r, g, b, a = self.palette[drawn]
+                        draw.point((x, y), fill=(r, g, b, a))
                         drawn = drawn + 1
 
         # draw nice squares with given side length
@@ -117,10 +156,10 @@ class ColorTable():
                         sy = y * squaresize - 1
                         ex = sx + squaresize - 1
                         ey = sy + squaresize
-                        r, g, b = self.palette[drawn]
+                        r, g, b, a = self.palette[drawn]
                         # begin top-left, go clockwise:
                         vertices = [(sx, sy), (ex, sy), (ex, ey), (sx, ey)]
-                        draw.polygon(vertices, fill=(r, g, b, 255))
+                        draw.polygon(vertices, fill=(r, g, b, a))
 
                         if draw_text and squaresize > 40:
                             # draw the color id
@@ -142,18 +181,3 @@ class ColorTable():
 
     def save_visualization(self, fileobj):
         self.gen_image().save(fileobj, 'png')
-
-    @classmethod
-    def get_data_format_members(cls, game_version):
-        """
-        Return the members in this struct.
-        """
-        data_format = (
-            (True, "idx", None, "int32_t"),
-            (True, "r", None,   "uint8_t"),
-            (True, "g", None,   "uint8_t"),
-            (True, "b", None,   "uint8_t"),
-            (True, "a", None,   "uint8_t"),
-        )
-
-        return data_format

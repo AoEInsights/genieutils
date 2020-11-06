@@ -1,1 +1,1 @@
-include GenieUtils/var/build/libgenieutils.so
+include GenieUtils/var/lib/libgenieutils.so

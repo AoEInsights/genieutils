@@ -1,3 +1,0 @@
-/home/kevin/Projekte/Privat/genieutils/var/build/CMakeFiles/rebuild_cache.dir
-/home/kevin/Projekte/Privat/genieutils/var/build/CMakeFiles/edit_cache.dir
-/home/kevin/Projekte/Privat/genieutils/var/build/CMakeFiles/genieutils.dir

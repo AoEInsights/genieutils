@@ -2693,69 +2693,78 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 /* -------- TYPES TABLE (BEGIN) -------- */
 
 #define SWIGTYPE_p_GameVersion swig_types[0]
-#define SWIGTYPE_p_ResourceStorage swig_types[1]
-#define SWIGTYPE_p_XYZF swig_types[2]
-#define SWIGTYPE_p_allocator_type swig_types[3]
-#define SWIGTYPE_p_char swig_types[4]
-#define SWIGTYPE_p_difference_type swig_types[5]
-#define SWIGTYPE_p_first_type swig_types[6]
-#define SWIGTYPE_p_genie__Civ swig_types[7]
-#define SWIGTYPE_p_genie__DatFile swig_types[8]
-#define SWIGTYPE_p_genie__Graphic swig_types[9]
-#define SWIGTYPE_p_genie__IFile swig_types[10]
-#define SWIGTYPE_p_genie__ISerializable swig_types[11]
-#define SWIGTYPE_p_genie__RandomMaps swig_types[12]
-#define SWIGTYPE_p_genie__TechTree swig_types[13]
-#define SWIGTYPE_p_genie__TerrainBlock swig_types[14]
-#define SWIGTYPE_p_genie__Unit swig_types[15]
-#define SWIGTYPE_p_genie__XYZF swig_types[16]
-#define SWIGTYPE_p_int swig_types[17]
-#define SWIGTYPE_p_long_long swig_types[18]
-#define SWIGTYPE_p_p_PyObject swig_types[19]
-#define SWIGTYPE_p_second_type swig_types[20]
-#define SWIGTYPE_p_short swig_types[21]
-#define SWIGTYPE_p_signed_char swig_types[22]
-#define SWIGTYPE_p_size_type swig_types[23]
-#define SWIGTYPE_p_std__allocatorT_genie__Civ_t swig_types[24]
-#define SWIGTYPE_p_std__allocatorT_genie__Graphic_t swig_types[25]
-#define SWIGTYPE_p_std__allocatorT_genie__Unit_t swig_types[26]
-#define SWIGTYPE_p_std__invalid_argument swig_types[27]
-#define SWIGTYPE_p_std__istream swig_types[28]
-#define SWIGTYPE_p_std__ostream swig_types[29]
-#define SWIGTYPE_p_std__pairT_float_float_t swig_types[30]
-#define SWIGTYPE_p_std__pairT_short_short_t swig_types[31]
-#define SWIGTYPE_p_std__streampos swig_types[32]
-#define SWIGTYPE_p_std__vectorT_Effect_std__allocatorT_Effect_t_t swig_types[33]
-#define SWIGTYPE_p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t swig_types[34]
-#define SWIGTYPE_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t swig_types[35]
-#define SWIGTYPE_p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t swig_types[36]
-#define SWIGTYPE_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t swig_types[37]
-#define SWIGTYPE_p_std__vectorT_Sound_std__allocatorT_Sound_t_t swig_types[38]
-#define SWIGTYPE_p_std__vectorT_Tech_std__allocatorT_Tech_t_t swig_types[39]
-#define SWIGTYPE_p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t swig_types[40]
-#define SWIGTYPE_p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t swig_types[41]
-#define SWIGTYPE_p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t swig_types[42]
-#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[43]
-#define SWIGTYPE_p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t swig_types[44]
-#define SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t swig_types[45]
-#define SWIGTYPE_p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t swig_types[46]
-#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[47]
-#define SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t swig_types[48]
-#define SWIGTYPE_p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t swig_types[49]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[50]
-#define SWIGTYPE_p_unit__Bird swig_types[51]
-#define SWIGTYPE_p_unit__Building swig_types[52]
-#define SWIGTYPE_p_unit__Creatable swig_types[53]
-#define SWIGTYPE_p_unit__DeadFish swig_types[54]
-#define SWIGTYPE_p_unit__Projectile swig_types[55]
-#define SWIGTYPE_p_unit__Type50 swig_types[56]
-#define SWIGTYPE_p_unsigned_char swig_types[57]
-#define SWIGTYPE_p_unsigned_int swig_types[58]
-#define SWIGTYPE_p_unsigned_long_long swig_types[59]
-#define SWIGTYPE_p_unsigned_short swig_types[60]
-#define SWIGTYPE_p_value_type swig_types[61]
-static swig_type_info *swig_types[63];
-static swig_module_info swig_module = {swig_types, 62, 0, 0, 0, 0};
+#define SWIGTYPE_p_ResourceCost swig_types[1]
+#define SWIGTYPE_p_ResourceStorage swig_types[2]
+#define SWIGTYPE_p_XYZF swig_types[3]
+#define SWIGTYPE_p_allocator_type swig_types[4]
+#define SWIGTYPE_p_char swig_types[5]
+#define SWIGTYPE_p_difference_type swig_types[6]
+#define SWIGTYPE_p_first_type swig_types[7]
+#define SWIGTYPE_p_genie__Civ swig_types[8]
+#define SWIGTYPE_p_genie__DatFile swig_types[9]
+#define SWIGTYPE_p_genie__Graphic swig_types[10]
+#define SWIGTYPE_p_genie__IFile swig_types[11]
+#define SWIGTYPE_p_genie__ISerializable swig_types[12]
+#define SWIGTYPE_p_genie__RandomMaps swig_types[13]
+#define SWIGTYPE_p_genie__TechTree swig_types[14]
+#define SWIGTYPE_p_genie__TerrainBlock swig_types[15]
+#define SWIGTYPE_p_genie__Unit swig_types[16]
+#define SWIGTYPE_p_genie__XYZF swig_types[17]
+#define SWIGTYPE_p_genie__unit__AttackOrArmor swig_types[18]
+#define SWIGTYPE_p_genie__unit__Bird swig_types[19]
+#define SWIGTYPE_p_genie__unit__Building swig_types[20]
+#define SWIGTYPE_p_genie__unit__BuildingAnnex swig_types[21]
+#define SWIGTYPE_p_genie__unit__Creatable swig_types[22]
+#define SWIGTYPE_p_genie__unit__DamageGraphic swig_types[23]
+#define SWIGTYPE_p_genie__unit__DeadFish swig_types[24]
+#define SWIGTYPE_p_genie__unit__Projectile swig_types[25]
+#define SWIGTYPE_p_genie__unit__Type50 swig_types[26]
+#define SWIGTYPE_p_int swig_types[27]
+#define SWIGTYPE_p_long_long swig_types[28]
+#define SWIGTYPE_p_p_PyObject swig_types[29]
+#define SWIGTYPE_p_second_type swig_types[30]
+#define SWIGTYPE_p_short swig_types[31]
+#define SWIGTYPE_p_signed_char swig_types[32]
+#define SWIGTYPE_p_size_type swig_types[33]
+#define SWIGTYPE_p_std__allocatorT_genie__Civ_t swig_types[34]
+#define SWIGTYPE_p_std__allocatorT_genie__Graphic_t swig_types[35]
+#define SWIGTYPE_p_std__allocatorT_genie__Unit_t swig_types[36]
+#define SWIGTYPE_p_std__invalid_argument swig_types[37]
+#define SWIGTYPE_p_std__istream swig_types[38]
+#define SWIGTYPE_p_std__ostream swig_types[39]
+#define SWIGTYPE_p_std__pairT_float_float_t swig_types[40]
+#define SWIGTYPE_p_std__pairT_short_short_t swig_types[41]
+#define SWIGTYPE_p_std__streampos swig_types[42]
+#define SWIGTYPE_p_std__vectorT_Effect_std__allocatorT_Effect_t_t swig_types[43]
+#define SWIGTYPE_p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t swig_types[44]
+#define SWIGTYPE_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t swig_types[45]
+#define SWIGTYPE_p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t swig_types[46]
+#define SWIGTYPE_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t swig_types[47]
+#define SWIGTYPE_p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t swig_types[48]
+#define SWIGTYPE_p_std__vectorT_Sound_std__allocatorT_Sound_t_t swig_types[49]
+#define SWIGTYPE_p_std__vectorT_Task_std__allocatorT_Task_t_t swig_types[50]
+#define SWIGTYPE_p_std__vectorT_Tech_std__allocatorT_Tech_t_t swig_types[51]
+#define SWIGTYPE_p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t swig_types[52]
+#define SWIGTYPE_p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t swig_types[53]
+#define SWIGTYPE_p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t swig_types[54]
+#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[55]
+#define SWIGTYPE_p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t swig_types[56]
+#define SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t swig_types[57]
+#define SWIGTYPE_p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t swig_types[58]
+#define SWIGTYPE_p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t swig_types[59]
+#define SWIGTYPE_p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t swig_types[60]
+#define SWIGTYPE_p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t swig_types[61]
+#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[62]
+#define SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t swig_types[63]
+#define SWIGTYPE_p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t swig_types[64]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[65]
+#define SWIGTYPE_p_unsigned_char swig_types[66]
+#define SWIGTYPE_p_unsigned_int swig_types[67]
+#define SWIGTYPE_p_unsigned_long_long swig_types[68]
+#define SWIGTYPE_p_unsigned_short swig_types[69]
+#define SWIGTYPE_p_value_type swig_types[70]
+static swig_type_info *swig_types[72];
+static swig_module_info swig_module = {swig_types, 71, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3375,7 +3384,6 @@ SWIG_AsVal_ptrdiff_t (PyObject * obj, ptrdiff_t *val)
 
 #include "var/genieutils/include/genie/dat/Graphic.h"
 #include "var/genieutils/include/genie/dat/Unit.h"
-#include "var/genieutils/include/genie/dat/Civ.h"
 #include "var/genieutils/include/genie/dat/DatFile.h"
 
 using namespace genie;
@@ -8376,6 +8384,6145 @@ SWIGINTERN PyObject *Graphic_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_new_AttackOrArmor(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::AttackOrArmor *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_AttackOrArmor", 0, 0, 0)) SWIG_fail;
+  result = (genie::unit::AttackOrArmor *)new genie::unit::AttackOrArmor();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__AttackOrArmor, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_AttackOrArmor(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::AttackOrArmor *arg1 = (genie::unit::AttackOrArmor *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__AttackOrArmor, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_AttackOrArmor" "', argument " "1"" of type '" "genie::unit::AttackOrArmor *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::AttackOrArmor * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AttackOrArmor_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::AttackOrArmor *arg1 = (genie::unit::AttackOrArmor *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "AttackOrArmor_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__AttackOrArmor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AttackOrArmor_setGameVersion" "', argument " "1"" of type '" "genie::unit::AttackOrArmor *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::AttackOrArmor * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AttackOrArmor_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AttackOrArmor_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AttackOrArmor_Class_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::AttackOrArmor *arg1 = (genie::unit::AttackOrArmor *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "AttackOrArmor_Class_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__AttackOrArmor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AttackOrArmor_Class_set" "', argument " "1"" of type '" "genie::unit::AttackOrArmor *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::AttackOrArmor * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "AttackOrArmor_Class_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->Class = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AttackOrArmor_Class_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::AttackOrArmor *arg1 = (genie::unit::AttackOrArmor *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__AttackOrArmor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AttackOrArmor_Class_get" "', argument " "1"" of type '" "genie::unit::AttackOrArmor *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::AttackOrArmor * >(argp1);
+  result = (int16_t) ((arg1)->Class);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AttackOrArmor_Amount_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::AttackOrArmor *arg1 = (genie::unit::AttackOrArmor *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "AttackOrArmor_Amount_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__AttackOrArmor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AttackOrArmor_Amount_set" "', argument " "1"" of type '" "genie::unit::AttackOrArmor *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::AttackOrArmor * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "AttackOrArmor_Amount_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->Amount = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AttackOrArmor_Amount_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::AttackOrArmor *arg1 = (genie::unit::AttackOrArmor *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__AttackOrArmor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AttackOrArmor_Amount_get" "', argument " "1"" of type '" "genie::unit::AttackOrArmor *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::AttackOrArmor * >(argp1);
+  result = (int16_t) ((arg1)->Amount);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *AttackOrArmor_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__unit__AttackOrArmor, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *AttackOrArmor_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_Bird(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_Bird", 0, 0, 0)) SWIG_fail;
+  result = (genie::unit::Bird *)new genie::unit::Bird();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Bird, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Bird(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Bird" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_setGameVersion" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Bird_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Bird_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_getDropSiteCount(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  unsigned short result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_getDropSiteCount" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (unsigned short)(arg1)->getDropSiteCount();
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_DefaultTaskID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_DefaultTaskID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_DefaultTaskID_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_DefaultTaskID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->DefaultTaskID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_DefaultTaskID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_DefaultTaskID_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (int16_t) ((arg1)->DefaultTaskID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_SearchRadius_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_SearchRadius_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_SearchRadius_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_SearchRadius_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->SearchRadius = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_SearchRadius_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_SearchRadius_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (float) ((arg1)->SearchRadius);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_WorkRate_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_WorkRate_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_WorkRate_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_WorkRate_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->WorkRate = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_WorkRate_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_WorkRate_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (float) ((arg1)->WorkRate);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_DropSites_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  std::vector< int16_t,std::allocator< int16_t > > *arg2 = (std::vector< int16_t,std::allocator< int16_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_DropSites_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_DropSites_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Bird_DropSites_set" "', argument " "2"" of type '" "std::vector< int16_t,std::allocator< int16_t > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< int16_t,std::allocator< int16_t > > * >(argp2);
+  if (arg1) (arg1)->DropSites = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_DropSites_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int16_t,std::allocator< int16_t > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_DropSites_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (std::vector< int16_t,std::allocator< int16_t > > *)& ((arg1)->DropSites);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_TaskSwapGroup_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_TaskSwapGroup_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_TaskSwapGroup_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_TaskSwapGroup_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->TaskSwapGroup = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_TaskSwapGroup_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_TaskSwapGroup_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (int8_t) ((arg1)->TaskSwapGroup);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_AttackSound_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_AttackSound_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_AttackSound_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_AttackSound_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->AttackSound = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_AttackSound_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_AttackSound_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (int16_t) ((arg1)->AttackSound);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_MoveSound_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_MoveSound_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_MoveSound_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_MoveSound_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->MoveSound = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_MoveSound_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_MoveSound_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (int16_t) ((arg1)->MoveSound);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_WwiseAttackSoundID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_WwiseAttackSoundID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_WwiseAttackSoundID_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_WwiseAttackSoundID_set" "', argument " "2"" of type '" "uint32_t""'");
+  } 
+  arg2 = static_cast< uint32_t >(val2);
+  if (arg1) (arg1)->WwiseAttackSoundID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_WwiseAttackSoundID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_WwiseAttackSoundID_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (uint32_t) ((arg1)->WwiseAttackSoundID);
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_WwiseMoveSoundID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_WwiseMoveSoundID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_WwiseMoveSoundID_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_WwiseMoveSoundID_set" "', argument " "2"" of type '" "uint32_t""'");
+  } 
+  arg2 = static_cast< uint32_t >(val2);
+  if (arg1) (arg1)->WwiseMoveSoundID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_WwiseMoveSoundID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_WwiseMoveSoundID_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (uint32_t) ((arg1)->WwiseMoveSoundID);
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_RunPattern_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_RunPattern_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_RunPattern_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_RunPattern_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->RunPattern = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_RunPattern_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_RunPattern_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (int8_t) ((arg1)->RunPattern);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_TaskList_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  std::vector< Task,std::allocator< Task > > *arg2 = (std::vector< Task,std::allocator< Task > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Bird_TaskList_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_TaskList_set" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_Task_std__allocatorT_Task_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Bird_TaskList_set" "', argument " "2"" of type '" "std::vector< Task,std::allocator< Task > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< Task,std::allocator< Task > > * >(argp2);
+  if (arg1) (arg1)->TaskList = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Bird_TaskList_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< Task,std::allocator< Task > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_TaskList_get" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
+  result = (std::vector< Task,std::allocator< Task > > *)& ((arg1)->TaskList);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_Task_std__allocatorT_Task_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Bird_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__unit__Bird, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *Bird_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_BuildingAnnex(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::BuildingAnnex *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_BuildingAnnex", 0, 0, 0)) SWIG_fail;
+  result = (genie::unit::BuildingAnnex *)new genie::unit::BuildingAnnex();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__BuildingAnnex, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_BuildingAnnex(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::BuildingAnnex *arg1 = (genie::unit::BuildingAnnex *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__BuildingAnnex, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_BuildingAnnex" "', argument " "1"" of type '" "genie::unit::BuildingAnnex *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::BuildingAnnex * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BuildingAnnex_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::BuildingAnnex *arg1 = (genie::unit::BuildingAnnex *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "BuildingAnnex_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__BuildingAnnex, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BuildingAnnex_setGameVersion" "', argument " "1"" of type '" "genie::unit::BuildingAnnex *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::BuildingAnnex * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "BuildingAnnex_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "BuildingAnnex_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BuildingAnnex_UnitID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::BuildingAnnex *arg1 = (genie::unit::BuildingAnnex *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "BuildingAnnex_UnitID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__BuildingAnnex, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BuildingAnnex_UnitID_set" "', argument " "1"" of type '" "genie::unit::BuildingAnnex *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::BuildingAnnex * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BuildingAnnex_UnitID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->UnitID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BuildingAnnex_UnitID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::BuildingAnnex *arg1 = (genie::unit::BuildingAnnex *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__BuildingAnnex, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BuildingAnnex_UnitID_get" "', argument " "1"" of type '" "genie::unit::BuildingAnnex *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::BuildingAnnex * >(argp1);
+  result = (int16_t) ((arg1)->UnitID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BuildingAnnex_Misplacement_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::BuildingAnnex *arg1 = (genie::unit::BuildingAnnex *) 0 ;
+  std::pair< float,float > *arg2 = (std::pair< float,float > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "BuildingAnnex_Misplacement_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__BuildingAnnex, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BuildingAnnex_Misplacement_set" "', argument " "1"" of type '" "genie::unit::BuildingAnnex *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::BuildingAnnex * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__pairT_float_float_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "BuildingAnnex_Misplacement_set" "', argument " "2"" of type '" "std::pair< float,float > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::pair< float,float > * >(argp2);
+  if (arg1) (arg1)->Misplacement = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BuildingAnnex_Misplacement_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::BuildingAnnex *arg1 = (genie::unit::BuildingAnnex *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::pair< float,float > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__BuildingAnnex, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BuildingAnnex_Misplacement_get" "', argument " "1"" of type '" "genie::unit::BuildingAnnex *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::BuildingAnnex * >(argp1);
+  result = (std::pair< float,float > *)& ((arg1)->Misplacement);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_float_float_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *BuildingAnnex_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__unit__BuildingAnnex, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *BuildingAnnex_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_Building(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_Building", 0, 0, 0)) SWIG_fail;
+  result = (genie::unit::Building *)new genie::unit::Building();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Building, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Building(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Building" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_setGameVersion" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Building_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Building_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_ConstructionGraphicID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_ConstructionGraphicID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_ConstructionGraphicID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_ConstructionGraphicID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->ConstructionGraphicID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_ConstructionGraphicID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_ConstructionGraphicID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->ConstructionGraphicID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_SnowGraphicID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_SnowGraphicID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_SnowGraphicID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_SnowGraphicID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->SnowGraphicID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_SnowGraphicID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_SnowGraphicID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->SnowGraphicID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_DestructionGraphicID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_DestructionGraphicID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_DestructionGraphicID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_DestructionGraphicID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->DestructionGraphicID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_DestructionGraphicID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_DestructionGraphicID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->DestructionGraphicID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_DestructionRubbleGraphicID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_DestructionRubbleGraphicID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_DestructionRubbleGraphicID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_DestructionRubbleGraphicID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->DestructionRubbleGraphicID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_DestructionRubbleGraphicID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_DestructionRubbleGraphicID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->DestructionRubbleGraphicID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_ResearchingGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_ResearchingGraphic_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_ResearchingGraphic_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_ResearchingGraphic_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->ResearchingGraphic = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_ResearchingGraphic_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_ResearchingGraphic_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->ResearchingGraphic);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_ResearchCompletedGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_ResearchCompletedGraphic_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_ResearchCompletedGraphic_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_ResearchCompletedGraphic_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->ResearchCompletedGraphic = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_ResearchCompletedGraphic_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_ResearchCompletedGraphic_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->ResearchCompletedGraphic);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_AdjacentMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_AdjacentMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_AdjacentMode_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_AdjacentMode_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->AdjacentMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_AdjacentMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_AdjacentMode_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int8_t) ((arg1)->AdjacentMode);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_GraphicsAngle_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_GraphicsAngle_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_GraphicsAngle_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_GraphicsAngle_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->GraphicsAngle = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_GraphicsAngle_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_GraphicsAngle_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->GraphicsAngle);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_DisappearsWhenBuilt_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_DisappearsWhenBuilt_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_DisappearsWhenBuilt_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_DisappearsWhenBuilt_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->DisappearsWhenBuilt = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_DisappearsWhenBuilt_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_DisappearsWhenBuilt_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int8_t) ((arg1)->DisappearsWhenBuilt);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_StackUnitID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_StackUnitID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_StackUnitID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_StackUnitID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->StackUnitID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_StackUnitID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_StackUnitID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->StackUnitID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_FoundationTerrainID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_FoundationTerrainID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_FoundationTerrainID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_FoundationTerrainID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->FoundationTerrainID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_FoundationTerrainID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_FoundationTerrainID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->FoundationTerrainID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_OldOverlayID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_OldOverlayID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_OldOverlayID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_OldOverlayID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->OldOverlayID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_OldOverlayID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_OldOverlayID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->OldOverlayID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_TechID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_TechID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_TechID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_TechID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->TechID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_TechID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_TechID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->TechID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_CanBurn_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_CanBurn_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_CanBurn_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_CanBurn_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->CanBurn = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_CanBurn_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_CanBurn_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int8_t) ((arg1)->CanBurn);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_Annexes_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  std::vector< genie::unit::BuildingAnnex,std::allocator< genie::unit::BuildingAnnex > > *arg2 = (std::vector< genie::unit::BuildingAnnex,std::allocator< genie::unit::BuildingAnnex > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_Annexes_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_Annexes_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Building_Annexes_set" "', argument " "2"" of type '" "std::vector< genie::unit::BuildingAnnex,std::allocator< genie::unit::BuildingAnnex > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::unit::BuildingAnnex,std::allocator< genie::unit::BuildingAnnex > > * >(argp2);
+  if (arg1) (arg1)->Annexes = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_Annexes_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::unit::BuildingAnnex,std::allocator< genie::unit::BuildingAnnex > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_Annexes_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (std::vector< genie::unit::BuildingAnnex,std::allocator< genie::unit::BuildingAnnex > > *)& ((arg1)->Annexes);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_HeadUnit_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_HeadUnit_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_HeadUnit_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_HeadUnit_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->HeadUnit = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_HeadUnit_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_HeadUnit_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->HeadUnit);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_TransformUnit_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_TransformUnit_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_TransformUnit_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_TransformUnit_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->TransformUnit = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_TransformUnit_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_TransformUnit_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->TransformUnit);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_TransformSound_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_TransformSound_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_TransformSound_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_TransformSound_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->TransformSound = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_TransformSound_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_TransformSound_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->TransformSound);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_ConstructionSound_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_ConstructionSound_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_ConstructionSound_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_ConstructionSound_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->ConstructionSound = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_ConstructionSound_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_ConstructionSound_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->ConstructionSound);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_WwiseTransformSoundID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_WwiseTransformSoundID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_WwiseTransformSoundID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_WwiseTransformSoundID_set" "', argument " "2"" of type '" "uint32_t""'");
+  } 
+  arg2 = static_cast< uint32_t >(val2);
+  if (arg1) (arg1)->WwiseTransformSoundID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_WwiseTransformSoundID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_WwiseTransformSoundID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (uint32_t) ((arg1)->WwiseTransformSoundID);
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_WwiseConstructionSoundID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_WwiseConstructionSoundID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_WwiseConstructionSoundID_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_WwiseConstructionSoundID_set" "', argument " "2"" of type '" "uint32_t""'");
+  } 
+  arg2 = static_cast< uint32_t >(val2);
+  if (arg1) (arg1)->WwiseConstructionSoundID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_WwiseConstructionSoundID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_WwiseConstructionSoundID_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (uint32_t) ((arg1)->WwiseConstructionSoundID);
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_GarrisonType_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_GarrisonType_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_GarrisonType_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_GarrisonType_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->GarrisonType = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_GarrisonType_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_GarrisonType_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int8_t) ((arg1)->GarrisonType);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_GarrisonHealRate_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_GarrisonHealRate_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_GarrisonHealRate_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_GarrisonHealRate_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->GarrisonHealRate = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_GarrisonHealRate_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_GarrisonHealRate_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (float) ((arg1)->GarrisonHealRate);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_GarrisonRepairRate_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_GarrisonRepairRate_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_GarrisonRepairRate_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_GarrisonRepairRate_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->GarrisonRepairRate = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_GarrisonRepairRate_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_GarrisonRepairRate_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (float) ((arg1)->GarrisonRepairRate);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_PileUnit_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_PileUnit_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_PileUnit_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_PileUnit_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->PileUnit = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_PileUnit_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_PileUnit_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (int16_t) ((arg1)->PileUnit);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_LootingTable_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  std::vector< int8_t,std::allocator< int8_t > > *arg2 = (std::vector< int8_t,std::allocator< int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Building_LootingTable_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_LootingTable_set" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Building_LootingTable_set" "', argument " "2"" of type '" "std::vector< int8_t,std::allocator< int8_t > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< int8_t,std::allocator< int8_t > > * >(argp2);
+  if (arg1) (arg1)->LootingTable = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Building_LootingTable_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int8_t,std::allocator< int8_t > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_LootingTable_get" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
+  result = (std::vector< int8_t,std::allocator< int8_t > > *)& ((arg1)->LootingTable);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Building_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__unit__Building, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *Building_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_Creatable(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_Creatable", 0, 0, 0)) SWIG_fail;
+  result = (genie::unit::Creatable *)new genie::unit::Creatable();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Creatable, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Creatable(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Creatable" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_setGameVersion" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Creatable_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Creatable_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_getResourceCostsSize(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  unsigned short result;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_getResourceCostsSize", 0, 0, 0)) SWIG_fail;
+  result = (unsigned short)genie::unit::Creatable::getResourceCostsSize();
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_ResourceCosts_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  std::vector< genie::unit::Creatable::ResourceCost,std::allocator< genie::unit::Creatable::ResourceCost > > *arg2 = (std::vector< genie::unit::Creatable::ResourceCost,std::allocator< genie::unit::Creatable::ResourceCost > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_ResourceCosts_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_ResourceCosts_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Creatable_ResourceCosts_set" "', argument " "2"" of type '" "std::vector< genie::unit::Creatable::ResourceCost,std::allocator< genie::unit::Creatable::ResourceCost > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::unit::Creatable::ResourceCost,std::allocator< genie::unit::Creatable::ResourceCost > > * >(argp2);
+  if (arg1) (arg1)->ResourceCosts = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_ResourceCosts_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::unit::Creatable::ResourceCost,std::allocator< genie::unit::Creatable::ResourceCost > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_ResourceCosts_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (std::vector< genie::unit::Creatable::ResourceCost,std::allocator< genie::unit::Creatable::ResourceCost > > *)& ((arg1)->ResourceCosts);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_TrainTime_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_TrainTime_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_TrainTime_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_TrainTime_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->TrainTime = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_TrainTime_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_TrainTime_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int16_t) ((arg1)->TrainTime);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_TrainLocationID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_TrainLocationID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_TrainLocationID_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_TrainLocationID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->TrainLocationID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_TrainLocationID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_TrainLocationID_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int16_t) ((arg1)->TrainLocationID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_ButtonID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_ButtonID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_ButtonID_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_ButtonID_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->ButtonID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_ButtonID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_ButtonID_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int8_t) ((arg1)->ButtonID);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_RearAttackModifier_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_RearAttackModifier_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_RearAttackModifier_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_RearAttackModifier_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->RearAttackModifier = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_RearAttackModifier_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_RearAttackModifier_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (float) ((arg1)->RearAttackModifier);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_FlankAttackModifier_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_FlankAttackModifier_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_FlankAttackModifier_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_FlankAttackModifier_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->FlankAttackModifier = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_FlankAttackModifier_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_FlankAttackModifier_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (float) ((arg1)->FlankAttackModifier);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_CreatableType_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_CreatableType_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_CreatableType_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_CreatableType_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->CreatableType = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_CreatableType_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_CreatableType_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int8_t) ((arg1)->CreatableType);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_HeroMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_HeroMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_HeroMode_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_HeroMode_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->HeroMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_HeroMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_HeroMode_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int8_t) ((arg1)->HeroMode);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_GarrisonGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_GarrisonGraphic_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_GarrisonGraphic_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_GarrisonGraphic_set" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  if (arg1) (arg1)->GarrisonGraphic = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_GarrisonGraphic_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_GarrisonGraphic_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int32_t) ((arg1)->GarrisonGraphic);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_TotalProjectiles_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_TotalProjectiles_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_TotalProjectiles_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_TotalProjectiles_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->TotalProjectiles = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_TotalProjectiles_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_TotalProjectiles_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (float) ((arg1)->TotalProjectiles);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_MaxTotalProjectiles_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_MaxTotalProjectiles_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_MaxTotalProjectiles_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_MaxTotalProjectiles_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->MaxTotalProjectiles = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_MaxTotalProjectiles_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_MaxTotalProjectiles_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int8_t) ((arg1)->MaxTotalProjectiles);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_ProjectileSpawningArea_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  std::vector< float,std::allocator< float > > *arg2 = (std::vector< float,std::allocator< float > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_ProjectileSpawningArea_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_ProjectileSpawningArea_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Creatable_ProjectileSpawningArea_set" "', argument " "2"" of type '" "std::vector< float,std::allocator< float > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< float,std::allocator< float > > * >(argp2);
+  if (arg1) (arg1)->ProjectileSpawningArea = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_ProjectileSpawningArea_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< float,std::allocator< float > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_ProjectileSpawningArea_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (std::vector< float,std::allocator< float > > *)& ((arg1)->ProjectileSpawningArea);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_SecondaryProjectileUnit_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_SecondaryProjectileUnit_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_SecondaryProjectileUnit_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_SecondaryProjectileUnit_set" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  if (arg1) (arg1)->SecondaryProjectileUnit = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_SecondaryProjectileUnit_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_SecondaryProjectileUnit_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int32_t) ((arg1)->SecondaryProjectileUnit);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_SpecialGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_SpecialGraphic_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_SpecialGraphic_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_SpecialGraphic_set" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  if (arg1) (arg1)->SpecialGraphic = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_SpecialGraphic_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_SpecialGraphic_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int32_t) ((arg1)->SpecialGraphic);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_SpecialAbility_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_SpecialAbility_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_SpecialAbility_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_SpecialAbility_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->SpecialAbility = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_SpecialAbility_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_SpecialAbility_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int8_t) ((arg1)->SpecialAbility);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_DisplayedPierceArmour_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_DisplayedPierceArmour_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_DisplayedPierceArmour_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_DisplayedPierceArmour_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->DisplayedPierceArmour = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_DisplayedPierceArmour_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_DisplayedPierceArmour_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int16_t) ((arg1)->DisplayedPierceArmour);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_SpawningGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_SpawningGraphic_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_SpawningGraphic_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_SpawningGraphic_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->SpawningGraphic = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_SpawningGraphic_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_SpawningGraphic_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int16_t) ((arg1)->SpawningGraphic);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_UpgradeGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Creatable_UpgradeGraphic_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_UpgradeGraphic_set" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_UpgradeGraphic_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->UpgradeGraphic = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Creatable_UpgradeGraphic_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_UpgradeGraphic_get" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
+  result = (int16_t) ((arg1)->UpgradeGraphic);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Creatable_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__unit__Creatable, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *Creatable_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_DamageGraphic(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_DamageGraphic", 0, 0, 0)) SWIG_fail;
+  result = (genie::unit::DamageGraphic *)new genie::unit::DamageGraphic();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__DamageGraphic, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_DamageGraphic(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_DamageGraphic" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DamageGraphic_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DamageGraphic_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_setGameVersion" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DamageGraphic_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DamageGraphic_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DamageGraphic_GraphicID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DamageGraphic_GraphicID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_GraphicID_set" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DamageGraphic_GraphicID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->GraphicID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DamageGraphic_GraphicID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_GraphicID_get" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  result = (int16_t) ((arg1)->GraphicID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DamageGraphic_DamagePercent_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DamageGraphic_DamagePercent_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_DamagePercent_set" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DamageGraphic_DamagePercent_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->DamagePercent = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DamageGraphic_DamagePercent_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_DamagePercent_get" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  result = (int8_t) ((arg1)->DamagePercent);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DamageGraphic_OldApplyMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DamageGraphic_OldApplyMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_OldApplyMode_set" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DamageGraphic_OldApplyMode_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->OldApplyMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DamageGraphic_OldApplyMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_OldApplyMode_get" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  result = (int8_t) ((arg1)->OldApplyMode);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DamageGraphic_ApplyMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DamageGraphic_ApplyMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_ApplyMode_set" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DamageGraphic_ApplyMode_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->ApplyMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DamageGraphic_ApplyMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DamageGraphic, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_ApplyMode_get" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
+  result = (int8_t) ((arg1)->ApplyMode);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *DamageGraphic_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__unit__DamageGraphic, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *DamageGraphic_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_DeadFish(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_DeadFish", 0, 0, 0)) SWIG_fail;
+  result = (genie::unit::DeadFish *)new genie::unit::DeadFish();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__DeadFish, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_DeadFish(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_DeadFish" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_setGameVersion" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DeadFish_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DeadFish_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_WalkingGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_WalkingGraphic_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_WalkingGraphic_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_WalkingGraphic_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->WalkingGraphic = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_WalkingGraphic_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_WalkingGraphic_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (int16_t) ((arg1)->WalkingGraphic);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_RunningGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_RunningGraphic_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_RunningGraphic_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_RunningGraphic_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->RunningGraphic = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_RunningGraphic_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_RunningGraphic_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (int16_t) ((arg1)->RunningGraphic);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_RotationSpeed_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_RotationSpeed_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_RotationSpeed_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_RotationSpeed_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->RotationSpeed = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_RotationSpeed_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_RotationSpeed_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (float) ((arg1)->RotationSpeed);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_OldSizeClass_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_OldSizeClass_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_OldSizeClass_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_OldSizeClass_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->OldSizeClass = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_OldSizeClass_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_OldSizeClass_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (int8_t) ((arg1)->OldSizeClass);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TrackingUnit_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_TrackingUnit_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TrackingUnit_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_TrackingUnit_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->TrackingUnit = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TrackingUnit_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TrackingUnit_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (int16_t) ((arg1)->TrackingUnit);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TrackingUnitMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_TrackingUnitMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TrackingUnitMode_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_TrackingUnitMode_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->TrackingUnitMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TrackingUnitMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TrackingUnitMode_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (int8_t) ((arg1)->TrackingUnitMode);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TrackingUnitDensity_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_TrackingUnitDensity_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TrackingUnitDensity_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_TrackingUnitDensity_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->TrackingUnitDensity = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TrackingUnitDensity_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TrackingUnitDensity_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (float) ((arg1)->TrackingUnitDensity);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_OldMoveAlgorithm_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_OldMoveAlgorithm_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_OldMoveAlgorithm_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_OldMoveAlgorithm_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->OldMoveAlgorithm = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_OldMoveAlgorithm_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_OldMoveAlgorithm_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (int8_t) ((arg1)->OldMoveAlgorithm);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TurnRadius_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_TurnRadius_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TurnRadius_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_TurnRadius_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->TurnRadius = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TurnRadius_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TurnRadius_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (float) ((arg1)->TurnRadius);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TurnRadiusSpeed_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_TurnRadiusSpeed_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TurnRadiusSpeed_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_TurnRadiusSpeed_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->TurnRadiusSpeed = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_TurnRadiusSpeed_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_TurnRadiusSpeed_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (float) ((arg1)->TurnRadiusSpeed);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_MaxYawPerSecondMoving_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_MaxYawPerSecondMoving_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_MaxYawPerSecondMoving_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_MaxYawPerSecondMoving_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->MaxYawPerSecondMoving = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_MaxYawPerSecondMoving_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_MaxYawPerSecondMoving_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (float) ((arg1)->MaxYawPerSecondMoving);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_StationaryYawRevolutionTime_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_StationaryYawRevolutionTime_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_StationaryYawRevolutionTime_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_StationaryYawRevolutionTime_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->StationaryYawRevolutionTime = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_StationaryYawRevolutionTime_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_StationaryYawRevolutionTime_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (float) ((arg1)->StationaryYawRevolutionTime);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_MaxYawPerSecondStationary_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_MaxYawPerSecondStationary_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_MaxYawPerSecondStationary_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_MaxYawPerSecondStationary_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->MaxYawPerSecondStationary = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_MaxYawPerSecondStationary_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_MaxYawPerSecondStationary_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (float) ((arg1)->MaxYawPerSecondStationary);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_MinCollisionSizeMultiplier_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "DeadFish_MinCollisionSizeMultiplier_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_MinCollisionSizeMultiplier_set" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_MinCollisionSizeMultiplier_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->MinCollisionSizeMultiplier = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DeadFish_MinCollisionSizeMultiplier_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_MinCollisionSizeMultiplier_get" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
+  result = (float) ((arg1)->MinCollisionSizeMultiplier);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *DeadFish_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__unit__DeadFish, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *DeadFish_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_Projectile(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_Projectile", 0, 0, 0)) SWIG_fail;
+  result = (genie::unit::Projectile *)new genie::unit::Projectile();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Projectile, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Projectile(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Projectile" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Projectile_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_setGameVersion" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Projectile_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Projectile_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_ProjectileType_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Projectile_ProjectileType_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_ProjectileType_set" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Projectile_ProjectileType_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->ProjectileType = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_ProjectileType_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_ProjectileType_get" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  result = (int8_t) ((arg1)->ProjectileType);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_SmartMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Projectile_SmartMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_SmartMode_set" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Projectile_SmartMode_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->SmartMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_SmartMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_SmartMode_get" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  result = (int8_t) ((arg1)->SmartMode);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_HitMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Projectile_HitMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_HitMode_set" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Projectile_HitMode_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->HitMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_HitMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_HitMode_get" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  result = (int8_t) ((arg1)->HitMode);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_VanishMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Projectile_VanishMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_VanishMode_set" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Projectile_VanishMode_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->VanishMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_VanishMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_VanishMode_get" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  result = (int8_t) ((arg1)->VanishMode);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_AreaEffectSpecials_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Projectile_AreaEffectSpecials_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_AreaEffectSpecials_set" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Projectile_AreaEffectSpecials_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->AreaEffectSpecials = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_AreaEffectSpecials_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_AreaEffectSpecials_get" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  result = (int8_t) ((arg1)->AreaEffectSpecials);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_ProjectileArc_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Projectile_ProjectileArc_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_ProjectileArc_set" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Projectile_ProjectileArc_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->ProjectileArc = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Projectile_ProjectileArc_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_ProjectileArc_get" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
+  result = (float) ((arg1)->ProjectileArc);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Projectile_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__unit__Projectile, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *Projectile_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_Type50(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_Type50", 0, 0, 0)) SWIG_fail;
+  result = (genie::unit::Type50 *)new genie::unit::Type50();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Type50, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Type50(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Type50" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_setGameVersion" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Type50_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Type50_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
+    } else {
+      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_BaseArmor_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_BaseArmor_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_BaseArmor_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_BaseArmor_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->BaseArmor = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_BaseArmor_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_BaseArmor_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int16_t) ((arg1)->BaseArmor);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_Attacks_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *arg2 = (std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_Attacks_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_Attacks_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Type50_Attacks_set" "', argument " "2"" of type '" "std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > * >(argp2);
+  if (arg1) (arg1)->Attacks = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_Attacks_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_Attacks_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *)& ((arg1)->Attacks);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_Armours_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *arg2 = (std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_Armours_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_Armours_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Type50_Armours_set" "', argument " "2"" of type '" "std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > * >(argp2);
+  if (arg1) (arg1)->Armours = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_Armours_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_Armours_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *)& ((arg1)->Armours);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DefenseTerrainBonus_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_DefenseTerrainBonus_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DefenseTerrainBonus_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_DefenseTerrainBonus_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->DefenseTerrainBonus = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DefenseTerrainBonus_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DefenseTerrainBonus_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int16_t) ((arg1)->DefenseTerrainBonus);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_MaxRange_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_MaxRange_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_MaxRange_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_MaxRange_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->MaxRange = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_MaxRange_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_MaxRange_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (float) ((arg1)->MaxRange);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_BlastWidth_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_BlastWidth_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_BlastWidth_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_BlastWidth_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->BlastWidth = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_BlastWidth_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_BlastWidth_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (float) ((arg1)->BlastWidth);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_ReloadTime_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_ReloadTime_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_ReloadTime_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_ReloadTime_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->ReloadTime = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_ReloadTime_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_ReloadTime_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (float) ((arg1)->ReloadTime);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_ProjectileUnitID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_ProjectileUnitID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_ProjectileUnitID_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_ProjectileUnitID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->ProjectileUnitID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_ProjectileUnitID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_ProjectileUnitID_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int16_t) ((arg1)->ProjectileUnitID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_AccuracyPercent_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_AccuracyPercent_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_AccuracyPercent_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_AccuracyPercent_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->AccuracyPercent = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_AccuracyPercent_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_AccuracyPercent_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int16_t) ((arg1)->AccuracyPercent);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_BreakOffCombat_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_BreakOffCombat_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_BreakOffCombat_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_BreakOffCombat_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->BreakOffCombat = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_BreakOffCombat_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_BreakOffCombat_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int8_t) ((arg1)->BreakOffCombat);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_FrameDelay_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_FrameDelay_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_FrameDelay_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_FrameDelay_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->FrameDelay = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_FrameDelay_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_FrameDelay_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int16_t) ((arg1)->FrameDelay);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_GraphicDisplacement_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  std::vector< float,std::allocator< float > > *arg2 = (std::vector< float,std::allocator< float > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_GraphicDisplacement_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_GraphicDisplacement_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Type50_GraphicDisplacement_set" "', argument " "2"" of type '" "std::vector< float,std::allocator< float > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< float,std::allocator< float > > * >(argp2);
+  if (arg1) (arg1)->GraphicDisplacement = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_GraphicDisplacement_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< float,std::allocator< float > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_GraphicDisplacement_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (std::vector< float,std::allocator< float > > *)& ((arg1)->GraphicDisplacement);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_BlastAttackLevel_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_BlastAttackLevel_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_BlastAttackLevel_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_BlastAttackLevel_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->BlastAttackLevel = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_BlastAttackLevel_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_BlastAttackLevel_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int8_t) ((arg1)->BlastAttackLevel);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_MinRange_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_MinRange_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_MinRange_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_MinRange_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->MinRange = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_MinRange_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_MinRange_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (float) ((arg1)->MinRange);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_AccuracyDispersion_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_AccuracyDispersion_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_AccuracyDispersion_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_AccuracyDispersion_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->AccuracyDispersion = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_AccuracyDispersion_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_AccuracyDispersion_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (float) ((arg1)->AccuracyDispersion);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_AttackGraphic_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_AttackGraphic_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_AttackGraphic_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_AttackGraphic_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->AttackGraphic = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_AttackGraphic_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_AttackGraphic_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int16_t) ((arg1)->AttackGraphic);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DisplayedMeleeArmour_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_DisplayedMeleeArmour_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DisplayedMeleeArmour_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_DisplayedMeleeArmour_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->DisplayedMeleeArmour = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DisplayedMeleeArmour_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DisplayedMeleeArmour_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int16_t) ((arg1)->DisplayedMeleeArmour);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DisplayedAttack_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_DisplayedAttack_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DisplayedAttack_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_DisplayedAttack_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->DisplayedAttack = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DisplayedAttack_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DisplayedAttack_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (int16_t) ((arg1)->DisplayedAttack);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DisplayedRange_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_DisplayedRange_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DisplayedRange_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_DisplayedRange_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->DisplayedRange = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DisplayedRange_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DisplayedRange_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (float) ((arg1)->DisplayedRange);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DisplayedReloadTime_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Type50_DisplayedReloadTime_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DisplayedReloadTime_set" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_DisplayedReloadTime_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->DisplayedReloadTime = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Type50_DisplayedReloadTime_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_DisplayedReloadTime_get" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
+  result = (float) ((arg1)->DisplayedReloadTime);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Type50_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__unit__Type50, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *Type50_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_new_Unit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *result = 0 ;
@@ -11535,7 +17682,7 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_DamageGraphics_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  std::vector< unit::DamageGraphic,std::allocator< unit::DamageGraphic > > *arg2 = (std::vector< unit::DamageGraphic,std::allocator< unit::DamageGraphic > > *) 0 ;
+  std::vector< genie::unit::DamageGraphic,std::allocator< genie::unit::DamageGraphic > > *arg2 = (std::vector< genie::unit::DamageGraphic,std::allocator< genie::unit::DamageGraphic > > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -11548,11 +17695,11 @@ SWIGINTERN PyObject *_wrap_Unit_DamageGraphics_set(PyObject *SWIGUNUSEDPARM(self
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_DamageGraphics_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t, 0 |  0 );
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t, 0 |  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_DamageGraphics_set" "', argument " "2"" of type '" "std::vector< unit::DamageGraphic,std::allocator< unit::DamageGraphic > > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_DamageGraphics_set" "', argument " "2"" of type '" "std::vector< genie::unit::DamageGraphic,std::allocator< genie::unit::DamageGraphic > > *""'"); 
   }
-  arg2 = reinterpret_cast< std::vector< unit::DamageGraphic,std::allocator< unit::DamageGraphic > > * >(argp2);
+  arg2 = reinterpret_cast< std::vector< genie::unit::DamageGraphic,std::allocator< genie::unit::DamageGraphic > > * >(argp2);
   if (arg1) (arg1)->DamageGraphics = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -11567,7 +17714,7 @@ SWIGINTERN PyObject *_wrap_Unit_DamageGraphics_get(PyObject *SWIGUNUSEDPARM(self
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< unit::DamageGraphic,std::allocator< unit::DamageGraphic > > *result = 0 ;
+  std::vector< genie::unit::DamageGraphic,std::allocator< genie::unit::DamageGraphic > > *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -11576,8 +17723,8 @@ SWIGINTERN PyObject *_wrap_Unit_DamageGraphics_get(PyObject *SWIGUNUSEDPARM(self
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_DamageGraphics_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result = (std::vector< unit::DamageGraphic,std::allocator< unit::DamageGraphic > > *)& ((arg1)->DamageGraphics);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t, 0 |  0 );
+  result = (std::vector< genie::unit::DamageGraphic,std::allocator< genie::unit::DamageGraphic > > *)& ((arg1)->DamageGraphics);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -12329,10 +18476,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_DeadFish_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  unit::DeadFish arg2 ;
+  genie::unit::DeadFish *arg2 = (genie::unit::DeadFish *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -12342,20 +18489,12 @@ SWIGINTERN PyObject *_wrap_Unit_DeadFish_set(PyObject *SWIGUNUSEDPARM(self), PyO
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_DeadFish_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_unit__DeadFish,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_DeadFish_set" "', argument " "2"" of type '" "unit::DeadFish""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_DeadFish_set" "', argument " "2"" of type '" "unit::DeadFish""'");
-    } else {
-      unit::DeadFish * temp = reinterpret_cast< unit::DeadFish * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_DeadFish_set" "', argument " "2"" of type '" "genie::unit::DeadFish *""'"); 
   }
-  if (arg1) (arg1)->DeadFish = arg2;
+  arg2 = reinterpret_cast< genie::unit::DeadFish * >(argp2);
+  if (arg1) (arg1)->DeadFish = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -12369,7 +18508,7 @@ SWIGINTERN PyObject *_wrap_Unit_DeadFish_get(PyObject *SWIGUNUSEDPARM(self), PyO
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  unit::DeadFish result;
+  genie::unit::DeadFish *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -12378,8 +18517,8 @@ SWIGINTERN PyObject *_wrap_Unit_DeadFish_get(PyObject *SWIGUNUSEDPARM(self), PyO
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_DeadFish_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->DeadFish);
-  resultobj = SWIG_NewPointerObj((new unit::DeadFish(static_cast< const unit::DeadFish& >(result))), SWIGTYPE_p_unit__DeadFish, SWIG_POINTER_OWN |  0 );
+  result = (genie::unit::DeadFish *)& ((arg1)->DeadFish);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__DeadFish, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -12389,10 +18528,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_Bird_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  unit::Bird arg2 ;
+  genie::unit::Bird *arg2 = (genie::unit::Bird *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -12402,20 +18541,12 @@ SWIGINTERN PyObject *_wrap_Unit_Bird_set(PyObject *SWIGUNUSEDPARM(self), PyObjec
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Bird_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_unit__Bird,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Bird_set" "', argument " "2"" of type '" "unit::Bird""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_Bird_set" "', argument " "2"" of type '" "unit::Bird""'");
-    } else {
-      unit::Bird * temp = reinterpret_cast< unit::Bird * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Bird_set" "', argument " "2"" of type '" "genie::unit::Bird *""'"); 
   }
-  if (arg1) (arg1)->Bird = arg2;
+  arg2 = reinterpret_cast< genie::unit::Bird * >(argp2);
+  if (arg1) (arg1)->Bird = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -12429,7 +18560,7 @@ SWIGINTERN PyObject *_wrap_Unit_Bird_get(PyObject *SWIGUNUSEDPARM(self), PyObjec
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  unit::Bird result;
+  genie::unit::Bird *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -12438,8 +18569,8 @@ SWIGINTERN PyObject *_wrap_Unit_Bird_get(PyObject *SWIGUNUSEDPARM(self), PyObjec
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Bird_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->Bird);
-  resultobj = SWIG_NewPointerObj((new unit::Bird(static_cast< const unit::Bird& >(result))), SWIGTYPE_p_unit__Bird, SWIG_POINTER_OWN |  0 );
+  result = (genie::unit::Bird *)& ((arg1)->Bird);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Bird, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -12449,10 +18580,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_Type50_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  unit::Type50 arg2 ;
+  genie::unit::Type50 *arg2 = (genie::unit::Type50 *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -12462,20 +18593,12 @@ SWIGINTERN PyObject *_wrap_Unit_Type50_set(PyObject *SWIGUNUSEDPARM(self), PyObj
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Type50_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_unit__Type50,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Type50_set" "', argument " "2"" of type '" "unit::Type50""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_Type50_set" "', argument " "2"" of type '" "unit::Type50""'");
-    } else {
-      unit::Type50 * temp = reinterpret_cast< unit::Type50 * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Type50_set" "', argument " "2"" of type '" "genie::unit::Type50 *""'"); 
   }
-  if (arg1) (arg1)->Type50 = arg2;
+  arg2 = reinterpret_cast< genie::unit::Type50 * >(argp2);
+  if (arg1) (arg1)->Type50 = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -12489,7 +18612,7 @@ SWIGINTERN PyObject *_wrap_Unit_Type50_get(PyObject *SWIGUNUSEDPARM(self), PyObj
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  unit::Type50 result;
+  genie::unit::Type50 *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -12498,8 +18621,8 @@ SWIGINTERN PyObject *_wrap_Unit_Type50_get(PyObject *SWIGUNUSEDPARM(self), PyObj
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Type50_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->Type50);
-  resultobj = SWIG_NewPointerObj((new unit::Type50(static_cast< const unit::Type50& >(result))), SWIGTYPE_p_unit__Type50, SWIG_POINTER_OWN |  0 );
+  result = (genie::unit::Type50 *)& ((arg1)->Type50);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Type50, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -12509,10 +18632,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_Projectile_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  unit::Projectile arg2 ;
+  genie::unit::Projectile *arg2 = (genie::unit::Projectile *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -12522,20 +18645,12 @@ SWIGINTERN PyObject *_wrap_Unit_Projectile_set(PyObject *SWIGUNUSEDPARM(self), P
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Projectile_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_unit__Projectile,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Projectile_set" "', argument " "2"" of type '" "unit::Projectile""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_Projectile_set" "', argument " "2"" of type '" "unit::Projectile""'");
-    } else {
-      unit::Projectile * temp = reinterpret_cast< unit::Projectile * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Projectile_set" "', argument " "2"" of type '" "genie::unit::Projectile *""'"); 
   }
-  if (arg1) (arg1)->Projectile = arg2;
+  arg2 = reinterpret_cast< genie::unit::Projectile * >(argp2);
+  if (arg1) (arg1)->Projectile = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -12549,7 +18664,7 @@ SWIGINTERN PyObject *_wrap_Unit_Projectile_get(PyObject *SWIGUNUSEDPARM(self), P
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  unit::Projectile result;
+  genie::unit::Projectile *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -12558,8 +18673,8 @@ SWIGINTERN PyObject *_wrap_Unit_Projectile_get(PyObject *SWIGUNUSEDPARM(self), P
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Projectile_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->Projectile);
-  resultobj = SWIG_NewPointerObj((new unit::Projectile(static_cast< const unit::Projectile& >(result))), SWIGTYPE_p_unit__Projectile, SWIG_POINTER_OWN |  0 );
+  result = (genie::unit::Projectile *)& ((arg1)->Projectile);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Projectile, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -12569,10 +18684,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_Creatable_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  unit::Creatable arg2 ;
+  genie::unit::Creatable *arg2 = (genie::unit::Creatable *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -12582,20 +18697,12 @@ SWIGINTERN PyObject *_wrap_Unit_Creatable_set(PyObject *SWIGUNUSEDPARM(self), Py
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Creatable_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_unit__Creatable,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Creatable_set" "', argument " "2"" of type '" "unit::Creatable""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_Creatable_set" "', argument " "2"" of type '" "unit::Creatable""'");
-    } else {
-      unit::Creatable * temp = reinterpret_cast< unit::Creatable * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Creatable_set" "', argument " "2"" of type '" "genie::unit::Creatable *""'"); 
   }
-  if (arg1) (arg1)->Creatable = arg2;
+  arg2 = reinterpret_cast< genie::unit::Creatable * >(argp2);
+  if (arg1) (arg1)->Creatable = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -12609,7 +18716,7 @@ SWIGINTERN PyObject *_wrap_Unit_Creatable_get(PyObject *SWIGUNUSEDPARM(self), Py
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  unit::Creatable result;
+  genie::unit::Creatable *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -12618,8 +18725,8 @@ SWIGINTERN PyObject *_wrap_Unit_Creatable_get(PyObject *SWIGUNUSEDPARM(self), Py
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Creatable_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->Creatable);
-  resultobj = SWIG_NewPointerObj((new unit::Creatable(static_cast< const unit::Creatable& >(result))), SWIGTYPE_p_unit__Creatable, SWIG_POINTER_OWN |  0 );
+  result = (genie::unit::Creatable *)& ((arg1)->Creatable);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Creatable, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -12629,10 +18736,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_Building_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  unit::Building arg2 ;
+  genie::unit::Building *arg2 = (genie::unit::Building *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -12642,20 +18749,12 @@ SWIGINTERN PyObject *_wrap_Unit_Building_set(PyObject *SWIGUNUSEDPARM(self), PyO
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Building_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_unit__Building,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Building_set" "', argument " "2"" of type '" "unit::Building""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_Building_set" "', argument " "2"" of type '" "unit::Building""'");
-    } else {
-      unit::Building * temp = reinterpret_cast< unit::Building * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_genie__unit__Building, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_Building_set" "', argument " "2"" of type '" "genie::unit::Building *""'"); 
   }
-  if (arg1) (arg1)->Building = arg2;
+  arg2 = reinterpret_cast< genie::unit::Building * >(argp2);
+  if (arg1) (arg1)->Building = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -12669,7 +18768,7 @@ SWIGINTERN PyObject *_wrap_Unit_Building_get(PyObject *SWIGUNUSEDPARM(self), PyO
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  unit::Building result;
+  genie::unit::Building *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -12678,8 +18777,8 @@ SWIGINTERN PyObject *_wrap_Unit_Building_get(PyObject *SWIGUNUSEDPARM(self), PyO
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_Building_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->Building);
-  resultobj = SWIG_NewPointerObj((new unit::Building(static_cast< const unit::Building& >(result))), SWIGTYPE_p_unit__Building, SWIG_POINTER_OWN |  0 );
+  result = (genie::unit::Building *)& ((arg1)->Building);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__unit__Building, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -21384,6 +27483,259 @@ static PyMethodDef SwigMethods[] = {
 	 { "Graphic_AngleSounds_get", _wrap_Graphic_AngleSounds_get, METH_O, NULL},
 	 { "Graphic_swigregister", Graphic_swigregister, METH_O, NULL},
 	 { "Graphic_swiginit", Graphic_swiginit, METH_VARARGS, NULL},
+	 { "new_AttackOrArmor", _wrap_new_AttackOrArmor, METH_NOARGS, NULL},
+	 { "delete_AttackOrArmor", _wrap_delete_AttackOrArmor, METH_O, NULL},
+	 { "AttackOrArmor_setGameVersion", _wrap_AttackOrArmor_setGameVersion, METH_VARARGS, NULL},
+	 { "AttackOrArmor_Class_set", _wrap_AttackOrArmor_Class_set, METH_VARARGS, NULL},
+	 { "AttackOrArmor_Class_get", _wrap_AttackOrArmor_Class_get, METH_O, NULL},
+	 { "AttackOrArmor_Amount_set", _wrap_AttackOrArmor_Amount_set, METH_VARARGS, NULL},
+	 { "AttackOrArmor_Amount_get", _wrap_AttackOrArmor_Amount_get, METH_O, NULL},
+	 { "AttackOrArmor_swigregister", AttackOrArmor_swigregister, METH_O, NULL},
+	 { "AttackOrArmor_swiginit", AttackOrArmor_swiginit, METH_VARARGS, NULL},
+	 { "new_Bird", _wrap_new_Bird, METH_NOARGS, NULL},
+	 { "delete_Bird", _wrap_delete_Bird, METH_O, NULL},
+	 { "Bird_setGameVersion", _wrap_Bird_setGameVersion, METH_VARARGS, NULL},
+	 { "Bird_getDropSiteCount", _wrap_Bird_getDropSiteCount, METH_O, NULL},
+	 { "Bird_DefaultTaskID_set", _wrap_Bird_DefaultTaskID_set, METH_VARARGS, NULL},
+	 { "Bird_DefaultTaskID_get", _wrap_Bird_DefaultTaskID_get, METH_O, NULL},
+	 { "Bird_SearchRadius_set", _wrap_Bird_SearchRadius_set, METH_VARARGS, NULL},
+	 { "Bird_SearchRadius_get", _wrap_Bird_SearchRadius_get, METH_O, NULL},
+	 { "Bird_WorkRate_set", _wrap_Bird_WorkRate_set, METH_VARARGS, NULL},
+	 { "Bird_WorkRate_get", _wrap_Bird_WorkRate_get, METH_O, NULL},
+	 { "Bird_DropSites_set", _wrap_Bird_DropSites_set, METH_VARARGS, NULL},
+	 { "Bird_DropSites_get", _wrap_Bird_DropSites_get, METH_O, NULL},
+	 { "Bird_TaskSwapGroup_set", _wrap_Bird_TaskSwapGroup_set, METH_VARARGS, NULL},
+	 { "Bird_TaskSwapGroup_get", _wrap_Bird_TaskSwapGroup_get, METH_O, NULL},
+	 { "Bird_AttackSound_set", _wrap_Bird_AttackSound_set, METH_VARARGS, NULL},
+	 { "Bird_AttackSound_get", _wrap_Bird_AttackSound_get, METH_O, NULL},
+	 { "Bird_MoveSound_set", _wrap_Bird_MoveSound_set, METH_VARARGS, NULL},
+	 { "Bird_MoveSound_get", _wrap_Bird_MoveSound_get, METH_O, NULL},
+	 { "Bird_WwiseAttackSoundID_set", _wrap_Bird_WwiseAttackSoundID_set, METH_VARARGS, NULL},
+	 { "Bird_WwiseAttackSoundID_get", _wrap_Bird_WwiseAttackSoundID_get, METH_O, NULL},
+	 { "Bird_WwiseMoveSoundID_set", _wrap_Bird_WwiseMoveSoundID_set, METH_VARARGS, NULL},
+	 { "Bird_WwiseMoveSoundID_get", _wrap_Bird_WwiseMoveSoundID_get, METH_O, NULL},
+	 { "Bird_RunPattern_set", _wrap_Bird_RunPattern_set, METH_VARARGS, NULL},
+	 { "Bird_RunPattern_get", _wrap_Bird_RunPattern_get, METH_O, NULL},
+	 { "Bird_TaskList_set", _wrap_Bird_TaskList_set, METH_VARARGS, NULL},
+	 { "Bird_TaskList_get", _wrap_Bird_TaskList_get, METH_O, NULL},
+	 { "Bird_swigregister", Bird_swigregister, METH_O, NULL},
+	 { "Bird_swiginit", Bird_swiginit, METH_VARARGS, NULL},
+	 { "new_BuildingAnnex", _wrap_new_BuildingAnnex, METH_NOARGS, NULL},
+	 { "delete_BuildingAnnex", _wrap_delete_BuildingAnnex, METH_O, NULL},
+	 { "BuildingAnnex_setGameVersion", _wrap_BuildingAnnex_setGameVersion, METH_VARARGS, NULL},
+	 { "BuildingAnnex_UnitID_set", _wrap_BuildingAnnex_UnitID_set, METH_VARARGS, NULL},
+	 { "BuildingAnnex_UnitID_get", _wrap_BuildingAnnex_UnitID_get, METH_O, NULL},
+	 { "BuildingAnnex_Misplacement_set", _wrap_BuildingAnnex_Misplacement_set, METH_VARARGS, NULL},
+	 { "BuildingAnnex_Misplacement_get", _wrap_BuildingAnnex_Misplacement_get, METH_O, NULL},
+	 { "BuildingAnnex_swigregister", BuildingAnnex_swigregister, METH_O, NULL},
+	 { "BuildingAnnex_swiginit", BuildingAnnex_swiginit, METH_VARARGS, NULL},
+	 { "new_Building", _wrap_new_Building, METH_NOARGS, NULL},
+	 { "delete_Building", _wrap_delete_Building, METH_O, NULL},
+	 { "Building_setGameVersion", _wrap_Building_setGameVersion, METH_VARARGS, NULL},
+	 { "Building_ConstructionGraphicID_set", _wrap_Building_ConstructionGraphicID_set, METH_VARARGS, NULL},
+	 { "Building_ConstructionGraphicID_get", _wrap_Building_ConstructionGraphicID_get, METH_O, NULL},
+	 { "Building_SnowGraphicID_set", _wrap_Building_SnowGraphicID_set, METH_VARARGS, NULL},
+	 { "Building_SnowGraphicID_get", _wrap_Building_SnowGraphicID_get, METH_O, NULL},
+	 { "Building_DestructionGraphicID_set", _wrap_Building_DestructionGraphicID_set, METH_VARARGS, NULL},
+	 { "Building_DestructionGraphicID_get", _wrap_Building_DestructionGraphicID_get, METH_O, NULL},
+	 { "Building_DestructionRubbleGraphicID_set", _wrap_Building_DestructionRubbleGraphicID_set, METH_VARARGS, NULL},
+	 { "Building_DestructionRubbleGraphicID_get", _wrap_Building_DestructionRubbleGraphicID_get, METH_O, NULL},
+	 { "Building_ResearchingGraphic_set", _wrap_Building_ResearchingGraphic_set, METH_VARARGS, NULL},
+	 { "Building_ResearchingGraphic_get", _wrap_Building_ResearchingGraphic_get, METH_O, NULL},
+	 { "Building_ResearchCompletedGraphic_set", _wrap_Building_ResearchCompletedGraphic_set, METH_VARARGS, NULL},
+	 { "Building_ResearchCompletedGraphic_get", _wrap_Building_ResearchCompletedGraphic_get, METH_O, NULL},
+	 { "Building_AdjacentMode_set", _wrap_Building_AdjacentMode_set, METH_VARARGS, NULL},
+	 { "Building_AdjacentMode_get", _wrap_Building_AdjacentMode_get, METH_O, NULL},
+	 { "Building_GraphicsAngle_set", _wrap_Building_GraphicsAngle_set, METH_VARARGS, NULL},
+	 { "Building_GraphicsAngle_get", _wrap_Building_GraphicsAngle_get, METH_O, NULL},
+	 { "Building_DisappearsWhenBuilt_set", _wrap_Building_DisappearsWhenBuilt_set, METH_VARARGS, NULL},
+	 { "Building_DisappearsWhenBuilt_get", _wrap_Building_DisappearsWhenBuilt_get, METH_O, NULL},
+	 { "Building_StackUnitID_set", _wrap_Building_StackUnitID_set, METH_VARARGS, NULL},
+	 { "Building_StackUnitID_get", _wrap_Building_StackUnitID_get, METH_O, NULL},
+	 { "Building_FoundationTerrainID_set", _wrap_Building_FoundationTerrainID_set, METH_VARARGS, NULL},
+	 { "Building_FoundationTerrainID_get", _wrap_Building_FoundationTerrainID_get, METH_O, NULL},
+	 { "Building_OldOverlayID_set", _wrap_Building_OldOverlayID_set, METH_VARARGS, NULL},
+	 { "Building_OldOverlayID_get", _wrap_Building_OldOverlayID_get, METH_O, NULL},
+	 { "Building_TechID_set", _wrap_Building_TechID_set, METH_VARARGS, NULL},
+	 { "Building_TechID_get", _wrap_Building_TechID_get, METH_O, NULL},
+	 { "Building_CanBurn_set", _wrap_Building_CanBurn_set, METH_VARARGS, NULL},
+	 { "Building_CanBurn_get", _wrap_Building_CanBurn_get, METH_O, NULL},
+	 { "Building_Annexes_set", _wrap_Building_Annexes_set, METH_VARARGS, NULL},
+	 { "Building_Annexes_get", _wrap_Building_Annexes_get, METH_O, NULL},
+	 { "Building_HeadUnit_set", _wrap_Building_HeadUnit_set, METH_VARARGS, NULL},
+	 { "Building_HeadUnit_get", _wrap_Building_HeadUnit_get, METH_O, NULL},
+	 { "Building_TransformUnit_set", _wrap_Building_TransformUnit_set, METH_VARARGS, NULL},
+	 { "Building_TransformUnit_get", _wrap_Building_TransformUnit_get, METH_O, NULL},
+	 { "Building_TransformSound_set", _wrap_Building_TransformSound_set, METH_VARARGS, NULL},
+	 { "Building_TransformSound_get", _wrap_Building_TransformSound_get, METH_O, NULL},
+	 { "Building_ConstructionSound_set", _wrap_Building_ConstructionSound_set, METH_VARARGS, NULL},
+	 { "Building_ConstructionSound_get", _wrap_Building_ConstructionSound_get, METH_O, NULL},
+	 { "Building_WwiseTransformSoundID_set", _wrap_Building_WwiseTransformSoundID_set, METH_VARARGS, NULL},
+	 { "Building_WwiseTransformSoundID_get", _wrap_Building_WwiseTransformSoundID_get, METH_O, NULL},
+	 { "Building_WwiseConstructionSoundID_set", _wrap_Building_WwiseConstructionSoundID_set, METH_VARARGS, NULL},
+	 { "Building_WwiseConstructionSoundID_get", _wrap_Building_WwiseConstructionSoundID_get, METH_O, NULL},
+	 { "Building_GarrisonType_set", _wrap_Building_GarrisonType_set, METH_VARARGS, NULL},
+	 { "Building_GarrisonType_get", _wrap_Building_GarrisonType_get, METH_O, NULL},
+	 { "Building_GarrisonHealRate_set", _wrap_Building_GarrisonHealRate_set, METH_VARARGS, NULL},
+	 { "Building_GarrisonHealRate_get", _wrap_Building_GarrisonHealRate_get, METH_O, NULL},
+	 { "Building_GarrisonRepairRate_set", _wrap_Building_GarrisonRepairRate_set, METH_VARARGS, NULL},
+	 { "Building_GarrisonRepairRate_get", _wrap_Building_GarrisonRepairRate_get, METH_O, NULL},
+	 { "Building_PileUnit_set", _wrap_Building_PileUnit_set, METH_VARARGS, NULL},
+	 { "Building_PileUnit_get", _wrap_Building_PileUnit_get, METH_O, NULL},
+	 { "Building_LootingTable_set", _wrap_Building_LootingTable_set, METH_VARARGS, NULL},
+	 { "Building_LootingTable_get", _wrap_Building_LootingTable_get, METH_O, NULL},
+	 { "Building_swigregister", Building_swigregister, METH_O, NULL},
+	 { "Building_swiginit", Building_swiginit, METH_VARARGS, NULL},
+	 { "new_Creatable", _wrap_new_Creatable, METH_NOARGS, NULL},
+	 { "delete_Creatable", _wrap_delete_Creatable, METH_O, NULL},
+	 { "Creatable_setGameVersion", _wrap_Creatable_setGameVersion, METH_VARARGS, NULL},
+	 { "Creatable_getResourceCostsSize", _wrap_Creatable_getResourceCostsSize, METH_NOARGS, NULL},
+	 { "Creatable_ResourceCosts_set", _wrap_Creatable_ResourceCosts_set, METH_VARARGS, NULL},
+	 { "Creatable_ResourceCosts_get", _wrap_Creatable_ResourceCosts_get, METH_O, NULL},
+	 { "Creatable_TrainTime_set", _wrap_Creatable_TrainTime_set, METH_VARARGS, NULL},
+	 { "Creatable_TrainTime_get", _wrap_Creatable_TrainTime_get, METH_O, NULL},
+	 { "Creatable_TrainLocationID_set", _wrap_Creatable_TrainLocationID_set, METH_VARARGS, NULL},
+	 { "Creatable_TrainLocationID_get", _wrap_Creatable_TrainLocationID_get, METH_O, NULL},
+	 { "Creatable_ButtonID_set", _wrap_Creatable_ButtonID_set, METH_VARARGS, NULL},
+	 { "Creatable_ButtonID_get", _wrap_Creatable_ButtonID_get, METH_O, NULL},
+	 { "Creatable_RearAttackModifier_set", _wrap_Creatable_RearAttackModifier_set, METH_VARARGS, NULL},
+	 { "Creatable_RearAttackModifier_get", _wrap_Creatable_RearAttackModifier_get, METH_O, NULL},
+	 { "Creatable_FlankAttackModifier_set", _wrap_Creatable_FlankAttackModifier_set, METH_VARARGS, NULL},
+	 { "Creatable_FlankAttackModifier_get", _wrap_Creatable_FlankAttackModifier_get, METH_O, NULL},
+	 { "Creatable_CreatableType_set", _wrap_Creatable_CreatableType_set, METH_VARARGS, NULL},
+	 { "Creatable_CreatableType_get", _wrap_Creatable_CreatableType_get, METH_O, NULL},
+	 { "Creatable_HeroMode_set", _wrap_Creatable_HeroMode_set, METH_VARARGS, NULL},
+	 { "Creatable_HeroMode_get", _wrap_Creatable_HeroMode_get, METH_O, NULL},
+	 { "Creatable_GarrisonGraphic_set", _wrap_Creatable_GarrisonGraphic_set, METH_VARARGS, NULL},
+	 { "Creatable_GarrisonGraphic_get", _wrap_Creatable_GarrisonGraphic_get, METH_O, NULL},
+	 { "Creatable_TotalProjectiles_set", _wrap_Creatable_TotalProjectiles_set, METH_VARARGS, NULL},
+	 { "Creatable_TotalProjectiles_get", _wrap_Creatable_TotalProjectiles_get, METH_O, NULL},
+	 { "Creatable_MaxTotalProjectiles_set", _wrap_Creatable_MaxTotalProjectiles_set, METH_VARARGS, NULL},
+	 { "Creatable_MaxTotalProjectiles_get", _wrap_Creatable_MaxTotalProjectiles_get, METH_O, NULL},
+	 { "Creatable_ProjectileSpawningArea_set", _wrap_Creatable_ProjectileSpawningArea_set, METH_VARARGS, NULL},
+	 { "Creatable_ProjectileSpawningArea_get", _wrap_Creatable_ProjectileSpawningArea_get, METH_O, NULL},
+	 { "Creatable_SecondaryProjectileUnit_set", _wrap_Creatable_SecondaryProjectileUnit_set, METH_VARARGS, NULL},
+	 { "Creatable_SecondaryProjectileUnit_get", _wrap_Creatable_SecondaryProjectileUnit_get, METH_O, NULL},
+	 { "Creatable_SpecialGraphic_set", _wrap_Creatable_SpecialGraphic_set, METH_VARARGS, NULL},
+	 { "Creatable_SpecialGraphic_get", _wrap_Creatable_SpecialGraphic_get, METH_O, NULL},
+	 { "Creatable_SpecialAbility_set", _wrap_Creatable_SpecialAbility_set, METH_VARARGS, NULL},
+	 { "Creatable_SpecialAbility_get", _wrap_Creatable_SpecialAbility_get, METH_O, NULL},
+	 { "Creatable_DisplayedPierceArmour_set", _wrap_Creatable_DisplayedPierceArmour_set, METH_VARARGS, NULL},
+	 { "Creatable_DisplayedPierceArmour_get", _wrap_Creatable_DisplayedPierceArmour_get, METH_O, NULL},
+	 { "Creatable_SpawningGraphic_set", _wrap_Creatable_SpawningGraphic_set, METH_VARARGS, NULL},
+	 { "Creatable_SpawningGraphic_get", _wrap_Creatable_SpawningGraphic_get, METH_O, NULL},
+	 { "Creatable_UpgradeGraphic_set", _wrap_Creatable_UpgradeGraphic_set, METH_VARARGS, NULL},
+	 { "Creatable_UpgradeGraphic_get", _wrap_Creatable_UpgradeGraphic_get, METH_O, NULL},
+	 { "Creatable_swigregister", Creatable_swigregister, METH_O, NULL},
+	 { "Creatable_swiginit", Creatable_swiginit, METH_VARARGS, NULL},
+	 { "new_DamageGraphic", _wrap_new_DamageGraphic, METH_NOARGS, NULL},
+	 { "delete_DamageGraphic", _wrap_delete_DamageGraphic, METH_O, NULL},
+	 { "DamageGraphic_setGameVersion", _wrap_DamageGraphic_setGameVersion, METH_VARARGS, NULL},
+	 { "DamageGraphic_GraphicID_set", _wrap_DamageGraphic_GraphicID_set, METH_VARARGS, NULL},
+	 { "DamageGraphic_GraphicID_get", _wrap_DamageGraphic_GraphicID_get, METH_O, NULL},
+	 { "DamageGraphic_DamagePercent_set", _wrap_DamageGraphic_DamagePercent_set, METH_VARARGS, NULL},
+	 { "DamageGraphic_DamagePercent_get", _wrap_DamageGraphic_DamagePercent_get, METH_O, NULL},
+	 { "DamageGraphic_OldApplyMode_set", _wrap_DamageGraphic_OldApplyMode_set, METH_VARARGS, NULL},
+	 { "DamageGraphic_OldApplyMode_get", _wrap_DamageGraphic_OldApplyMode_get, METH_O, NULL},
+	 { "DamageGraphic_ApplyMode_set", _wrap_DamageGraphic_ApplyMode_set, METH_VARARGS, NULL},
+	 { "DamageGraphic_ApplyMode_get", _wrap_DamageGraphic_ApplyMode_get, METH_O, NULL},
+	 { "DamageGraphic_swigregister", DamageGraphic_swigregister, METH_O, NULL},
+	 { "DamageGraphic_swiginit", DamageGraphic_swiginit, METH_VARARGS, NULL},
+	 { "new_DeadFish", _wrap_new_DeadFish, METH_NOARGS, NULL},
+	 { "delete_DeadFish", _wrap_delete_DeadFish, METH_O, NULL},
+	 { "DeadFish_setGameVersion", _wrap_DeadFish_setGameVersion, METH_VARARGS, NULL},
+	 { "DeadFish_WalkingGraphic_set", _wrap_DeadFish_WalkingGraphic_set, METH_VARARGS, NULL},
+	 { "DeadFish_WalkingGraphic_get", _wrap_DeadFish_WalkingGraphic_get, METH_O, NULL},
+	 { "DeadFish_RunningGraphic_set", _wrap_DeadFish_RunningGraphic_set, METH_VARARGS, NULL},
+	 { "DeadFish_RunningGraphic_get", _wrap_DeadFish_RunningGraphic_get, METH_O, NULL},
+	 { "DeadFish_RotationSpeed_set", _wrap_DeadFish_RotationSpeed_set, METH_VARARGS, NULL},
+	 { "DeadFish_RotationSpeed_get", _wrap_DeadFish_RotationSpeed_get, METH_O, NULL},
+	 { "DeadFish_OldSizeClass_set", _wrap_DeadFish_OldSizeClass_set, METH_VARARGS, NULL},
+	 { "DeadFish_OldSizeClass_get", _wrap_DeadFish_OldSizeClass_get, METH_O, NULL},
+	 { "DeadFish_TrackingUnit_set", _wrap_DeadFish_TrackingUnit_set, METH_VARARGS, NULL},
+	 { "DeadFish_TrackingUnit_get", _wrap_DeadFish_TrackingUnit_get, METH_O, NULL},
+	 { "DeadFish_TrackingUnitMode_set", _wrap_DeadFish_TrackingUnitMode_set, METH_VARARGS, NULL},
+	 { "DeadFish_TrackingUnitMode_get", _wrap_DeadFish_TrackingUnitMode_get, METH_O, NULL},
+	 { "DeadFish_TrackingUnitDensity_set", _wrap_DeadFish_TrackingUnitDensity_set, METH_VARARGS, NULL},
+	 { "DeadFish_TrackingUnitDensity_get", _wrap_DeadFish_TrackingUnitDensity_get, METH_O, NULL},
+	 { "DeadFish_OldMoveAlgorithm_set", _wrap_DeadFish_OldMoveAlgorithm_set, METH_VARARGS, NULL},
+	 { "DeadFish_OldMoveAlgorithm_get", _wrap_DeadFish_OldMoveAlgorithm_get, METH_O, NULL},
+	 { "DeadFish_TurnRadius_set", _wrap_DeadFish_TurnRadius_set, METH_VARARGS, NULL},
+	 { "DeadFish_TurnRadius_get", _wrap_DeadFish_TurnRadius_get, METH_O, NULL},
+	 { "DeadFish_TurnRadiusSpeed_set", _wrap_DeadFish_TurnRadiusSpeed_set, METH_VARARGS, NULL},
+	 { "DeadFish_TurnRadiusSpeed_get", _wrap_DeadFish_TurnRadiusSpeed_get, METH_O, NULL},
+	 { "DeadFish_MaxYawPerSecondMoving_set", _wrap_DeadFish_MaxYawPerSecondMoving_set, METH_VARARGS, NULL},
+	 { "DeadFish_MaxYawPerSecondMoving_get", _wrap_DeadFish_MaxYawPerSecondMoving_get, METH_O, NULL},
+	 { "DeadFish_StationaryYawRevolutionTime_set", _wrap_DeadFish_StationaryYawRevolutionTime_set, METH_VARARGS, NULL},
+	 { "DeadFish_StationaryYawRevolutionTime_get", _wrap_DeadFish_StationaryYawRevolutionTime_get, METH_O, NULL},
+	 { "DeadFish_MaxYawPerSecondStationary_set", _wrap_DeadFish_MaxYawPerSecondStationary_set, METH_VARARGS, NULL},
+	 { "DeadFish_MaxYawPerSecondStationary_get", _wrap_DeadFish_MaxYawPerSecondStationary_get, METH_O, NULL},
+	 { "DeadFish_MinCollisionSizeMultiplier_set", _wrap_DeadFish_MinCollisionSizeMultiplier_set, METH_VARARGS, NULL},
+	 { "DeadFish_MinCollisionSizeMultiplier_get", _wrap_DeadFish_MinCollisionSizeMultiplier_get, METH_O, NULL},
+	 { "DeadFish_swigregister", DeadFish_swigregister, METH_O, NULL},
+	 { "DeadFish_swiginit", DeadFish_swiginit, METH_VARARGS, NULL},
+	 { "new_Projectile", _wrap_new_Projectile, METH_NOARGS, NULL},
+	 { "delete_Projectile", _wrap_delete_Projectile, METH_O, NULL},
+	 { "Projectile_setGameVersion", _wrap_Projectile_setGameVersion, METH_VARARGS, NULL},
+	 { "Projectile_ProjectileType_set", _wrap_Projectile_ProjectileType_set, METH_VARARGS, NULL},
+	 { "Projectile_ProjectileType_get", _wrap_Projectile_ProjectileType_get, METH_O, NULL},
+	 { "Projectile_SmartMode_set", _wrap_Projectile_SmartMode_set, METH_VARARGS, NULL},
+	 { "Projectile_SmartMode_get", _wrap_Projectile_SmartMode_get, METH_O, NULL},
+	 { "Projectile_HitMode_set", _wrap_Projectile_HitMode_set, METH_VARARGS, NULL},
+	 { "Projectile_HitMode_get", _wrap_Projectile_HitMode_get, METH_O, NULL},
+	 { "Projectile_VanishMode_set", _wrap_Projectile_VanishMode_set, METH_VARARGS, NULL},
+	 { "Projectile_VanishMode_get", _wrap_Projectile_VanishMode_get, METH_O, NULL},
+	 { "Projectile_AreaEffectSpecials_set", _wrap_Projectile_AreaEffectSpecials_set, METH_VARARGS, NULL},
+	 { "Projectile_AreaEffectSpecials_get", _wrap_Projectile_AreaEffectSpecials_get, METH_O, NULL},
+	 { "Projectile_ProjectileArc_set", _wrap_Projectile_ProjectileArc_set, METH_VARARGS, NULL},
+	 { "Projectile_ProjectileArc_get", _wrap_Projectile_ProjectileArc_get, METH_O, NULL},
+	 { "Projectile_swigregister", Projectile_swigregister, METH_O, NULL},
+	 { "Projectile_swiginit", Projectile_swiginit, METH_VARARGS, NULL},
+	 { "new_Type50", _wrap_new_Type50, METH_NOARGS, NULL},
+	 { "delete_Type50", _wrap_delete_Type50, METH_O, NULL},
+	 { "Type50_setGameVersion", _wrap_Type50_setGameVersion, METH_VARARGS, NULL},
+	 { "Type50_BaseArmor_set", _wrap_Type50_BaseArmor_set, METH_VARARGS, NULL},
+	 { "Type50_BaseArmor_get", _wrap_Type50_BaseArmor_get, METH_O, NULL},
+	 { "Type50_Attacks_set", _wrap_Type50_Attacks_set, METH_VARARGS, NULL},
+	 { "Type50_Attacks_get", _wrap_Type50_Attacks_get, METH_O, NULL},
+	 { "Type50_Armours_set", _wrap_Type50_Armours_set, METH_VARARGS, NULL},
+	 { "Type50_Armours_get", _wrap_Type50_Armours_get, METH_O, NULL},
+	 { "Type50_DefenseTerrainBonus_set", _wrap_Type50_DefenseTerrainBonus_set, METH_VARARGS, NULL},
+	 { "Type50_DefenseTerrainBonus_get", _wrap_Type50_DefenseTerrainBonus_get, METH_O, NULL},
+	 { "Type50_MaxRange_set", _wrap_Type50_MaxRange_set, METH_VARARGS, NULL},
+	 { "Type50_MaxRange_get", _wrap_Type50_MaxRange_get, METH_O, NULL},
+	 { "Type50_BlastWidth_set", _wrap_Type50_BlastWidth_set, METH_VARARGS, NULL},
+	 { "Type50_BlastWidth_get", _wrap_Type50_BlastWidth_get, METH_O, NULL},
+	 { "Type50_ReloadTime_set", _wrap_Type50_ReloadTime_set, METH_VARARGS, NULL},
+	 { "Type50_ReloadTime_get", _wrap_Type50_ReloadTime_get, METH_O, NULL},
+	 { "Type50_ProjectileUnitID_set", _wrap_Type50_ProjectileUnitID_set, METH_VARARGS, NULL},
+	 { "Type50_ProjectileUnitID_get", _wrap_Type50_ProjectileUnitID_get, METH_O, NULL},
+	 { "Type50_AccuracyPercent_set", _wrap_Type50_AccuracyPercent_set, METH_VARARGS, NULL},
+	 { "Type50_AccuracyPercent_get", _wrap_Type50_AccuracyPercent_get, METH_O, NULL},
+	 { "Type50_BreakOffCombat_set", _wrap_Type50_BreakOffCombat_set, METH_VARARGS, NULL},
+	 { "Type50_BreakOffCombat_get", _wrap_Type50_BreakOffCombat_get, METH_O, NULL},
+	 { "Type50_FrameDelay_set", _wrap_Type50_FrameDelay_set, METH_VARARGS, NULL},
+	 { "Type50_FrameDelay_get", _wrap_Type50_FrameDelay_get, METH_O, NULL},
+	 { "Type50_GraphicDisplacement_set", _wrap_Type50_GraphicDisplacement_set, METH_VARARGS, NULL},
+	 { "Type50_GraphicDisplacement_get", _wrap_Type50_GraphicDisplacement_get, METH_O, NULL},
+	 { "Type50_BlastAttackLevel_set", _wrap_Type50_BlastAttackLevel_set, METH_VARARGS, NULL},
+	 { "Type50_BlastAttackLevel_get", _wrap_Type50_BlastAttackLevel_get, METH_O, NULL},
+	 { "Type50_MinRange_set", _wrap_Type50_MinRange_set, METH_VARARGS, NULL},
+	 { "Type50_MinRange_get", _wrap_Type50_MinRange_get, METH_O, NULL},
+	 { "Type50_AccuracyDispersion_set", _wrap_Type50_AccuracyDispersion_set, METH_VARARGS, NULL},
+	 { "Type50_AccuracyDispersion_get", _wrap_Type50_AccuracyDispersion_get, METH_O, NULL},
+	 { "Type50_AttackGraphic_set", _wrap_Type50_AttackGraphic_set, METH_VARARGS, NULL},
+	 { "Type50_AttackGraphic_get", _wrap_Type50_AttackGraphic_get, METH_O, NULL},
+	 { "Type50_DisplayedMeleeArmour_set", _wrap_Type50_DisplayedMeleeArmour_set, METH_VARARGS, NULL},
+	 { "Type50_DisplayedMeleeArmour_get", _wrap_Type50_DisplayedMeleeArmour_get, METH_O, NULL},
+	 { "Type50_DisplayedAttack_set", _wrap_Type50_DisplayedAttack_set, METH_VARARGS, NULL},
+	 { "Type50_DisplayedAttack_get", _wrap_Type50_DisplayedAttack_get, METH_O, NULL},
+	 { "Type50_DisplayedRange_set", _wrap_Type50_DisplayedRange_set, METH_VARARGS, NULL},
+	 { "Type50_DisplayedRange_get", _wrap_Type50_DisplayedRange_get, METH_O, NULL},
+	 { "Type50_DisplayedReloadTime_set", _wrap_Type50_DisplayedReloadTime_set, METH_VARARGS, NULL},
+	 { "Type50_DisplayedReloadTime_get", _wrap_Type50_DisplayedReloadTime_get, METH_O, NULL},
+	 { "Type50_swigregister", Type50_swigregister, METH_O, NULL},
+	 { "Type50_swiginit", Type50_swiginit, METH_VARARGS, NULL},
 	 { "new_Unit", _wrap_new_Unit, METH_NOARGS, NULL},
 	 { "delete_Unit", _wrap_delete_Unit, METH_O, NULL},
 	 { "Unit_setGameVersion", _wrap_Unit_setGameVersion, METH_VARARGS, NULL},
@@ -21786,22 +28138,50 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 static void *_p_genie__DatFileTo_p_genie__IFile(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::IFile *)  ((genie::DatFile *) x));
 }
-static void *_p_genie__GraphicTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((genie::ISerializable *)  ((genie::Graphic *) x));
-}
-static void *_p_genie__IFileTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((genie::ISerializable *)  ((genie::IFile *) x));
-}
 static void *_p_genie__UnitTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::ISerializable *)  ((genie::Unit *) x));
-}
-static void *_p_genie__CivTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((genie::ISerializable *)  ((genie::Civ *) x));
 }
 static void *_p_genie__DatFileTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::ISerializable *) (genie::IFile *) ((genie::DatFile *) x));
 }
+static void *_p_genie__unit__BuildingAnnexTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::unit::BuildingAnnex *) x));
+}
+static void *_p_genie__CivTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::Civ *) x));
+}
+static void *_p_genie__unit__BuildingTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::unit::Building *) x));
+}
+static void *_p_genie__unit__BirdTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::unit::Bird *) x));
+}
+static void *_p_genie__IFileTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::IFile *) x));
+}
+static void *_p_genie__unit__DeadFishTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::unit::DeadFish *) x));
+}
+static void *_p_genie__unit__DamageGraphicTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::unit::DamageGraphic *) x));
+}
+static void *_p_genie__GraphicTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::Graphic *) x));
+}
+static void *_p_genie__unit__Type50To_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::unit::Type50 *) x));
+}
+static void *_p_genie__unit__ProjectileTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::unit::Projectile *) x));
+}
+static void *_p_genie__unit__CreatableTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::unit::Creatable *) x));
+}
+static void *_p_genie__unit__AttackOrArmorTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::unit::AttackOrArmor *) x));
+}
 static swig_type_info _swigt__p_GameVersion = {"_p_GameVersion", "GameVersion *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_ResourceCost = {"_p_ResourceCost", "ResourceCost *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ResourceStorage = {"_p_ResourceStorage", "ResourceStorage *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_XYZF = {"_p_XYZF", "XYZF *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocator_type *", 0, 0, (void*)0, 0};
@@ -21818,6 +28198,15 @@ static swig_type_info _swigt__p_genie__TechTree = {"_p_genie__TechTree", "genie:
 static swig_type_info _swigt__p_genie__TerrainBlock = {"_p_genie__TerrainBlock", "genie::TerrainBlock *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__Unit = {"_p_genie__Unit", "std::vector< genie::Unit >::value_type *|genie::Unit *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__XYZF = {"_p_genie__XYZF", "genie::XYZF *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__unit__AttackOrArmor = {"_p_genie__unit__AttackOrArmor", "genie::unit::AttackOrArmor *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__unit__Bird = {"_p_genie__unit__Bird", "genie::unit::Bird *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__unit__Building = {"_p_genie__unit__Building", "genie::unit::Building *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__unit__BuildingAnnex = {"_p_genie__unit__BuildingAnnex", "genie::unit::BuildingAnnex *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__unit__Creatable = {"_p_genie__unit__Creatable", "genie::unit::Creatable *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__unit__DamageGraphic = {"_p_genie__unit__DamageGraphic", "genie::unit::DamageGraphic *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__unit__DeadFish = {"_p_genie__unit__DeadFish", "genie::unit::DeadFish *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__unit__Projectile = {"_p_genie__unit__Projectile", "genie::unit::Projectile *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__unit__Type50 = {"_p_genie__unit__Type50", "genie::unit::Type50 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int = {"_p_int", "intptr_t *|int *|int_least32_t *|int_fast32_t *|int32_t *|int_fast16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_long_long = {"_p_long_long", "int_least64_t *|int_fast64_t *|int64_t *|long long *|intmax_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_PyObject = {"_p_p_PyObject", "PyObject **", 0, 0, (void*)0, 0};
@@ -21839,7 +28228,9 @@ static swig_type_info _swigt__p_std__vectorT_GraphicAngleSound_std__allocatorT_G
 static swig_type_info _swigt__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t = {"_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t", "std::vector< GraphicDelta,std::allocator< GraphicDelta > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t = {"_p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t", "std::vector< PlayerColour,std::allocator< PlayerColour > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t = {"_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t", "std::vector< genie::Unit::ResourceStorage,std::allocator< genie::Unit::ResourceStorage > > *|std::vector< ResourceUsage< short,float,signed char >,std::allocator< ResourceUsage< short,float,signed char > > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t = {"_p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t", "std::vector< genie::unit::Creatable::ResourceCost,std::allocator< genie::unit::Creatable::ResourceCost > > *|std::vector< ResourceUsage< short,short,short >,std::allocator< ResourceUsage< short,short,short > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_Sound_std__allocatorT_Sound_t_t = {"_p_std__vectorT_Sound_std__allocatorT_Sound_t_t", "std::vector< Sound,std::allocator< Sound > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_Task_std__allocatorT_Task_t_t = {"_p_std__vectorT_Task_std__allocatorT_Task_t_t", "std::vector< Task,std::allocator< Task > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_Tech_std__allocatorT_Tech_t_t = {"_p_std__vectorT_Tech_std__allocatorT_Tech_t_t", "std::vector< Tech,std::allocator< Tech > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t = {"_p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t", "std::vector< TerrainRestriction,std::allocator< TerrainRestriction > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t = {"_p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t", "std::vector< UnitHeader,std::allocator< UnitHeader > > *", 0, 0, (void*)0, 0};
@@ -21848,16 +28239,13 @@ static swig_type_info _swigt__p_std__vectorT_float_std__allocatorT_float_t_t = {
 static swig_type_info _swigt__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t = {"_p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t", "std::vector< genie::Civ > *|std::vector< genie::Civ,std::allocator< genie::Civ > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t = {"_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t", "std::vector< genie::Graphic,std::allocator< genie::Graphic > > *|std::vector< genie::Graphic > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t = {"_p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t", "std::vector< genie::Unit > *|std::vector< genie::Unit,std::allocator< genie::Unit > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t = {"_p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t", "std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t = {"_p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t", "std::vector< genie::unit::BuildingAnnex,std::allocator< genie::unit::BuildingAnnex > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t = {"_p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t", "std::vector< genie::unit::DamageGraphic,std::allocator< genie::unit::DamageGraphic > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_int_std__allocatorT_int_t_t = {"_p_std__vectorT_int_std__allocatorT_int_t_t", "std::vector< int,std::allocator< int > > *|std::vector< int32_t,std::allocator< int32_t > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_short_std__allocatorT_short_t_t = {"_p_std__vectorT_short_std__allocatorT_short_t_t", "std::vector< short,std::allocator< short > > *|std::vector< int16_t,std::allocator< int16_t > > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t = {"_p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t", "std::vector< unit::DamageGraphic,std::allocator< unit::DamageGraphic > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t = {"_p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t", "std::vector< int8_t,std::allocator< int8_t > > *|std::vector< signed char,std::allocator< signed char > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_swig__SwigPyIterator = {"_p_swig__SwigPyIterator", "swig::SwigPyIterator *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_unit__Bird = {"_p_unit__Bird", "unit::Bird *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_unit__Building = {"_p_unit__Building", "unit::Building *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_unit__Creatable = {"_p_unit__Creatable", "unit::Creatable *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_unit__DeadFish = {"_p_unit__DeadFish", "unit::DeadFish *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_unit__Projectile = {"_p_unit__Projectile", "unit::Projectile *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_unit__Type50 = {"_p_unit__Type50", "unit::Type50 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_char = {"_p_unsigned_char", "unsigned char *|uint_least8_t *|uint_fast8_t *|uint8_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_int = {"_p_unsigned_int", "uintptr_t *|uint_least32_t *|uint_fast32_t *|uint32_t *|unsigned int *|uint_fast16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_long_long = {"_p_unsigned_long_long", "uint_least64_t *|uint_fast64_t *|uint64_t *|unsigned long long *|uintmax_t *", 0, 0, (void*)0, 0};
@@ -21866,6 +28254,7 @@ static swig_type_info _swigt__p_value_type = {"_p_value_type", "value_type *", 0
 
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_GameVersion,
+  &_swigt__p_ResourceCost,
   &_swigt__p_ResourceStorage,
   &_swigt__p_XYZF,
   &_swigt__p_allocator_type,
@@ -21882,6 +28271,15 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_genie__TerrainBlock,
   &_swigt__p_genie__Unit,
   &_swigt__p_genie__XYZF,
+  &_swigt__p_genie__unit__AttackOrArmor,
+  &_swigt__p_genie__unit__Bird,
+  &_swigt__p_genie__unit__Building,
+  &_swigt__p_genie__unit__BuildingAnnex,
+  &_swigt__p_genie__unit__Creatable,
+  &_swigt__p_genie__unit__DamageGraphic,
+  &_swigt__p_genie__unit__DeadFish,
+  &_swigt__p_genie__unit__Projectile,
+  &_swigt__p_genie__unit__Type50,
   &_swigt__p_int,
   &_swigt__p_long_long,
   &_swigt__p_p_PyObject,
@@ -21903,7 +28301,9 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t,
   &_swigt__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t,
   &_swigt__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t,
+  &_swigt__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t,
   &_swigt__p_std__vectorT_Sound_std__allocatorT_Sound_t_t,
+  &_swigt__p_std__vectorT_Task_std__allocatorT_Task_t_t,
   &_swigt__p_std__vectorT_Tech_std__allocatorT_Tech_t_t,
   &_swigt__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t,
   &_swigt__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t,
@@ -21912,16 +28312,13 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t,
   &_swigt__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t,
   &_swigt__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t,
+  &_swigt__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t,
+  &_swigt__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t,
+  &_swigt__p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t,
   &_swigt__p_std__vectorT_int_std__allocatorT_int_t_t,
   &_swigt__p_std__vectorT_short_std__allocatorT_short_t_t,
-  &_swigt__p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t,
+  &_swigt__p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t,
   &_swigt__p_swig__SwigPyIterator,
-  &_swigt__p_unit__Bird,
-  &_swigt__p_unit__Building,
-  &_swigt__p_unit__Creatable,
-  &_swigt__p_unit__DeadFish,
-  &_swigt__p_unit__Projectile,
-  &_swigt__p_unit__Type50,
   &_swigt__p_unsigned_char,
   &_swigt__p_unsigned_int,
   &_swigt__p_unsigned_long_long,
@@ -21930,6 +28327,7 @@ static swig_type_info *swig_type_initial[] = {
 };
 
 static swig_cast_info _swigc__p_GameVersion[] = {  {&_swigt__p_GameVersion, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_ResourceCost[] = {  {&_swigt__p_ResourceCost, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ResourceStorage[] = {  {&_swigt__p_ResourceStorage, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_XYZF[] = {  {&_swigt__p_XYZF, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type, 0, 0, 0},{0, 0, 0, 0}};
@@ -21940,12 +28338,21 @@ static swig_cast_info _swigc__p_genie__Civ[] = {  {&_swigt__p_genie__Civ, 0, 0, 
 static swig_cast_info _swigc__p_genie__DatFile[] = {  {&_swigt__p_genie__DatFile, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__Graphic[] = {  {&_swigt__p_genie__Graphic, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__IFile[] = {  {&_swigt__p_genie__IFile, 0, 0, 0},  {&_swigt__p_genie__DatFile, _p_genie__DatFileTo_p_genie__IFile, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_genie__ISerializable[] = {  {&_swigt__p_genie__Unit, _p_genie__UnitTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Civ, _p_genie__CivTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__ISerializable, 0, 0, 0},  {&_swigt__p_genie__Graphic, _p_genie__GraphicTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__IFile, _p_genie__IFileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__DatFile, _p_genie__DatFileTo_p_genie__ISerializable, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__ISerializable[] = {  {&_swigt__p_genie__DatFile, _p_genie__DatFileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__BuildingAnnex, _p_genie__unit__BuildingAnnexTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Bird, _p_genie__unit__BirdTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__ISerializable, 0, 0, 0},  {&_swigt__p_genie__unit__Building, _p_genie__unit__BuildingTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__IFile, _p_genie__IFileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__DeadFish, _p_genie__unit__DeadFishTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__DamageGraphic, _p_genie__unit__DamageGraphicTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Graphic, _p_genie__GraphicTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Civ, _p_genie__CivTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Unit, _p_genie__UnitTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Type50, _p_genie__unit__Type50To_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Projectile, _p_genie__unit__ProjectileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Creatable, _p_genie__unit__CreatableTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__AttackOrArmor, _p_genie__unit__AttackOrArmorTo_p_genie__ISerializable, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__RandomMaps[] = {  {&_swigt__p_genie__RandomMaps, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__TechTree[] = {  {&_swigt__p_genie__TechTree, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__TerrainBlock[] = {  {&_swigt__p_genie__TerrainBlock, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__Unit[] = {  {&_swigt__p_genie__Unit, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__XYZF[] = {  {&_swigt__p_genie__XYZF, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__unit__AttackOrArmor[] = {  {&_swigt__p_genie__unit__AttackOrArmor, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__unit__Bird[] = {  {&_swigt__p_genie__unit__Bird, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__unit__Building[] = {  {&_swigt__p_genie__unit__Building, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__unit__BuildingAnnex[] = {  {&_swigt__p_genie__unit__BuildingAnnex, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__unit__Creatable[] = {  {&_swigt__p_genie__unit__Creatable, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__unit__DamageGraphic[] = {  {&_swigt__p_genie__unit__DamageGraphic, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__unit__DeadFish[] = {  {&_swigt__p_genie__unit__DeadFish, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__unit__Projectile[] = {  {&_swigt__p_genie__unit__Projectile, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__unit__Type50[] = {  {&_swigt__p_genie__unit__Type50, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_PyObject[] = {  {&_swigt__p_p_PyObject, 0, 0, 0},{0, 0, 0, 0}};
@@ -21967,7 +28374,9 @@ static swig_cast_info _swigc__p_std__vectorT_GraphicAngleSound_std__allocatorT_G
 static swig_cast_info _swigc__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t[] = {  {&_swigt__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t[] = {  {&_swigt__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t[] = {  {&_swigt__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t[] = {  {&_swigt__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_Sound_std__allocatorT_Sound_t_t[] = {  {&_swigt__p_std__vectorT_Sound_std__allocatorT_Sound_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_Task_std__allocatorT_Task_t_t[] = {  {&_swigt__p_std__vectorT_Task_std__allocatorT_Task_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_Tech_std__allocatorT_Tech_t_t[] = {  {&_swigt__p_std__vectorT_Tech_std__allocatorT_Tech_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t[] = {  {&_swigt__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t[] = {  {&_swigt__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -21976,16 +28385,13 @@ static swig_cast_info _swigc__p_std__vectorT_float_std__allocatorT_float_t_t[] =
 static swig_cast_info _swigc__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t[] = {  {&_swigt__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t[] = {  {&_swigt__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t[] = {  {&_swigt__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t[] = {  {&_swigt__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t[] = {  {&_swigt__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t[] = {  {&_swigt__p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_int_std__allocatorT_int_t_t[] = {  {&_swigt__p_std__vectorT_int_std__allocatorT_int_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_short_std__allocatorT_short_t_t[] = {  {&_swigt__p_std__vectorT_short_std__allocatorT_short_t_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t[] = {  {&_swigt__p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t[] = {  {&_swigt__p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_swig__SwigPyIterator[] = {  {&_swigt__p_swig__SwigPyIterator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_unit__Bird[] = {  {&_swigt__p_unit__Bird, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_unit__Building[] = {  {&_swigt__p_unit__Building, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_unit__Creatable[] = {  {&_swigt__p_unit__Creatable, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_unit__DeadFish[] = {  {&_swigt__p_unit__DeadFish, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_unit__Projectile[] = {  {&_swigt__p_unit__Projectile, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_unit__Type50[] = {  {&_swigt__p_unit__Type50, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_char[] = {  {&_swigt__p_unsigned_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_int[] = {  {&_swigt__p_unsigned_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_long_long[] = {  {&_swigt__p_unsigned_long_long, 0, 0, 0},{0, 0, 0, 0}};
@@ -21994,6 +28400,7 @@ static swig_cast_info _swigc__p_value_type[] = {  {&_swigt__p_value_type, 0, 0, 
 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_GameVersion,
+  _swigc__p_ResourceCost,
   _swigc__p_ResourceStorage,
   _swigc__p_XYZF,
   _swigc__p_allocator_type,
@@ -22010,6 +28417,15 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_genie__TerrainBlock,
   _swigc__p_genie__Unit,
   _swigc__p_genie__XYZF,
+  _swigc__p_genie__unit__AttackOrArmor,
+  _swigc__p_genie__unit__Bird,
+  _swigc__p_genie__unit__Building,
+  _swigc__p_genie__unit__BuildingAnnex,
+  _swigc__p_genie__unit__Creatable,
+  _swigc__p_genie__unit__DamageGraphic,
+  _swigc__p_genie__unit__DeadFish,
+  _swigc__p_genie__unit__Projectile,
+  _swigc__p_genie__unit__Type50,
   _swigc__p_int,
   _swigc__p_long_long,
   _swigc__p_p_PyObject,
@@ -22031,7 +28447,9 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t,
   _swigc__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t,
   _swigc__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t,
+  _swigc__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t,
   _swigc__p_std__vectorT_Sound_std__allocatorT_Sound_t_t,
+  _swigc__p_std__vectorT_Task_std__allocatorT_Task_t_t,
   _swigc__p_std__vectorT_Tech_std__allocatorT_Tech_t_t,
   _swigc__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t,
   _swigc__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t,
@@ -22040,16 +28458,13 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t,
   _swigc__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t,
   _swigc__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t,
+  _swigc__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t,
+  _swigc__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t,
+  _swigc__p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t,
   _swigc__p_std__vectorT_int_std__allocatorT_int_t_t,
   _swigc__p_std__vectorT_short_std__allocatorT_short_t_t,
-  _swigc__p_std__vectorT_unit__DamageGraphic_std__allocatorT_unit__DamageGraphic_t_t,
+  _swigc__p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t,
   _swigc__p_swig__SwigPyIterator,
-  _swigc__p_unit__Bird,
-  _swigc__p_unit__Building,
-  _swigc__p_unit__Creatable,
-  _swigc__p_unit__DeadFish,
-  _swigc__p_unit__Projectile,
-  _swigc__p_unit__Type50,
   _swigc__p_unsigned_char,
   _swigc__p_unsigned_int,
   _swigc__p_unsigned_long_long,
@@ -22806,6 +29221,8 @@ SWIG_init(void) {
   SWIG_addvarlink(globals, "ISerializable_scn_plr_data_ver", Swig_var_ISerializable_scn_plr_data_ver_get, Swig_var_ISerializable_scn_plr_data_ver_set);
   SWIG_addvarlink(globals, "ISerializable_scn_internal_ver", Swig_var_ISerializable_scn_internal_ver_get, Swig_var_ISerializable_scn_internal_ver_set);
   SWIG_addvarlink(globals, "ISerializable_scn_trigger_ver", Swig_var_ISerializable_scn_trigger_ver_get, Swig_var_ISerializable_scn_trigger_ver_set);
+  SWIG_Python_SetConstant(d, "Building_BUILDING_ANNEXES_SIZE",SWIG_From_unsigned_SS_short(static_cast< unsigned short >(genie::unit::Building::BUILDING_ANNEXES_SIZE)));
+  SWIG_Python_SetConstant(d, "Building_LOOTABLE_RES_COUNT",SWIG_From_unsigned_SS_short(static_cast< unsigned short >(genie::unit::Building::LOOTABLE_RES_COUNT)));
   SWIG_Python_SetConstant(d, "UT_EyeCandy",SWIG_From_int(static_cast< int >(genie::UT_EyeCandy)));
   SWIG_Python_SetConstant(d, "UT_Trees",SWIG_From_int(static_cast< int >(genie::UT_Trees)));
   SWIG_Python_SetConstant(d, "UT_Flag",SWIG_From_int(static_cast< int >(genie::UT_Flag)));

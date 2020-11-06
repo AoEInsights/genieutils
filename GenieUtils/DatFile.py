@@ -210,6 +210,247 @@ class Graphic(ISerializable):
 # Register Graphic in _DatFile:
 _DatFile.Graphic_swigregister(Graphic)
 
+class AttackOrArmor(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.AttackOrArmor_swiginit(self, _DatFile.new_AttackOrArmor())
+    __swig_destroy__ = _DatFile.delete_AttackOrArmor
+
+    def setGameVersion(self, gv):
+        return _DatFile.AttackOrArmor_setGameVersion(self, gv)
+    Class = property(_DatFile.AttackOrArmor_Class_get, _DatFile.AttackOrArmor_Class_set)
+    Amount = property(_DatFile.AttackOrArmor_Amount_get, _DatFile.AttackOrArmor_Amount_set)
+
+# Register AttackOrArmor in _DatFile:
+_DatFile.AttackOrArmor_swigregister(AttackOrArmor)
+
+class Bird(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.Bird_swiginit(self, _DatFile.new_Bird())
+    __swig_destroy__ = _DatFile.delete_Bird
+
+    def setGameVersion(self, gv):
+        return _DatFile.Bird_setGameVersion(self, gv)
+
+    def getDropSiteCount(self):
+        return _DatFile.Bird_getDropSiteCount(self)
+    DefaultTaskID = property(_DatFile.Bird_DefaultTaskID_get, _DatFile.Bird_DefaultTaskID_set)
+    SearchRadius = property(_DatFile.Bird_SearchRadius_get, _DatFile.Bird_SearchRadius_set)
+    WorkRate = property(_DatFile.Bird_WorkRate_get, _DatFile.Bird_WorkRate_set)
+    DropSites = property(_DatFile.Bird_DropSites_get, _DatFile.Bird_DropSites_set)
+    TaskSwapGroup = property(_DatFile.Bird_TaskSwapGroup_get, _DatFile.Bird_TaskSwapGroup_set)
+    AttackSound = property(_DatFile.Bird_AttackSound_get, _DatFile.Bird_AttackSound_set)
+    MoveSound = property(_DatFile.Bird_MoveSound_get, _DatFile.Bird_MoveSound_set)
+    WwiseAttackSoundID = property(_DatFile.Bird_WwiseAttackSoundID_get, _DatFile.Bird_WwiseAttackSoundID_set)
+    WwiseMoveSoundID = property(_DatFile.Bird_WwiseMoveSoundID_get, _DatFile.Bird_WwiseMoveSoundID_set)
+    RunPattern = property(_DatFile.Bird_RunPattern_get, _DatFile.Bird_RunPattern_set)
+    TaskList = property(_DatFile.Bird_TaskList_get, _DatFile.Bird_TaskList_set)
+
+# Register Bird in _DatFile:
+_DatFile.Bird_swigregister(Bird)
+
+class BuildingAnnex(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.BuildingAnnex_swiginit(self, _DatFile.new_BuildingAnnex())
+    __swig_destroy__ = _DatFile.delete_BuildingAnnex
+
+    def setGameVersion(self, gv):
+        return _DatFile.BuildingAnnex_setGameVersion(self, gv)
+    UnitID = property(_DatFile.BuildingAnnex_UnitID_get, _DatFile.BuildingAnnex_UnitID_set)
+    Misplacement = property(_DatFile.BuildingAnnex_Misplacement_get, _DatFile.BuildingAnnex_Misplacement_set)
+
+# Register BuildingAnnex in _DatFile:
+_DatFile.BuildingAnnex_swigregister(BuildingAnnex)
+
+class Building(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.Building_swiginit(self, _DatFile.new_Building())
+    __swig_destroy__ = _DatFile.delete_Building
+
+    def setGameVersion(self, gv):
+        return _DatFile.Building_setGameVersion(self, gv)
+    ConstructionGraphicID = property(_DatFile.Building_ConstructionGraphicID_get, _DatFile.Building_ConstructionGraphicID_set)
+    SnowGraphicID = property(_DatFile.Building_SnowGraphicID_get, _DatFile.Building_SnowGraphicID_set)
+    DestructionGraphicID = property(_DatFile.Building_DestructionGraphicID_get, _DatFile.Building_DestructionGraphicID_set)
+    DestructionRubbleGraphicID = property(_DatFile.Building_DestructionRubbleGraphicID_get, _DatFile.Building_DestructionRubbleGraphicID_set)
+    ResearchingGraphic = property(_DatFile.Building_ResearchingGraphic_get, _DatFile.Building_ResearchingGraphic_set)
+    ResearchCompletedGraphic = property(_DatFile.Building_ResearchCompletedGraphic_get, _DatFile.Building_ResearchCompletedGraphic_set)
+    AdjacentMode = property(_DatFile.Building_AdjacentMode_get, _DatFile.Building_AdjacentMode_set)
+    GraphicsAngle = property(_DatFile.Building_GraphicsAngle_get, _DatFile.Building_GraphicsAngle_set)
+    DisappearsWhenBuilt = property(_DatFile.Building_DisappearsWhenBuilt_get, _DatFile.Building_DisappearsWhenBuilt_set)
+    StackUnitID = property(_DatFile.Building_StackUnitID_get, _DatFile.Building_StackUnitID_set)
+    FoundationTerrainID = property(_DatFile.Building_FoundationTerrainID_get, _DatFile.Building_FoundationTerrainID_set)
+    OldOverlayID = property(_DatFile.Building_OldOverlayID_get, _DatFile.Building_OldOverlayID_set)
+    TechID = property(_DatFile.Building_TechID_get, _DatFile.Building_TechID_set)
+    CanBurn = property(_DatFile.Building_CanBurn_get, _DatFile.Building_CanBurn_set)
+    BUILDING_ANNEXES_SIZE = _DatFile.Building_BUILDING_ANNEXES_SIZE
+    Annexes = property(_DatFile.Building_Annexes_get, _DatFile.Building_Annexes_set)
+    HeadUnit = property(_DatFile.Building_HeadUnit_get, _DatFile.Building_HeadUnit_set)
+    TransformUnit = property(_DatFile.Building_TransformUnit_get, _DatFile.Building_TransformUnit_set)
+    TransformSound = property(_DatFile.Building_TransformSound_get, _DatFile.Building_TransformSound_set)
+    ConstructionSound = property(_DatFile.Building_ConstructionSound_get, _DatFile.Building_ConstructionSound_set)
+    WwiseTransformSoundID = property(_DatFile.Building_WwiseTransformSoundID_get, _DatFile.Building_WwiseTransformSoundID_set)
+    WwiseConstructionSoundID = property(_DatFile.Building_WwiseConstructionSoundID_get, _DatFile.Building_WwiseConstructionSoundID_set)
+    GarrisonType = property(_DatFile.Building_GarrisonType_get, _DatFile.Building_GarrisonType_set)
+    GarrisonHealRate = property(_DatFile.Building_GarrisonHealRate_get, _DatFile.Building_GarrisonHealRate_set)
+    GarrisonRepairRate = property(_DatFile.Building_GarrisonRepairRate_get, _DatFile.Building_GarrisonRepairRate_set)
+    PileUnit = property(_DatFile.Building_PileUnit_get, _DatFile.Building_PileUnit_set)
+    LOOTABLE_RES_COUNT = _DatFile.Building_LOOTABLE_RES_COUNT
+    LootingTable = property(_DatFile.Building_LootingTable_get, _DatFile.Building_LootingTable_set)
+
+# Register Building in _DatFile:
+_DatFile.Building_swigregister(Building)
+
+class Creatable(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.Creatable_swiginit(self, _DatFile.new_Creatable())
+    __swig_destroy__ = _DatFile.delete_Creatable
+
+    def setGameVersion(self, gv):
+        return _DatFile.Creatable_setGameVersion(self, gv)
+
+    @staticmethod
+    def getResourceCostsSize():
+        return _DatFile.Creatable_getResourceCostsSize()
+    ResourceCosts = property(_DatFile.Creatable_ResourceCosts_get, _DatFile.Creatable_ResourceCosts_set)
+    TrainTime = property(_DatFile.Creatable_TrainTime_get, _DatFile.Creatable_TrainTime_set)
+    TrainLocationID = property(_DatFile.Creatable_TrainLocationID_get, _DatFile.Creatable_TrainLocationID_set)
+    ButtonID = property(_DatFile.Creatable_ButtonID_get, _DatFile.Creatable_ButtonID_set)
+    RearAttackModifier = property(_DatFile.Creatable_RearAttackModifier_get, _DatFile.Creatable_RearAttackModifier_set)
+    FlankAttackModifier = property(_DatFile.Creatable_FlankAttackModifier_get, _DatFile.Creatable_FlankAttackModifier_set)
+    CreatableType = property(_DatFile.Creatable_CreatableType_get, _DatFile.Creatable_CreatableType_set)
+    HeroMode = property(_DatFile.Creatable_HeroMode_get, _DatFile.Creatable_HeroMode_set)
+    GarrisonGraphic = property(_DatFile.Creatable_GarrisonGraphic_get, _DatFile.Creatable_GarrisonGraphic_set)
+    TotalProjectiles = property(_DatFile.Creatable_TotalProjectiles_get, _DatFile.Creatable_TotalProjectiles_set)
+    MaxTotalProjectiles = property(_DatFile.Creatable_MaxTotalProjectiles_get, _DatFile.Creatable_MaxTotalProjectiles_set)
+    ProjectileSpawningArea = property(_DatFile.Creatable_ProjectileSpawningArea_get, _DatFile.Creatable_ProjectileSpawningArea_set)
+    SecondaryProjectileUnit = property(_DatFile.Creatable_SecondaryProjectileUnit_get, _DatFile.Creatable_SecondaryProjectileUnit_set)
+    SpecialGraphic = property(_DatFile.Creatable_SpecialGraphic_get, _DatFile.Creatable_SpecialGraphic_set)
+    SpecialAbility = property(_DatFile.Creatable_SpecialAbility_get, _DatFile.Creatable_SpecialAbility_set)
+    DisplayedPierceArmour = property(_DatFile.Creatable_DisplayedPierceArmour_get, _DatFile.Creatable_DisplayedPierceArmour_set)
+    SpawningGraphic = property(_DatFile.Creatable_SpawningGraphic_get, _DatFile.Creatable_SpawningGraphic_set)
+    UpgradeGraphic = property(_DatFile.Creatable_UpgradeGraphic_get, _DatFile.Creatable_UpgradeGraphic_set)
+
+# Register Creatable in _DatFile:
+_DatFile.Creatable_swigregister(Creatable)
+
+def Creatable_getResourceCostsSize():
+    return _DatFile.Creatable_getResourceCostsSize()
+
+class DamageGraphic(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.DamageGraphic_swiginit(self, _DatFile.new_DamageGraphic())
+    __swig_destroy__ = _DatFile.delete_DamageGraphic
+
+    def setGameVersion(self, gv):
+        return _DatFile.DamageGraphic_setGameVersion(self, gv)
+    GraphicID = property(_DatFile.DamageGraphic_GraphicID_get, _DatFile.DamageGraphic_GraphicID_set)
+    DamagePercent = property(_DatFile.DamageGraphic_DamagePercent_get, _DatFile.DamageGraphic_DamagePercent_set)
+    OldApplyMode = property(_DatFile.DamageGraphic_OldApplyMode_get, _DatFile.DamageGraphic_OldApplyMode_set)
+    ApplyMode = property(_DatFile.DamageGraphic_ApplyMode_get, _DatFile.DamageGraphic_ApplyMode_set)
+
+# Register DamageGraphic in _DatFile:
+_DatFile.DamageGraphic_swigregister(DamageGraphic)
+
+class DeadFish(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.DeadFish_swiginit(self, _DatFile.new_DeadFish())
+    __swig_destroy__ = _DatFile.delete_DeadFish
+
+    def setGameVersion(self, gv):
+        return _DatFile.DeadFish_setGameVersion(self, gv)
+    WalkingGraphic = property(_DatFile.DeadFish_WalkingGraphic_get, _DatFile.DeadFish_WalkingGraphic_set)
+    RunningGraphic = property(_DatFile.DeadFish_RunningGraphic_get, _DatFile.DeadFish_RunningGraphic_set)
+    RotationSpeed = property(_DatFile.DeadFish_RotationSpeed_get, _DatFile.DeadFish_RotationSpeed_set)
+    OldSizeClass = property(_DatFile.DeadFish_OldSizeClass_get, _DatFile.DeadFish_OldSizeClass_set)
+    TrackingUnit = property(_DatFile.DeadFish_TrackingUnit_get, _DatFile.DeadFish_TrackingUnit_set)
+    TrackingUnitMode = property(_DatFile.DeadFish_TrackingUnitMode_get, _DatFile.DeadFish_TrackingUnitMode_set)
+    TrackingUnitDensity = property(_DatFile.DeadFish_TrackingUnitDensity_get, _DatFile.DeadFish_TrackingUnitDensity_set)
+    OldMoveAlgorithm = property(_DatFile.DeadFish_OldMoveAlgorithm_get, _DatFile.DeadFish_OldMoveAlgorithm_set)
+    TurnRadius = property(_DatFile.DeadFish_TurnRadius_get, _DatFile.DeadFish_TurnRadius_set)
+    TurnRadiusSpeed = property(_DatFile.DeadFish_TurnRadiusSpeed_get, _DatFile.DeadFish_TurnRadiusSpeed_set)
+    MaxYawPerSecondMoving = property(_DatFile.DeadFish_MaxYawPerSecondMoving_get, _DatFile.DeadFish_MaxYawPerSecondMoving_set)
+    StationaryYawRevolutionTime = property(_DatFile.DeadFish_StationaryYawRevolutionTime_get, _DatFile.DeadFish_StationaryYawRevolutionTime_set)
+    MaxYawPerSecondStationary = property(_DatFile.DeadFish_MaxYawPerSecondStationary_get, _DatFile.DeadFish_MaxYawPerSecondStationary_set)
+    MinCollisionSizeMultiplier = property(_DatFile.DeadFish_MinCollisionSizeMultiplier_get, _DatFile.DeadFish_MinCollisionSizeMultiplier_set)
+
+# Register DeadFish in _DatFile:
+_DatFile.DeadFish_swigregister(DeadFish)
+
+class Projectile(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.Projectile_swiginit(self, _DatFile.new_Projectile())
+    __swig_destroy__ = _DatFile.delete_Projectile
+
+    def setGameVersion(self, gv):
+        return _DatFile.Projectile_setGameVersion(self, gv)
+    ProjectileType = property(_DatFile.Projectile_ProjectileType_get, _DatFile.Projectile_ProjectileType_set)
+    SmartMode = property(_DatFile.Projectile_SmartMode_get, _DatFile.Projectile_SmartMode_set)
+    HitMode = property(_DatFile.Projectile_HitMode_get, _DatFile.Projectile_HitMode_set)
+    VanishMode = property(_DatFile.Projectile_VanishMode_get, _DatFile.Projectile_VanishMode_set)
+    AreaEffectSpecials = property(_DatFile.Projectile_AreaEffectSpecials_get, _DatFile.Projectile_AreaEffectSpecials_set)
+    ProjectileArc = property(_DatFile.Projectile_ProjectileArc_get, _DatFile.Projectile_ProjectileArc_set)
+
+# Register Projectile in _DatFile:
+_DatFile.Projectile_swigregister(Projectile)
+
+class Type50(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.Type50_swiginit(self, _DatFile.new_Type50())
+    __swig_destroy__ = _DatFile.delete_Type50
+
+    def setGameVersion(self, gv):
+        return _DatFile.Type50_setGameVersion(self, gv)
+    BaseArmor = property(_DatFile.Type50_BaseArmor_get, _DatFile.Type50_BaseArmor_set)
+    Attacks = property(_DatFile.Type50_Attacks_get, _DatFile.Type50_Attacks_set)
+    Armours = property(_DatFile.Type50_Armours_get, _DatFile.Type50_Armours_set)
+    DefenseTerrainBonus = property(_DatFile.Type50_DefenseTerrainBonus_get, _DatFile.Type50_DefenseTerrainBonus_set)
+    MaxRange = property(_DatFile.Type50_MaxRange_get, _DatFile.Type50_MaxRange_set)
+    BlastWidth = property(_DatFile.Type50_BlastWidth_get, _DatFile.Type50_BlastWidth_set)
+    ReloadTime = property(_DatFile.Type50_ReloadTime_get, _DatFile.Type50_ReloadTime_set)
+    ProjectileUnitID = property(_DatFile.Type50_ProjectileUnitID_get, _DatFile.Type50_ProjectileUnitID_set)
+    AccuracyPercent = property(_DatFile.Type50_AccuracyPercent_get, _DatFile.Type50_AccuracyPercent_set)
+    BreakOffCombat = property(_DatFile.Type50_BreakOffCombat_get, _DatFile.Type50_BreakOffCombat_set)
+    FrameDelay = property(_DatFile.Type50_FrameDelay_get, _DatFile.Type50_FrameDelay_set)
+    GraphicDisplacement = property(_DatFile.Type50_GraphicDisplacement_get, _DatFile.Type50_GraphicDisplacement_set)
+    BlastAttackLevel = property(_DatFile.Type50_BlastAttackLevel_get, _DatFile.Type50_BlastAttackLevel_set)
+    MinRange = property(_DatFile.Type50_MinRange_get, _DatFile.Type50_MinRange_set)
+    AccuracyDispersion = property(_DatFile.Type50_AccuracyDispersion_get, _DatFile.Type50_AccuracyDispersion_set)
+    AttackGraphic = property(_DatFile.Type50_AttackGraphic_get, _DatFile.Type50_AttackGraphic_set)
+    DisplayedMeleeArmour = property(_DatFile.Type50_DisplayedMeleeArmour_get, _DatFile.Type50_DisplayedMeleeArmour_set)
+    DisplayedAttack = property(_DatFile.Type50_DisplayedAttack_get, _DatFile.Type50_DisplayedAttack_set)
+    DisplayedRange = property(_DatFile.Type50_DisplayedRange_get, _DatFile.Type50_DisplayedRange_set)
+    DisplayedReloadTime = property(_DatFile.Type50_DisplayedReloadTime_get, _DatFile.Type50_DisplayedReloadTime_set)
+
+# Register Type50 in _DatFile:
+_DatFile.Type50_swigregister(Type50)
+
 UT_EyeCandy = _DatFile.UT_EyeCandy
 UT_Trees = _DatFile.UT_Trees
 UT_Flag = _DatFile.UT_Flag

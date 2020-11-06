@@ -1,11 +1,14 @@
 # Copyright 2019-2020 the openage authors. See copying.md for legal info.
+
 import logging
 from collections import namedtuple
 from enum import IntEnum
 from struct import Struct
 
 import numpy
+from PIL import Image
 
+from GenieUtils.colors import PaletteConfig
 
 logger = logging.getLogger(__name__)
 
@@ -32,22 +35,12 @@ dbg = logger.debug
 spam = logger.info
 
 
-# SMX uses SMP pixel tytes
-# cdef enum pixel_type:
-#    color_standard      # standard pixel
-#    color_shadow        # shadow pixel
-#    color_transparent   # transparent pixel
-#    color_player        # non-outline player color pixel
-#    color_outline       # player color outline pixel
+def image_from_smx(path, palette_config: PaletteConfig, frame_number=0) -> Image:
+    smx = SMX.from_file(path)
+    frame = smx.main_frames[frame_number]
+    picture_data = frame.get_picture_data(palette_config.get_palette(frame.get_palette_number()))
 
-
-# One uncompressed SMP pixel.
-# cdef struct pixel:
-#    pixel_type type
-#    c_uint8 index               # index in a palette section
-#    c_uint8 palette             # palette number and palette section
-#    c_uint8 damage_modifier_1   # modifier for damage (part 1)
-#    c_uint8 damage_modifier_2   # modifier for damage (part 2)
+    return Image.fromarray(picture_data, "RGBA")
 
 
 class SMX:
@@ -180,6 +173,11 @@ class SMX:
 
                 elif layer_type == "outline":
                     self.outline_frames.append(SMXOutlineLayer(layer_header, data))
+
+    @classmethod
+    def from_file(cls, path):
+        with open(path, "rb") as file:
+            return cls(file.read())
 
     def __str__(self):
         ret = list()
@@ -398,14 +396,14 @@ class SMXLayer:
         """
         raise NotImplementedError
 
-    def get_byte_at(self, offset):
-        """
-        Fetch a byte from the SMX.
-
-        :param offset: Offset of the byte in the file.
-        :return: Byte value at offset.
-        """
-        return self.data_raw[offset]
+    # def get_byte_at(self, offset):
+    #     """
+    #     Fetch a byte from the SMX.
+    #
+    #     :param offset: Offset of the byte in the file.
+    #     :return: Byte value at offset.
+    #     """
+    #     return self.data_raw[offset]
 
     def get_picture_data(self, palette):
         """
@@ -460,7 +458,7 @@ class SMXMainLayer8to5(SMXLayer):
         dpos_color = first_color_offset
 
         # Position in the compression chunk.
-        odd = chunk_pos
+        odd = bool(chunk_pos)
 
         # is the end of the current row reached?
         eor = False
@@ -487,7 +485,7 @@ class SMXMainLayer8to5(SMXLayer):
                 )
 
             # fetch drawing instruction
-            cmd = self.get_byte_at(dpos_cmd)
+            cmd = self.data_raw[dpos_cmd]
 
             # Last 2 bits store command type
             lower_crumb = 0b00000011 & cmd
@@ -527,17 +525,17 @@ class SMXMainLayer8to5(SMXLayer):
 
                         # Palette index. Essentially a rotation of (byte[1]byte[2])
                         # by 6 to the left, then masking with 0x00FF.
-                        pixel_data_odd_0 = self.get_byte_at(dpos_color + 1)
-                        pixel_data_odd_1 = self.get_byte_at(dpos_color + 2)
-                        pixel_data.append((pixel_data_odd_0 >> 2) | (pixel_data_odd_1 << 6))
+                        pixel_data_odd_0 = self.data_raw[dpos_color + 1]
+                        pixel_data_odd_1 = self.data_raw[dpos_color + 2]
+                        pixel_data.append(((pixel_data_odd_0 >> 2) | (pixel_data_odd_1 << 6)) & 0xFF)
 
                         # Palette section. Described in byte[2] in bits 4-5.
                         pixel_data.append((pixel_data_odd_1 >> 2) & 0x03)
 
                         # Damage mask 1. Essentially a rotation of (byte[3]byte[4])
                         # by 6 to the left, then masking with 0x00F0.
-                        pixel_data_odd_2 = self.get_byte_at(dpos_color + 3)
-                        pixel_data_odd_3 = self.get_byte_at(dpos_color + 4)
+                        pixel_data_odd_2 = self.data_raw[dpos_color + 3]
+                        pixel_data_odd_3 = self.data_raw[dpos_color + 4]
                         pixel_data.append(((pixel_data_odd_2 >> 2) | (pixel_data_odd_3 << 6)) & 0xF0)
 
                         # Damage mask 2. Described in byte[4] in bits 0-5.
@@ -555,7 +553,7 @@ class SMXMainLayer8to5(SMXLayer):
                     else:
                         # Even indices can be read "as is". They just have to be masked.
                         for px_dpos in range(4):
-                            pixel_data.append(self.get_byte_at(dpos_color + px_dpos))
+                            pixel_data.append(self.data_raw[dpos_color + px_dpos] & 0xFF)
 
                         row_data.append(pixel(PixelType.STANDARD,
                                                  pixel_data[0],
@@ -584,17 +582,17 @@ class SMXMainLayer8to5(SMXLayer):
 
                         # Palette index. Essentially a rotation of (byte[1]byte[2])
                         # by 6 to the left, then masking with 0x00FF.
-                        pixel_data_odd_0 = self.get_byte_at(dpos_color + 1)
-                        pixel_data_odd_1 = self.get_byte_at(dpos_color + 2)
-                        pixel_data.append((pixel_data_odd_0 >> 2) | (pixel_data_odd_1 << 6))
+                        pixel_data_odd_0 = self.data_raw[dpos_color + 1]
+                        pixel_data_odd_1 = self.data_raw[dpos_color + 2]
+                        pixel_data.append(((pixel_data_odd_0 >> 2) | (pixel_data_odd_1 << 6)) & 0xFF)
 
                         # Palette section. Described in byte[2] in bits 4-5.
                         pixel_data.append((pixel_data_odd_1 >> 2) & 0x03)
 
                         # Damage modifier 1. Essentially a rotation of (byte[3]byte[4])
                         # by 6 to the left, then masking with 0x00F0.
-                        pixel_data_odd_2 = self.get_byte_at(dpos_color + 3)
-                        pixel_data_odd_3 = self.get_byte_at(dpos_color + 4)
+                        pixel_data_odd_2 = self.data_raw[dpos_color + 3]
+                        pixel_data_odd_3 = self.data_raw[dpos_color + 4]
                         pixel_data.append(((pixel_data_odd_2 >> 2) | (pixel_data_odd_3 << 6)) & 0xF0)
 
                         # Damage modifier 2. Described in byte[4] in bits 0-5.
@@ -612,7 +610,7 @@ class SMXMainLayer8to5(SMXLayer):
                     else:
                         # Even indices can be read "as is". They just have to be masked.
                         for px_dpos in range(4):
-                            pixel_data.append(self.get_byte_at(dpos_color + px_dpos))
+                            pixel_data.append(self.data_raw[dpos_color + px_dpos] & 0xFF)
 
                         row_data.append(pixel(PixelType.PLAYER,
                                                  pixel_data[0],
@@ -675,7 +673,7 @@ class SMXMainLayer4plus1(SMXLayer):
                 )
 
             # fetch drawing instruction
-            cmd = self.get_byte_at(dpos_cmd)
+            cmd = self.data_raw[dpos_cmd]
 
             # Last 2 bits store command type
             lower_crumb = 0b00000011 & cmd
@@ -707,13 +705,13 @@ class SMXMainLayer4plus1(SMXLayer):
 
                 pixel_count = (cmd >> 2) + 1
 
-                palette_section_block = self.get_byte_at(dpos_color + (4 - dpos_chunk))
+                palette_section_block = self.data_raw[dpos_color + (4 - dpos_chunk)]
 
                 for _ in range(pixel_count):
                     # Start fetching pixel data
                     palette_section = (palette_section_block >> (2 * dpos_chunk)) & 0x03
                     row_data.append(pixel(PixelType.STANDARD,
-                                             self.get_byte_at(dpos_color),
+                                             self.data_raw[dpos_color],
                                              palette_section,
                                              0,
                                              0))
@@ -725,7 +723,7 @@ class SMXMainLayer4plus1(SMXLayer):
                     if dpos_chunk > 3:
                         dpos_chunk = 0
                         dpos_color += 1 # Skip palette section block
-                        palette_section_block = self.get_byte_at(dpos_color + 4)
+                        palette_section_block = self.data_raw[dpos_color + 4]
 
             elif lower_crumb == 0b00000010:
                 # player_color command
@@ -741,7 +739,7 @@ class SMXMainLayer4plus1(SMXLayer):
                     # Start fetching pixel data
                     palette_section = (palette_section_block >> (2 * dpos_chunk)) & 0x03
                     row_data.append(pixel(PixelType.PLAYER,
-                                             self.get_byte_at(dpos_color),
+                                             self.data_raw[dpos_color],
                                              palette_section,
                                              0,
                                              0))
@@ -753,7 +751,7 @@ class SMXMainLayer4plus1(SMXLayer):
                     if dpos_chunk > 3:
                         dpos_chunk = 0
                         dpos_color += 1 # Skip palette section block
-                        palette_section_block = self.get_byte_at(dpos_color + 4)
+                        palette_section_block = self.data_raw[dpos_color + 4]
 
             else:
                 raise Exception(
@@ -801,7 +799,7 @@ class SMXShadowLayer(SMXLayer):
                 )
 
             # fetch drawing instruction
-            cmd = self.get_byte_at(dpos)
+            cmd = self.data_raw[dpos]
 
             # Last 2 bits store command type
             lower_crumb = 0b00000011 & cmd
@@ -844,7 +842,7 @@ class SMXShadowLayer(SMXLayer):
 
                 for _ in range(pixel_count):
                     dpos += 1
-                    nextbyte = self.get_byte_at(dpos)
+                    nextbyte = self.data_raw[dpos]
 
                     row_data.append(pixel(PixelType.SHADOW,
                                              nextbyte, 0, 0, 0))
@@ -894,7 +892,7 @@ class SMXOutlineLayer(SMXLayer):
                 )
 
             # fetch drawing instruction
-            cmd = self.get_byte_at(dpos)
+            cmd = self.data_raw[dpos]
 
             # Last 2 bits store command type
             lower_crumb = 0b00000011 & cmd
@@ -959,9 +957,6 @@ def determine_rgba_matrix(image_matrix, palette):
 
     array_data = numpy.zeros((height, width, 4), dtype=numpy.uint8)
 
-    # micro optimization to avoid call to ColorTable.__getitem__()
-    m_lookup = palette.palette
-
     # cdef c_uint8 r
     # cdef c_uint8 g
     # cdef c_uint8 b
@@ -1001,7 +996,7 @@ def determine_rgba_matrix(image_matrix, palette):
 
                 # look up the color index in the
                 # main graphics table
-                r, g, b, alpha = m_lookup[index]
+                r, g, b, alpha = palette[index]
 
                 # alpha values are unused
                 # in 0x0C and 0x0B version of SMPs
