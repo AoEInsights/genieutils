@@ -2692,79 +2692,85 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 
 /* -------- TYPES TABLE (BEGIN) -------- */
 
-#define SWIGTYPE_p_GameVersion swig_types[0]
+#define SWIGTYPE_p_ResearchResourceCost swig_types[0]
 #define SWIGTYPE_p_ResourceCost swig_types[1]
 #define SWIGTYPE_p_ResourceStorage swig_types[2]
-#define SWIGTYPE_p_XYZF swig_types[3]
-#define SWIGTYPE_p_allocator_type swig_types[4]
-#define SWIGTYPE_p_char swig_types[5]
-#define SWIGTYPE_p_difference_type swig_types[6]
-#define SWIGTYPE_p_first_type swig_types[7]
-#define SWIGTYPE_p_genie__Civ swig_types[8]
-#define SWIGTYPE_p_genie__DatFile swig_types[9]
-#define SWIGTYPE_p_genie__Graphic swig_types[10]
-#define SWIGTYPE_p_genie__IFile swig_types[11]
-#define SWIGTYPE_p_genie__ISerializable swig_types[12]
-#define SWIGTYPE_p_genie__RandomMaps swig_types[13]
-#define SWIGTYPE_p_genie__TechTree swig_types[14]
-#define SWIGTYPE_p_genie__TerrainBlock swig_types[15]
-#define SWIGTYPE_p_genie__Unit swig_types[16]
-#define SWIGTYPE_p_genie__XYZF swig_types[17]
-#define SWIGTYPE_p_genie__unit__AttackOrArmor swig_types[18]
-#define SWIGTYPE_p_genie__unit__Bird swig_types[19]
-#define SWIGTYPE_p_genie__unit__Building swig_types[20]
-#define SWIGTYPE_p_genie__unit__BuildingAnnex swig_types[21]
-#define SWIGTYPE_p_genie__unit__Creatable swig_types[22]
-#define SWIGTYPE_p_genie__unit__DamageGraphic swig_types[23]
-#define SWIGTYPE_p_genie__unit__DeadFish swig_types[24]
-#define SWIGTYPE_p_genie__unit__Projectile swig_types[25]
-#define SWIGTYPE_p_genie__unit__Type50 swig_types[26]
-#define SWIGTYPE_p_int swig_types[27]
-#define SWIGTYPE_p_long_long swig_types[28]
-#define SWIGTYPE_p_p_PyObject swig_types[29]
-#define SWIGTYPE_p_second_type swig_types[30]
-#define SWIGTYPE_p_short swig_types[31]
-#define SWIGTYPE_p_signed_char swig_types[32]
-#define SWIGTYPE_p_size_type swig_types[33]
-#define SWIGTYPE_p_std__allocatorT_genie__Civ_t swig_types[34]
-#define SWIGTYPE_p_std__allocatorT_genie__Graphic_t swig_types[35]
-#define SWIGTYPE_p_std__allocatorT_genie__Unit_t swig_types[36]
-#define SWIGTYPE_p_std__invalid_argument swig_types[37]
-#define SWIGTYPE_p_std__istream swig_types[38]
-#define SWIGTYPE_p_std__ostream swig_types[39]
-#define SWIGTYPE_p_std__pairT_float_float_t swig_types[40]
-#define SWIGTYPE_p_std__pairT_short_short_t swig_types[41]
-#define SWIGTYPE_p_std__streampos swig_types[42]
-#define SWIGTYPE_p_std__vectorT_Effect_std__allocatorT_Effect_t_t swig_types[43]
-#define SWIGTYPE_p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t swig_types[44]
-#define SWIGTYPE_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t swig_types[45]
-#define SWIGTYPE_p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t swig_types[46]
-#define SWIGTYPE_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t swig_types[47]
-#define SWIGTYPE_p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t swig_types[48]
-#define SWIGTYPE_p_std__vectorT_Sound_std__allocatorT_Sound_t_t swig_types[49]
-#define SWIGTYPE_p_std__vectorT_Task_std__allocatorT_Task_t_t swig_types[50]
-#define SWIGTYPE_p_std__vectorT_Tech_std__allocatorT_Tech_t_t swig_types[51]
-#define SWIGTYPE_p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t swig_types[52]
-#define SWIGTYPE_p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t swig_types[53]
-#define SWIGTYPE_p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t swig_types[54]
-#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[55]
-#define SWIGTYPE_p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t swig_types[56]
-#define SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t swig_types[57]
-#define SWIGTYPE_p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t swig_types[58]
-#define SWIGTYPE_p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t swig_types[59]
-#define SWIGTYPE_p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t swig_types[60]
-#define SWIGTYPE_p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t swig_types[61]
-#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[62]
-#define SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t swig_types[63]
-#define SWIGTYPE_p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t swig_types[64]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[65]
-#define SWIGTYPE_p_unsigned_char swig_types[66]
-#define SWIGTYPE_p_unsigned_int swig_types[67]
-#define SWIGTYPE_p_unsigned_long_long swig_types[68]
-#define SWIGTYPE_p_unsigned_short swig_types[69]
-#define SWIGTYPE_p_value_type swig_types[70]
-static swig_type_info *swig_types[72];
-static swig_module_info swig_module = {swig_types, 71, 0, 0, 0, 0};
+#define SWIGTYPE_p_allocator_type swig_types[3]
+#define SWIGTYPE_p_char swig_types[4]
+#define SWIGTYPE_p_difference_type swig_types[5]
+#define SWIGTYPE_p_first_type swig_types[6]
+#define SWIGTYPE_p_genie__Civ swig_types[7]
+#define SWIGTYPE_p_genie__DatFile swig_types[8]
+#define SWIGTYPE_p_genie__Graphic swig_types[9]
+#define SWIGTYPE_p_genie__IFile swig_types[10]
+#define SWIGTYPE_p_genie__ISerializable swig_types[11]
+#define SWIGTYPE_p_genie__RandomMaps swig_types[12]
+#define SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t swig_types[13]
+#define SWIGTYPE_p_genie__Tech swig_types[14]
+#define SWIGTYPE_p_genie__TechTree swig_types[15]
+#define SWIGTYPE_p_genie__TerrainBlock swig_types[16]
+#define SWIGTYPE_p_genie__Unit swig_types[17]
+#define SWIGTYPE_p_genie__UnitLine swig_types[18]
+#define SWIGTYPE_p_genie__XYZF swig_types[19]
+#define SWIGTYPE_p_genie__unit__AttackOrArmor swig_types[20]
+#define SWIGTYPE_p_genie__unit__Bird swig_types[21]
+#define SWIGTYPE_p_genie__unit__Building swig_types[22]
+#define SWIGTYPE_p_genie__unit__BuildingAnnex swig_types[23]
+#define SWIGTYPE_p_genie__unit__Creatable swig_types[24]
+#define SWIGTYPE_p_genie__unit__DamageGraphic swig_types[25]
+#define SWIGTYPE_p_genie__unit__DeadFish swig_types[26]
+#define SWIGTYPE_p_genie__unit__Projectile swig_types[27]
+#define SWIGTYPE_p_genie__unit__Type50 swig_types[28]
+#define SWIGTYPE_p_int swig_types[29]
+#define SWIGTYPE_p_long_long swig_types[30]
+#define SWIGTYPE_p_p_PyObject swig_types[31]
+#define SWIGTYPE_p_second_type swig_types[32]
+#define SWIGTYPE_p_short swig_types[33]
+#define SWIGTYPE_p_signed_char swig_types[34]
+#define SWIGTYPE_p_size_type swig_types[35]
+#define SWIGTYPE_p_std__allocatorT_genie__Civ_t swig_types[36]
+#define SWIGTYPE_p_std__allocatorT_genie__Graphic_t swig_types[37]
+#define SWIGTYPE_p_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t swig_types[38]
+#define SWIGTYPE_p_std__allocatorT_genie__Tech_t swig_types[39]
+#define SWIGTYPE_p_std__allocatorT_genie__UnitLine_t swig_types[40]
+#define SWIGTYPE_p_std__allocatorT_genie__Unit_t swig_types[41]
+#define SWIGTYPE_p_std__invalid_argument swig_types[42]
+#define SWIGTYPE_p_std__istream swig_types[43]
+#define SWIGTYPE_p_std__ostream swig_types[44]
+#define SWIGTYPE_p_std__pairT_float_float_t swig_types[45]
+#define SWIGTYPE_p_std__pairT_short_short_t swig_types[46]
+#define SWIGTYPE_p_std__streampos swig_types[47]
+#define SWIGTYPE_p_std__vectorT_Effect_std__allocatorT_Effect_t_t swig_types[48]
+#define SWIGTYPE_p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t swig_types[49]
+#define SWIGTYPE_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t swig_types[50]
+#define SWIGTYPE_p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t swig_types[51]
+#define SWIGTYPE_p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t swig_types[52]
+#define SWIGTYPE_p_std__vectorT_Sound_std__allocatorT_Sound_t_t swig_types[53]
+#define SWIGTYPE_p_std__vectorT_Task_std__allocatorT_Task_t_t swig_types[54]
+#define SWIGTYPE_p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t swig_types[55]
+#define SWIGTYPE_p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t swig_types[56]
+#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[57]
+#define SWIGTYPE_p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t swig_types[58]
+#define SWIGTYPE_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t swig_types[59]
+#define SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t swig_types[60]
+#define SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_short_float_signed_char_t_std__allocatorT_genie__ResourceUsageT_short_float_signed_char_t_t_t swig_types[61]
+#define SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t swig_types[62]
+#define SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t swig_types[63]
+#define SWIGTYPE_p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t swig_types[64]
+#define SWIGTYPE_p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t swig_types[65]
+#define SWIGTYPE_p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t swig_types[66]
+#define SWIGTYPE_p_std__vectorT_genie__unit__DamageGraphic_std__allocatorT_genie__unit__DamageGraphic_t_t swig_types[67]
+#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[68]
+#define SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t swig_types[69]
+#define SWIGTYPE_p_std__vectorT_signed_char_std__allocatorT_signed_char_t_t swig_types[70]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[71]
+#define SWIGTYPE_p_unsigned_char swig_types[72]
+#define SWIGTYPE_p_unsigned_int swig_types[73]
+#define SWIGTYPE_p_unsigned_long_long swig_types[74]
+#define SWIGTYPE_p_unsigned_short swig_types[75]
+#define SWIGTYPE_p_value_type swig_types[76]
+static swig_type_info *swig_types[78];
+static swig_module_info swig_module = {swig_types, 77, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3382,6 +3388,7 @@ SWIG_AsVal_ptrdiff_t (PyObject * obj, ptrdiff_t *val)
 #include <utility>
 
 
+#include "var/genieutils/include/genie/Types.h"
 #include "var/genieutils/include/genie/dat/Graphic.h"
 #include "var/genieutils/include/genie/dat/Unit.h"
 #include "var/genieutils/include/genie/dat/DatFile.h"
@@ -3389,37 +3396,26 @@ SWIG_AsVal_ptrdiff_t (PyObject * obj, ptrdiff_t *val)
 using namespace genie;
 
 
-SWIGINTERNINLINE PyObject* 
-SWIG_From_unsigned_SS_long  (unsigned long value)
+SWIGINTERNINLINE PyObject*
+  SWIG_From_int  (int value)
 {
-  return (value > LONG_MAX) ?
-    PyLong_FromUnsignedLong(value) : PyInt_FromLong(static_cast< long >(value));
+  return PyInt_FromLong((long) value);
 }
 
 
-#ifdef SWIG_LONG_LONG_AVAILABLE
-SWIGINTERNINLINE PyObject* 
-SWIG_From_unsigned_SS_long_SS_long  (unsigned long long value)
+SWIGINTERN int
+SWIG_AsVal_int (PyObject * obj, int *val)
 {
-  return (value > LONG_MAX) ?
-    PyLong_FromUnsignedLongLong(value) : PyInt_FromLong(static_cast< long >(value));
-}
-#endif
-
-
-SWIGINTERNINLINE PyObject *
-SWIG_From_size_t  (size_t value)
-{    
-#ifdef SWIG_LONG_LONG_AVAILABLE
-  if (sizeof(size_t) <= sizeof(unsigned long)) {
-#endif
-    return SWIG_From_unsigned_SS_long  (static_cast< unsigned long >(value));
-#ifdef SWIG_LONG_LONG_AVAILABLE
-  } else {
-    /* assume sizeof(size_t) <= sizeof(unsigned long long) */
-    return SWIG_From_unsigned_SS_long_SS_long  (static_cast< unsigned long long >(value));
-  }
-#endif
+  long v;
+  int res = SWIG_AsVal_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v < INT_MIN || v > INT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< int >(v);
+    }
+  }  
+  return res;
 }
 
 
@@ -3490,6 +3486,40 @@ SWIGINTERNINLINE PyObject *
 SWIG_From_float  (float value)
 {    
   return SWIG_From_double  (value);
+}
+
+
+SWIGINTERNINLINE PyObject* 
+SWIG_From_unsigned_SS_long  (unsigned long value)
+{
+  return (value > LONG_MAX) ?
+    PyLong_FromUnsignedLong(value) : PyInt_FromLong(static_cast< long >(value));
+}
+
+
+#ifdef SWIG_LONG_LONG_AVAILABLE
+SWIGINTERNINLINE PyObject* 
+SWIG_From_unsigned_SS_long_SS_long  (unsigned long long value)
+{
+  return (value > LONG_MAX) ?
+    PyLong_FromUnsignedLongLong(value) : PyInt_FromLong(static_cast< long >(value));
+}
+#endif
+
+
+SWIGINTERNINLINE PyObject *
+SWIG_From_size_t  (size_t value)
+{    
+#ifdef SWIG_LONG_LONG_AVAILABLE
+  if (sizeof(size_t) <= sizeof(unsigned long)) {
+#endif
+    return SWIG_From_unsigned_SS_long  (static_cast< unsigned long >(value));
+#ifdef SWIG_LONG_LONG_AVAILABLE
+  } else {
+    /* assume sizeof(size_t) <= sizeof(unsigned long long) */
+    return SWIG_From_unsigned_SS_long_SS_long  (static_cast< unsigned long long >(value));
+  }
+#endif
 }
 
 
@@ -3698,29 +3728,6 @@ SWIG_AsVal_unsigned_SS_short (PyObject * obj, unsigned short *val)
     }
   }  
   return res;
-}
-
-
-SWIGINTERN int
-SWIG_AsVal_int (PyObject * obj, int *val)
-{
-  long v;
-  int res = SWIG_AsVal_long (obj, &v);
-  if (SWIG_IsOK(res)) {
-    if ((v < INT_MIN || v > INT_MAX)) {
-      return SWIG_OverflowError;
-    } else {
-      if (val) *val = static_cast< int >(v);
-    }
-  }  
-  return res;
-}
-
-
-SWIGINTERNINLINE PyObject*
-  SWIG_From_int  (int value)
-{
-  return PyInt_FromLong((long) value);
 }
 
 
@@ -5367,6 +5374,333 @@ SWIGINTERN std::vector< genie::Graphic >::iterator std_vector_Sl_genie_Graphic_S
 SWIGINTERN std::vector< genie::Graphic >::iterator std_vector_Sl_genie_Graphic_Sg__insert__SWIG_0(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::iterator pos,std::vector< genie::Graphic >::value_type const &x){ return self->insert(pos, x); }
 SWIGINTERN void std_vector_Sl_genie_Graphic_Sg__insert__SWIG_1(std::vector< genie::Graphic > *self,std::vector< genie::Graphic >::iterator pos,std::vector< genie::Graphic >::size_type n,std::vector< genie::Graphic >::value_type const &x){ self->insert(pos, n, x); }
 
+  namespace swig {
+    template <>  struct traits< genie::Tech > {
+      typedef pointer_category category;
+      static const char* type_name() { return"genie::Tech"; }
+    };
+  }
+
+
+      namespace swig {
+	template <>  struct traits<std::vector< genie::Tech, std::allocator< genie::Tech > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "genie::Tech" "," "std::allocator< genie::Tech >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_genie_Tech_Sg__iterator(std::vector< genie::Tech > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_genie_Tech_Sg____nonzero__(std::vector< genie::Tech > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_genie_Tech_Sg____bool__(std::vector< genie::Tech > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< genie::Tech >::size_type std_vector_Sl_genie_Tech_Sg____len__(std::vector< genie::Tech > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< genie::Tech,std::allocator< genie::Tech > > *std_vector_Sl_genie_Tech_Sg____getslice__(std::vector< genie::Tech > *self,std::vector< genie::Tech >::difference_type i,std::vector< genie::Tech >::difference_type j){
+      return swig::getslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg____setslice____SWIG_0(std::vector< genie::Tech > *self,std::vector< genie::Tech >::difference_type i,std::vector< genie::Tech >::difference_type j){
+      swig::setslice(self, i, j, 1, std::vector< genie::Tech,std::allocator< genie::Tech > >());
+    }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg____setslice____SWIG_1(std::vector< genie::Tech > *self,std::vector< genie::Tech >::difference_type i,std::vector< genie::Tech >::difference_type j,std::vector< genie::Tech,std::allocator< genie::Tech > > const &v){
+      swig::setslice(self, i, j, 1, v);
+    }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg____delslice__(std::vector< genie::Tech > *self,std::vector< genie::Tech >::difference_type i,std::vector< genie::Tech >::difference_type j){
+      swig::delslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg____delitem____SWIG_0(std::vector< genie::Tech > *self,std::vector< genie::Tech >::difference_type i){
+      swig::erase(self, swig::getpos(self, i));
+    }
+SWIGINTERN std::vector< genie::Tech,std::allocator< genie::Tech > > *std_vector_Sl_genie_Tech_Sg____getitem____SWIG_0(std::vector< genie::Tech > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::Tech,std::allocator< genie::Tech > >::difference_type id = i;
+      std::vector< genie::Tech,std::allocator< genie::Tech > >::difference_type jd = j;
+      return swig::getslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg____setitem____SWIG_0(std::vector< genie::Tech > *self,PySliceObject *slice,std::vector< genie::Tech,std::allocator< genie::Tech > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::Tech,std::allocator< genie::Tech > >::difference_type id = i;
+      std::vector< genie::Tech,std::allocator< genie::Tech > >::difference_type jd = j;
+      swig::setslice(self, id, jd, step, v);
+    }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg____setitem____SWIG_1(std::vector< genie::Tech > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::Tech,std::allocator< genie::Tech > >::difference_type id = i;
+      std::vector< genie::Tech,std::allocator< genie::Tech > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg____delitem____SWIG_1(std::vector< genie::Tech > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::Tech,std::allocator< genie::Tech > >::difference_type id = i;
+      std::vector< genie::Tech,std::allocator< genie::Tech > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN std::vector< genie::Tech >::value_type const &std_vector_Sl_genie_Tech_Sg____getitem____SWIG_1(std::vector< genie::Tech > const *self,std::vector< genie::Tech >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg____setitem____SWIG_2(std::vector< genie::Tech > *self,std::vector< genie::Tech >::difference_type i,std::vector< genie::Tech >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN std::vector< genie::Tech >::value_type std_vector_Sl_genie_Tech_Sg__pop(std::vector< genie::Tech > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector< genie::Tech,std::allocator< genie::Tech > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg__append(std::vector< genie::Tech > *self,std::vector< genie::Tech >::value_type const &x){
+      self->push_back(x);
+    }
+SWIGINTERN std::vector< genie::Tech >::iterator std_vector_Sl_genie_Tech_Sg__erase__SWIG_0(std::vector< genie::Tech > *self,std::vector< genie::Tech >::iterator pos){ return self->erase(pos); }
+SWIGINTERN std::vector< genie::Tech >::iterator std_vector_Sl_genie_Tech_Sg__erase__SWIG_1(std::vector< genie::Tech > *self,std::vector< genie::Tech >::iterator first,std::vector< genie::Tech >::iterator last){ return self->erase(first, last); }
+SWIGINTERN std::vector< genie::Tech >::iterator std_vector_Sl_genie_Tech_Sg__insert__SWIG_0(std::vector< genie::Tech > *self,std::vector< genie::Tech >::iterator pos,std::vector< genie::Tech >::value_type const &x){ return self->insert(pos, x); }
+SWIGINTERN void std_vector_Sl_genie_Tech_Sg__insert__SWIG_1(std::vector< genie::Tech > *self,std::vector< genie::Tech >::iterator pos,std::vector< genie::Tech >::size_type n,std::vector< genie::Tech >::value_type const &x){ self->insert(pos, n, x); }
+
+  namespace swig {
+    template <>  struct traits< genie::UnitLine > {
+      typedef pointer_category category;
+      static const char* type_name() { return"genie::UnitLine"; }
+    };
+  }
+
+
+      namespace swig {
+	template <>  struct traits<std::vector< genie::UnitLine, std::allocator< genie::UnitLine > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "genie::UnitLine" "," "std::allocator< genie::UnitLine >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_genie_UnitLine_Sg__iterator(std::vector< genie::UnitLine > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_genie_UnitLine_Sg____nonzero__(std::vector< genie::UnitLine > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_genie_UnitLine_Sg____bool__(std::vector< genie::UnitLine > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< genie::UnitLine >::size_type std_vector_Sl_genie_UnitLine_Sg____len__(std::vector< genie::UnitLine > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *std_vector_Sl_genie_UnitLine_Sg____getslice__(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::difference_type i,std::vector< genie::UnitLine >::difference_type j){
+      return swig::getslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg____setslice____SWIG_0(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::difference_type i,std::vector< genie::UnitLine >::difference_type j){
+      swig::setslice(self, i, j, 1, std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >());
+    }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg____setslice____SWIG_1(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::difference_type i,std::vector< genie::UnitLine >::difference_type j,std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &v){
+      swig::setslice(self, i, j, 1, v);
+    }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg____delslice__(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::difference_type i,std::vector< genie::UnitLine >::difference_type j){
+      swig::delslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg____delitem____SWIG_0(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::difference_type i){
+      swig::erase(self, swig::getpos(self, i));
+    }
+SWIGINTERN std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *std_vector_Sl_genie_UnitLine_Sg____getitem____SWIG_0(std::vector< genie::UnitLine > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >::difference_type id = i;
+      std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >::difference_type jd = j;
+      return swig::getslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg____setitem____SWIG_0(std::vector< genie::UnitLine > *self,PySliceObject *slice,std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >::difference_type id = i;
+      std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >::difference_type jd = j;
+      swig::setslice(self, id, jd, step, v);
+    }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg____setitem____SWIG_1(std::vector< genie::UnitLine > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >::difference_type id = i;
+      std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg____delitem____SWIG_1(std::vector< genie::UnitLine > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >::difference_type id = i;
+      std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN std::vector< genie::UnitLine >::value_type const &std_vector_Sl_genie_UnitLine_Sg____getitem____SWIG_1(std::vector< genie::UnitLine > const *self,std::vector< genie::UnitLine >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg____setitem____SWIG_2(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::difference_type i,std::vector< genie::UnitLine >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN std::vector< genie::UnitLine >::value_type std_vector_Sl_genie_UnitLine_Sg__pop(std::vector< genie::UnitLine > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg__append(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::value_type const &x){
+      self->push_back(x);
+    }
+SWIGINTERN std::vector< genie::UnitLine >::iterator std_vector_Sl_genie_UnitLine_Sg__erase__SWIG_0(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::iterator pos){ return self->erase(pos); }
+SWIGINTERN std::vector< genie::UnitLine >::iterator std_vector_Sl_genie_UnitLine_Sg__erase__SWIG_1(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::iterator first,std::vector< genie::UnitLine >::iterator last){ return self->erase(first, last); }
+SWIGINTERN std::vector< genie::UnitLine >::iterator std_vector_Sl_genie_UnitLine_Sg__insert__SWIG_0(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::iterator pos,std::vector< genie::UnitLine >::value_type const &x){ return self->insert(pos, x); }
+SWIGINTERN void std_vector_Sl_genie_UnitLine_Sg__insert__SWIG_1(std::vector< genie::UnitLine > *self,std::vector< genie::UnitLine >::iterator pos,std::vector< genie::UnitLine >::size_type n,std::vector< genie::UnitLine >::value_type const &x){ self->insert(pos, n, x); }
+
+  namespace swig {
+    template <>  struct traits< genie::ResourceUsage< int16_t,int16_t,int8_t > > {
+      typedef pointer_category category;
+      static const char* type_name() { return"genie::ResourceUsage< int16_t,int16_t,int8_t >"; }
+    };
+  }
+
+
+      namespace swig {
+	template <>  struct traits<std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >, std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "genie::ResourceUsage< int16_t,int16_t,int8_t >" "," "std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__iterator(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____nonzero__(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____bool__(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< genie::ResourceUsage< short,short,signed char > >::size_type std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____len__(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____getslice__(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type i,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type j){
+      return swig::getslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setslice____SWIG_0(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type i,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type j){
+      swig::setslice(self, i, j, 1, std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >());
+    }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setslice____SWIG_1(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type i,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type j,std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > const &v){
+      swig::setslice(self, i, j, 1, v);
+    }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____delslice__(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type i,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type j){
+      swig::delslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____delitem____SWIG_0(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type i){
+      swig::erase(self, swig::getpos(self, i));
+    }
+SWIGINTERN std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____getitem____SWIG_0(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >::difference_type id = i;
+      std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >::difference_type jd = j;
+      return swig::getslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setitem____SWIG_0(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,PySliceObject *slice,std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >::difference_type id = i;
+      std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >::difference_type jd = j;
+      swig::setslice(self, id, jd, step, v);
+    }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setitem____SWIG_1(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >::difference_type id = i;
+      std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____delitem____SWIG_1(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >::difference_type id = i;
+      std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____getitem____SWIG_1(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *self,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setitem____SWIG_2(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type i,std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN std::vector< genie::ResourceUsage< short,short,signed char > >::value_type std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__pop(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__append(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &x){
+      self->push_back(x);
+    }
+SWIGINTERN std::vector< genie::ResourceUsage< short,short,signed char > >::iterator std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__erase__SWIG_0(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::iterator pos){ return self->erase(pos); }
+SWIGINTERN std::vector< genie::ResourceUsage< short,short,signed char > >::iterator std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__erase__SWIG_1(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::iterator first,std::vector< genie::ResourceUsage< short,short,signed char > >::iterator last){ return self->erase(first, last); }
+SWIGINTERN std::vector< genie::ResourceUsage< short,short,signed char > >::iterator std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__insert__SWIG_0(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::iterator pos,std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &x){ return self->insert(pos, x); }
+SWIGINTERN void std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__insert__SWIG_1(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *self,std::vector< genie::ResourceUsage< short,short,signed char > >::iterator pos,std::vector< genie::ResourceUsage< short,short,signed char > >::size_type n,std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &x){ self->insert(pos, n, x); }
+
 namespace swig {
   template <> struct traits< short > {
     typedef value_category category;
@@ -6384,6 +6718,254 @@ SWIGINTERN PyObject *SwigPyIterator_swigregister(PyObject *SWIGUNUSEDPARM(self),
   return SWIG_Py_Void();
 }
 
+SWIGINTERN int Swig_var_GV_LatestTap_set(PyObject *_val) {
+  if (sizeof(int) != sizeof(genie::GV_LatestTap)) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_AttributeError), "in variable '""arch, read-only genie::GV_LatestTap""' of type '""genie::GameVersion""'");
+  }  else {
+    int ecode = SWIG_AsVal_int (_val, reinterpret_cast< int* >(&genie::GV_LatestTap));
+    if (!SWIG_IsOK(ecode)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode), "in variable '""genie::GV_LatestTap""' of type '""genie::GameVersion""'");
+    }
+  }
+  return 0;
+fail:
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_GV_LatestTap_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_int(static_cast< int >(genie::GV_LatestTap));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_GV_LatestDE2_set(PyObject *_val) {
+  if (sizeof(int) != sizeof(genie::GV_LatestDE2)) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_AttributeError), "in variable '""arch, read-only genie::GV_LatestDE2""' of type '""genie::GameVersion""'");
+  }  else {
+    int ecode = SWIG_AsVal_int (_val, reinterpret_cast< int* >(&genie::GV_LatestDE2));
+    if (!SWIG_IsOK(ecode)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode), "in variable '""genie::GV_LatestDE2""' of type '""genie::GameVersion""'");
+    }
+  }
+  return 0;
+fail:
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_GV_LatestDE2_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_int(static_cast< int >(genie::GV_LatestDE2));
+  return pyobj;
+}
+
+
+SWIGINTERN PyObject *_wrap_XYZF_x_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "XYZF_x_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_x_set" "', argument " "1"" of type '" "genie::XYZF *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "XYZF_x_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->x = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_XYZF_x_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_x_get" "', argument " "1"" of type '" "genie::XYZF *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
+  result = (float) ((arg1)->x);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_XYZF_y_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "XYZF_y_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_y_set" "', argument " "1"" of type '" "genie::XYZF *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "XYZF_y_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->y = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_XYZF_y_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_y_get" "', argument " "1"" of type '" "genie::XYZF *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
+  result = (float) ((arg1)->y);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_XYZF_z_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "XYZF_z_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_z_set" "', argument " "1"" of type '" "genie::XYZF *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
+  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "XYZF_z_set" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  if (arg1) (arg1)->z = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_XYZF_z_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  float result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_z_get" "', argument " "1"" of type '" "genie::XYZF *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
+  result = (float) ((arg1)->z);
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_XYZF(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::XYZF *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_XYZF", 0, 0, 0)) SWIG_fail;
+  result = (genie::XYZF *)new genie::XYZF();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__XYZF, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_XYZF(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_XYZF" "', argument " "1"" of type '" "genie::XYZF *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *XYZF_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__XYZF, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *XYZF_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_delete_ISerializable(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::ISerializable *arg1 = (genie::ISerializable *) 0 ;
@@ -6585,11 +7167,11 @@ fail:
 SWIGINTERN PyObject *_wrap_ISerializable_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::ISerializable *arg1 = (genie::ISerializable *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "ISerializable_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -6598,19 +7180,11 @@ SWIGINTERN PyObject *_wrap_ISerializable_setGameVersion(PyObject *SWIGUNUSEDPARM
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ISerializable_setGameVersion" "', argument " "1"" of type '" "genie::ISerializable *""'"); 
   }
   arg1 = reinterpret_cast< genie::ISerializable * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ISerializable_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ISerializable_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ISerializable_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -6625,7 +7199,7 @@ SWIGINTERN PyObject *_wrap_ISerializable_getGameVersion(PyObject *SWIGUNUSEDPARM
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  GameVersion result;
+  genie::GameVersion result;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -6634,8 +7208,8 @@ SWIGINTERN PyObject *_wrap_ISerializable_getGameVersion(PyObject *SWIGUNUSEDPARM
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ISerializable_getGameVersion" "', argument " "1"" of type '" "genie::ISerializable const *""'"); 
   }
   arg1 = reinterpret_cast< genie::ISerializable * >(argp1);
-  result = ((genie::ISerializable const *)arg1)->getGameVersion();
-  resultobj = SWIG_NewPointerObj((new GameVersion(static_cast< const GameVersion& >(result))), SWIGTYPE_p_GameVersion, SWIG_POINTER_OWN |  0 );
+  result = (genie::GameVersion)((genie::ISerializable const *)arg1)->getGameVersion();
+  resultobj = SWIG_From_int(static_cast< int >(result));
   return resultobj;
 fail:
   return NULL;
@@ -6868,11 +7442,11 @@ fail:
 SWIGINTERN PyObject *_wrap_Graphic_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Graphic *arg1 = (genie::Graphic *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "Graphic_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -6881,19 +7455,11 @@ SWIGINTERN PyObject *_wrap_Graphic_setGameVersion(PyObject *SWIGUNUSEDPARM(self)
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Graphic_setGameVersion" "', argument " "1"" of type '" "genie::Graphic *""'"); 
   }
   arg1 = reinterpret_cast< genie::Graphic * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Graphic_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Graphic_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Graphic_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -8422,11 +8988,11 @@ fail:
 SWIGINTERN PyObject *_wrap_AttackOrArmor_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::unit::AttackOrArmor *arg1 = (genie::unit::AttackOrArmor *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "AttackOrArmor_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -8435,19 +9001,11 @@ SWIGINTERN PyObject *_wrap_AttackOrArmor_setGameVersion(PyObject *SWIGUNUSEDPARM
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AttackOrArmor_setGameVersion" "', argument " "1"" of type '" "genie::unit::AttackOrArmor *""'"); 
   }
   arg1 = reinterpret_cast< genie::unit::AttackOrArmor * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AttackOrArmor_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AttackOrArmor_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "AttackOrArmor_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -8609,11 +9167,11 @@ fail:
 SWIGINTERN PyObject *_wrap_Bird_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::unit::Bird *arg1 = (genie::unit::Bird *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "Bird_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -8622,19 +9180,11 @@ SWIGINTERN PyObject *_wrap_Bird_setGameVersion(PyObject *SWIGUNUSEDPARM(self), P
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Bird_setGameVersion" "', argument " "1"" of type '" "genie::unit::Bird *""'"); 
   }
   arg1 = reinterpret_cast< genie::unit::Bird * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Bird_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Bird_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Bird_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -9287,11 +9837,11 @@ fail:
 SWIGINTERN PyObject *_wrap_BuildingAnnex_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::unit::BuildingAnnex *arg1 = (genie::unit::BuildingAnnex *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "BuildingAnnex_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -9300,19 +9850,11 @@ SWIGINTERN PyObject *_wrap_BuildingAnnex_setGameVersion(PyObject *SWIGUNUSEDPARM
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "BuildingAnnex_setGameVersion" "', argument " "1"" of type '" "genie::unit::BuildingAnnex *""'"); 
   }
   arg1 = reinterpret_cast< genie::unit::BuildingAnnex * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "BuildingAnnex_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "BuildingAnnex_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "BuildingAnnex_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -9474,11 +10016,11 @@ fail:
 SWIGINTERN PyObject *_wrap_Building_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::unit::Building *arg1 = (genie::unit::Building *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "Building_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -9487,19 +10029,11 @@ SWIGINTERN PyObject *_wrap_Building_setGameVersion(PyObject *SWIGUNUSEDPARM(self
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Building_setGameVersion" "', argument " "1"" of type '" "genie::unit::Building *""'"); 
   }
   arg1 = reinterpret_cast< genie::unit::Building * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Building_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Building_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Building_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -10909,11 +11443,11 @@ fail:
 SWIGINTERN PyObject *_wrap_Creatable_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::unit::Creatable *arg1 = (genie::unit::Creatable *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "Creatable_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -10922,19 +11456,11 @@ SWIGINTERN PyObject *_wrap_Creatable_setGameVersion(PyObject *SWIGUNUSEDPARM(sel
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Creatable_setGameVersion" "', argument " "1"" of type '" "genie::unit::Creatable *""'"); 
   }
   arg1 = reinterpret_cast< genie::unit::Creatable * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Creatable_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Creatable_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Creatable_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -11941,11 +12467,11 @@ fail:
 SWIGINTERN PyObject *_wrap_DamageGraphic_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::unit::DamageGraphic *arg1 = (genie::unit::DamageGraphic *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "DamageGraphic_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -11954,19 +12480,11 @@ SWIGINTERN PyObject *_wrap_DamageGraphic_setGameVersion(PyObject *SWIGUNUSEDPARM
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DamageGraphic_setGameVersion" "', argument " "1"" of type '" "genie::unit::DamageGraphic *""'"); 
   }
   arg1 = reinterpret_cast< genie::unit::DamageGraphic * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DamageGraphic_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DamageGraphic_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DamageGraphic_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -12232,11 +12750,11 @@ fail:
 SWIGINTERN PyObject *_wrap_DeadFish_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::unit::DeadFish *arg1 = (genie::unit::DeadFish *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "DeadFish_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -12245,19 +12763,11 @@ SWIGINTERN PyObject *_wrap_DeadFish_setGameVersion(PyObject *SWIGUNUSEDPARM(self
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DeadFish_setGameVersion" "', argument " "1"" of type '" "genie::unit::DeadFish *""'"); 
   }
   arg1 = reinterpret_cast< genie::unit::DeadFish * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DeadFish_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DeadFish_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DeadFish_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -13043,11 +13553,11 @@ fail:
 SWIGINTERN PyObject *_wrap_Projectile_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::unit::Projectile *arg1 = (genie::unit::Projectile *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "Projectile_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -13056,19 +13566,11 @@ SWIGINTERN PyObject *_wrap_Projectile_setGameVersion(PyObject *SWIGUNUSEDPARM(se
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Projectile_setGameVersion" "', argument " "1"" of type '" "genie::unit::Projectile *""'"); 
   }
   arg1 = reinterpret_cast< genie::unit::Projectile * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Projectile_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Projectile_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Projectile_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -13438,11 +13940,11 @@ fail:
 SWIGINTERN PyObject *_wrap_Type50_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::unit::Type50 *arg1 = (genie::unit::Type50 *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "Type50_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -13451,19 +13953,11 @@ SWIGINTERN PyObject *_wrap_Type50_setGameVersion(PyObject *SWIGUNUSEDPARM(self),
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Type50_setGameVersion" "', argument " "1"" of type '" "genie::unit::Type50 *""'"); 
   }
   arg1 = reinterpret_cast< genie::unit::Type50 * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Type50_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Type50_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Type50_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -14561,11 +15055,11 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "Unit_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -14574,19 +15068,11 @@ SWIGINTERN PyObject *_wrap_Unit_setGameVersion(PyObject *SWIGUNUSEDPARM(self), P
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_setGameVersion" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Unit_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -15222,10 +15708,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_CollisionSize_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  XYZF arg2 ;
+  genie::XYZF *arg2 = (genie::XYZF *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -15235,20 +15721,12 @@ SWIGINTERN PyObject *_wrap_Unit_CollisionSize_set(PyObject *SWIGUNUSEDPARM(self)
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_CollisionSize_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_XYZF,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_CollisionSize_set" "', argument " "2"" of type '" "XYZF""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_CollisionSize_set" "', argument " "2"" of type '" "XYZF""'");
-    } else {
-      XYZF * temp = reinterpret_cast< XYZF * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_genie__XYZF, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_CollisionSize_set" "', argument " "2"" of type '" "genie::XYZF *""'"); 
   }
-  if (arg1) (arg1)->CollisionSize = arg2;
+  arg2 = reinterpret_cast< genie::XYZF * >(argp2);
+  if (arg1) (arg1)->CollisionSize = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -15262,7 +15740,7 @@ SWIGINTERN PyObject *_wrap_Unit_CollisionSize_get(PyObject *SWIGUNUSEDPARM(self)
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  XYZF result;
+  genie::XYZF *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -15271,8 +15749,8 @@ SWIGINTERN PyObject *_wrap_Unit_CollisionSize_get(PyObject *SWIGUNUSEDPARM(self)
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_CollisionSize_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->CollisionSize);
-  resultobj = SWIG_NewPointerObj((new XYZF(static_cast< const XYZF& >(result))), SWIGTYPE_p_XYZF, SWIG_POINTER_OWN |  0 );
+  result = (genie::XYZF *)& ((arg1)->CollisionSize);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__XYZF, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -17570,10 +18048,10 @@ fail:
 SWIGINTERN PyObject *_wrap_Unit_OutlineSize_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Unit *arg1 = (genie::Unit *) 0 ;
-  XYZF arg2 ;
+  genie::XYZF *arg2 = (genie::XYZF *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
+  void *argp2 = 0 ;
   int res2 = 0 ;
   PyObject *swig_obj[2] ;
   
@@ -17583,20 +18061,12 @@ SWIGINTERN PyObject *_wrap_Unit_OutlineSize_set(PyObject *SWIGUNUSEDPARM(self), 
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_OutlineSize_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_XYZF,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_OutlineSize_set" "', argument " "2"" of type '" "XYZF""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Unit_OutlineSize_set" "', argument " "2"" of type '" "XYZF""'");
-    } else {
-      XYZF * temp = reinterpret_cast< XYZF * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_genie__XYZF, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_OutlineSize_set" "', argument " "2"" of type '" "genie::XYZF *""'"); 
   }
-  if (arg1) (arg1)->OutlineSize = arg2;
+  arg2 = reinterpret_cast< genie::XYZF * >(argp2);
+  if (arg1) (arg1)->OutlineSize = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -17610,7 +18080,7 @@ SWIGINTERN PyObject *_wrap_Unit_OutlineSize_get(PyObject *SWIGUNUSEDPARM(self), 
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  XYZF result;
+  genie::XYZF *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -17619,8 +18089,8 @@ SWIGINTERN PyObject *_wrap_Unit_OutlineSize_get(PyObject *SWIGUNUSEDPARM(self), 
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_OutlineSize_get" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  result =  ((arg1)->OutlineSize);
-  resultobj = SWIG_NewPointerObj((new XYZF(static_cast< const XYZF& >(result))), SWIGTYPE_p_XYZF, SWIG_POINTER_OWN |  0 );
+  result = (genie::XYZF *)& ((arg1)->OutlineSize);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__XYZF, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -17643,7 +18113,7 @@ SWIGINTERN PyObject *_wrap_Unit_ResourceStorages_set(PyObject *SWIGUNUSEDPARM(se
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Unit_ResourceStorages_set" "', argument " "1"" of type '" "genie::Unit *""'"); 
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t, 0 |  0 );
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_short_float_signed_char_t_std__allocatorT_genie__ResourceUsageT_short_float_signed_char_t_t_t, 0 |  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Unit_ResourceStorages_set" "', argument " "2"" of type '" "std::vector< genie::Unit::ResourceStorage,std::allocator< genie::Unit::ResourceStorage > > *""'"); 
   }
@@ -17672,7 +18142,7 @@ SWIGINTERN PyObject *_wrap_Unit_ResourceStorages_get(PyObject *SWIGUNUSEDPARM(se
   }
   arg1 = reinterpret_cast< genie::Unit * >(argp1);
   result = (std::vector< genie::Unit::ResourceStorage,std::allocator< genie::Unit::ResourceStorage > > *)& ((arg1)->ResourceStorages);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t, 0 |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_short_float_signed_char_t_std__allocatorT_genie__ResourceUsageT_short_float_signed_char_t_t_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -18834,11 +19304,11 @@ fail:
 SWIGINTERN PyObject *_wrap_Civ_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::Civ *arg1 = (genie::Civ *) 0 ;
-  GameVersion arg2 ;
+  genie::GameVersion arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "Civ_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
@@ -18847,19 +19317,11 @@ SWIGINTERN PyObject *_wrap_Civ_setGameVersion(PyObject *SWIGUNUSEDPARM(self), Py
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Civ_setGameVersion" "', argument " "1"" of type '" "genie::Civ *""'"); 
   }
   arg1 = reinterpret_cast< genie::Civ * >(argp1);
-  {
-    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_GameVersion,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Civ_setGameVersion" "', argument " "2"" of type '" "GameVersion""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Civ_setGameVersion" "', argument " "2"" of type '" "GameVersion""'");
-    } else {
-      GameVersion * temp = reinterpret_cast< GameVersion * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
-  }
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Civ_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
   (arg1)->setGameVersion(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -19423,6 +19885,1344 @@ SWIGINTERN PyObject *Civ_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *
 }
 
 SWIGINTERN PyObject *Civ_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_Tech(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_Tech", 0, 0, 0)) SWIG_fail;
+  result = (genie::Tech *)new genie::Tech();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__Tech, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_Tech(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Tech" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  genie::GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_setGameVersion" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_getRequiredTechsSize(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  unsigned short result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_getRequiredTechsSize" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (unsigned short)(arg1)->getRequiredTechsSize();
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_RequiredTechs_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  std::vector< int16_t,std::allocator< int16_t > > *arg2 = (std::vector< int16_t,std::allocator< int16_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_RequiredTechs_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_RequiredTechs_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Tech_RequiredTechs_set" "', argument " "2"" of type '" "std::vector< int16_t,std::allocator< int16_t > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< int16_t,std::allocator< int16_t > > * >(argp2);
+  if (arg1) (arg1)->RequiredTechs = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_RequiredTechs_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int16_t,std::allocator< int16_t > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_RequiredTechs_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (std::vector< int16_t,std::allocator< int16_t > > *)& ((arg1)->RequiredTechs);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_ResourceCosts_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  std::vector< genie::Tech::ResearchResourceCost,std::allocator< genie::Tech::ResearchResourceCost > > *arg2 = (std::vector< genie::Tech::ResearchResourceCost,std::allocator< genie::Tech::ResearchResourceCost > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_ResourceCosts_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_ResourceCosts_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Tech_ResourceCosts_set" "', argument " "2"" of type '" "std::vector< genie::Tech::ResearchResourceCost,std::allocator< genie::Tech::ResearchResourceCost > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::Tech::ResearchResourceCost,std::allocator< genie::Tech::ResearchResourceCost > > * >(argp2);
+  if (arg1) (arg1)->ResourceCosts = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_ResourceCosts_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech::ResearchResourceCost,std::allocator< genie::Tech::ResearchResourceCost > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_ResourceCosts_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (std::vector< genie::Tech::ResearchResourceCost,std::allocator< genie::Tech::ResearchResourceCost > > *)& ((arg1)->ResourceCosts);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_RequiredTechCount_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_RequiredTechCount_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_RequiredTechCount_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_RequiredTechCount_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->RequiredTechCount = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_RequiredTechCount_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_RequiredTechCount_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int16_t) ((arg1)->RequiredTechCount);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Civ_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_Civ_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Civ_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_Civ_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->Civ = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Civ_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Civ_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int16_t) ((arg1)->Civ);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_FullTechMode_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_FullTechMode_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_FullTechMode_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_FullTechMode_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->FullTechMode = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_FullTechMode_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_FullTechMode_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int16_t) ((arg1)->FullTechMode);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_ResearchLocation_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_ResearchLocation_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_ResearchLocation_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_ResearchLocation_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->ResearchLocation = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_ResearchLocation_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_ResearchLocation_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int16_t) ((arg1)->ResearchLocation);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_LanguageDLLName_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_LanguageDLLName_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_LanguageDLLName_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_LanguageDLLName_set" "', argument " "2"" of type '" "uint16_t""'");
+  } 
+  arg2 = static_cast< uint16_t >(val2);
+  if (arg1) (arg1)->LanguageDLLName = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_LanguageDLLName_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_LanguageDLLName_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (uint16_t) ((arg1)->LanguageDLLName);
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_LanguageDLLDescription_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  uint16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_LanguageDLLDescription_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_LanguageDLLDescription_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_LanguageDLLDescription_set" "', argument " "2"" of type '" "uint16_t""'");
+  } 
+  arg2 = static_cast< uint16_t >(val2);
+  if (arg1) (arg1)->LanguageDLLDescription = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_LanguageDLLDescription_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_LanguageDLLDescription_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (uint16_t) ((arg1)->LanguageDLLDescription);
+  resultobj = SWIG_From_unsigned_SS_short(static_cast< unsigned short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_ResearchTime_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_ResearchTime_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_ResearchTime_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_ResearchTime_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->ResearchTime = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_ResearchTime_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_ResearchTime_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int16_t) ((arg1)->ResearchTime);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_EffectID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_EffectID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_EffectID_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_EffectID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->EffectID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_EffectID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_EffectID_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int16_t) ((arg1)->EffectID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Type_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_Type_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Type_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_Type_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->Type = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Type_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Type_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int16_t) ((arg1)->Type);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_IconID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_IconID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_IconID_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_IconID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->IconID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_IconID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_IconID_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int16_t) ((arg1)->IconID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_ButtonID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_ButtonID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_ButtonID_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_ButtonID_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->ButtonID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_ButtonID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_ButtonID_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int8_t) ((arg1)->ButtonID);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_LanguageDLLHelp_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_LanguageDLLHelp_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_LanguageDLLHelp_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_LanguageDLLHelp_set" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  if (arg1) (arg1)->LanguageDLLHelp = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_LanguageDLLHelp_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_LanguageDLLHelp_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int32_t) ((arg1)->LanguageDLLHelp);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_LanguageDLLTechTree_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_LanguageDLLTechTree_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_LanguageDLLTechTree_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_LanguageDLLTechTree_set" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  if (arg1) (arg1)->LanguageDLLTechTree = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_LanguageDLLTechTree_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_LanguageDLLTechTree_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int32_t) ((arg1)->LanguageDLLTechTree);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_HotKey_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_HotKey_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_HotKey_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_HotKey_set" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  if (arg1) (arg1)->HotKey = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_HotKey_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_HotKey_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int32_t) ((arg1)->HotKey);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Name_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_Name_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Name_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Tech_Name_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Tech_Name_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (arg1) (arg1)->Name = *arg2;
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Name_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Name_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (std::string *) & ((arg1)->Name);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Name2_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_Name2_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Name2_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Tech_Name2_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Tech_Name2_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (arg1) (arg1)->Name2 = *arg2;
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Name2_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Name2_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (std::string *) & ((arg1)->Name2);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Repeatable_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  int8_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Tech_Repeatable_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Repeatable_set" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Tech_Repeatable_set" "', argument " "2"" of type '" "int8_t""'");
+  } 
+  arg2 = static_cast< int8_t >(val2);
+  if (arg1) (arg1)->Repeatable = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Tech_Repeatable_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::Tech *arg1 = (genie::Tech *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int8_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__Tech, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Tech_Repeatable_get" "', argument " "1"" of type '" "genie::Tech *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::Tech * >(argp1);
+  result = (int8_t) ((arg1)->Repeatable);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *Tech_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__Tech, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *Tech_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_UnitLine(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::UnitLine *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_UnitLine", 0, 0, 0)) SWIG_fail;
+  result = (genie::UnitLine *)new genie::UnitLine();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__UnitLine, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_UnitLine(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::UnitLine *arg1 = (genie::UnitLine *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__UnitLine, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_UnitLine" "', argument " "1"" of type '" "genie::UnitLine *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::UnitLine * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLine_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::UnitLine *arg1 = (genie::UnitLine *) 0 ;
+  genie::GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLine_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLine_setGameVersion" "', argument " "1"" of type '" "genie::UnitLine *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::UnitLine * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLine_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLine_ID_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::UnitLine *arg1 = (genie::UnitLine *) 0 ;
+  int16_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLine_ID_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLine_ID_set" "', argument " "1"" of type '" "genie::UnitLine *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::UnitLine * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLine_ID_set" "', argument " "2"" of type '" "int16_t""'");
+  } 
+  arg2 = static_cast< int16_t >(val2);
+  if (arg1) (arg1)->ID = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLine_ID_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::UnitLine *arg1 = (genie::UnitLine *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  int16_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLine_ID_get" "', argument " "1"" of type '" "genie::UnitLine *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::UnitLine * >(argp1);
+  result = (int16_t) ((arg1)->ID);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLine_Name_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::UnitLine *arg1 = (genie::UnitLine *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLine_Name_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLine_Name_set" "', argument " "1"" of type '" "genie::UnitLine *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::UnitLine * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "UnitLine_Name_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLine_Name_set" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (arg1) (arg1)->Name = *arg2;
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLine_Name_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::UnitLine *arg1 = (genie::UnitLine *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLine_Name_get" "', argument " "1"" of type '" "genie::UnitLine *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::UnitLine * >(argp1);
+  result = (std::string *) & ((arg1)->Name);
+  resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLine_UnitIDs_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::UnitLine *arg1 = (genie::UnitLine *) 0 ;
+  std::vector< int16_t,std::allocator< int16_t > > *arg2 = (std::vector< int16_t,std::allocator< int16_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLine_UnitIDs_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLine_UnitIDs_set" "', argument " "1"" of type '" "genie::UnitLine *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::UnitLine * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "UnitLine_UnitIDs_set" "', argument " "2"" of type '" "std::vector< int16_t,std::allocator< int16_t > > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< int16_t,std::allocator< int16_t > > * >(argp2);
+  if (arg1) (arg1)->UnitIDs = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLine_UnitIDs_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::UnitLine *arg1 = (genie::UnitLine *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int16_t,std::allocator< int16_t > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLine_UnitIDs_get" "', argument " "1"" of type '" "genie::UnitLine *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::UnitLine * >(argp1);
+  result = (std::vector< int16_t,std::allocator< int16_t > > *)& ((arg1)->UnitIDs);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_short_std__allocatorT_short_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *UnitLine_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__UnitLine, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *UnitLine_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   return SWIG_Python_InitShadowInstance(args);
 }
 
@@ -24892,6 +26692,5703 @@ SWIGINTERN PyObject *GraphicVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyOb
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_TechVector_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_iterator" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (swig::SwigPyIterator *)std_vector_Sl_genie_Tech_Sg__iterator(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___nonzero__" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (bool)std_vector_Sl_genie_Tech_Sg____nonzero__((std::vector< genie::Tech > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___bool__" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (bool)std_vector_Sl_genie_Tech_Sg____bool__((std::vector< genie::Tech > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___len__" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = std_vector_Sl_genie_Tech_Sg____len__((std::vector< genie::Tech > const *)arg1);
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::difference_type arg2 ;
+  std::vector< genie::Tech >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  std::vector< genie::Tech,std::allocator< genie::Tech > > *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "TechVector___getslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___getslice__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector___getslice__" "', argument " "2"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TechVector___getslice__" "', argument " "3"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Tech >::difference_type >(val3);
+  try {
+    result = (std::vector< genie::Tech,std::allocator< genie::Tech > > *)std_vector_Sl_genie_Tech_Sg____getslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::difference_type arg2 ;
+  std::vector< genie::Tech >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___setslice__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector___setslice__" "', argument " "2"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TechVector___setslice__" "', argument " "3"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Tech >::difference_type >(val3);
+  try {
+    std_vector_Sl_genie_Tech_Sg____setslice____SWIG_0(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::difference_type arg2 ;
+  std::vector< genie::Tech >::difference_type arg3 ;
+  std::vector< genie::Tech,std::allocator< genie::Tech > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___setslice__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector___setslice__" "', argument " "2"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TechVector___setslice__" "', argument " "3"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Tech >::difference_type >(val3);
+  {
+    std::vector< genie::Tech,std::allocator< genie::Tech > > *ptr = (std::vector< genie::Tech,std::allocator< genie::Tech > > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TechVector___setslice__" "', argument " "4"" of type '" "std::vector< genie::Tech,std::allocator< genie::Tech > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector___setslice__" "', argument " "4"" of type '" "std::vector< genie::Tech,std::allocator< genie::Tech > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    std_vector_Sl_genie_Tech_Sg____setslice____SWIG_1(arg1,arg2,arg3,(std::vector< genie::Tech,std::allocator< genie::Tech > > const &)*arg4);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___setslice__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "TechVector___setslice__", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_TechVector___setslice____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_TechVector___setslice____SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'TechVector___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Tech >::__setslice__(std::vector< genie::Tech >::difference_type,std::vector< genie::Tech >::difference_type)\n"
+    "    std::vector< genie::Tech >::__setslice__(std::vector< genie::Tech >::difference_type,std::vector< genie::Tech >::difference_type,std::vector< genie::Tech,std::allocator< genie::Tech > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::difference_type arg2 ;
+  std::vector< genie::Tech >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "TechVector___delslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___delslice__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector___delslice__" "', argument " "2"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TechVector___delslice__" "', argument " "3"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Tech >::difference_type >(val3);
+  try {
+    std_vector_Sl_genie_Tech_Sg____delslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___delitem__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector___delitem__" "', argument " "2"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::difference_type >(val2);
+  try {
+    std_vector_Sl_genie_Tech_Sg____delitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< genie::Tech,std::allocator< genie::Tech > > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___getitem__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    result = (std::vector< genie::Tech,std::allocator< genie::Tech > > *)std_vector_Sl_genie_Tech_Sg____getitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< genie::Tech,std::allocator< genie::Tech > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  {
+    std::vector< genie::Tech,std::allocator< genie::Tech > > *ptr = (std::vector< genie::Tech,std::allocator< genie::Tech > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TechVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::Tech,std::allocator< genie::Tech > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::Tech,std::allocator< genie::Tech > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    std_vector_Sl_genie_Tech_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< genie::Tech,std::allocator< genie::Tech > > const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_genie_Tech_Sg____setitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___delitem__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_genie_Tech_Sg____delitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___delitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "TechVector___delitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_TechVector___delitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_TechVector___delitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'TechVector___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Tech >::__delitem__(std::vector< genie::Tech >::difference_type)\n"
+    "    std::vector< genie::Tech >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< genie::Tech >::value_type *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___getitem__" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector___getitem__" "', argument " "2"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::difference_type >(val2);
+  try {
+    result = (std::vector< genie::Tech >::value_type *) &std_vector_Sl_genie_Tech_Sg____getitem____SWIG_1((std::vector< genie::Tech > const *)arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__Tech, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::Tech >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___getitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "TechVector___getitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_TechVector___getitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_TechVector___getitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'TechVector___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Tech >::__getitem__(PySliceObject *)\n"
+    "    std::vector< genie::Tech >::__getitem__(std::vector< genie::Tech >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::difference_type arg2 ;
+  std::vector< genie::Tech >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector___setitem__" "', argument " "2"" of type '" "std::vector< genie::Tech >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::difference_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__Tech,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TechVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::Tech >::value_type * >(argp3);
+  try {
+    std_vector_Sl_genie_Tech_Sg____setitem____SWIG_2(arg1,arg2,(genie::Tech const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector___setitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "TechVector___setitem__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_TechVector___setitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_TechVector___setitem____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__Tech, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_TechVector___setitem____SWIG_2(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'TechVector___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Tech >::__setitem__(PySliceObject *,std::vector< genie::Tech,std::allocator< genie::Tech > > const &)\n"
+    "    std::vector< genie::Tech >::__setitem__(PySliceObject *)\n"
+    "    std::vector< genie::Tech >::__setitem__(std::vector< genie::Tech >::difference_type,std::vector< genie::Tech >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::value_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_pop" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  try {
+    result = std_vector_Sl_genie_Tech_Sg__pop(arg1);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< genie::Tech >::value_type(static_cast< const std::vector< genie::Tech >::value_type& >(result))), SWIGTYPE_p_genie__Tech, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "TechVector_append", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_append" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__Tech,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TechVector_append" "', argument " "2"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector_append" "', argument " "2"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::Tech >::value_type * >(argp2);
+  std_vector_Sl_genie_Tech_Sg__append(arg1,(genie::Tech const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_TechVector__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *result = 0 ;
+  
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  result = (std::vector< genie::Tech > *)new std::vector< genie::Tech >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_TechVector__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::vector< genie::Tech > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::vector< genie::Tech,std::allocator< genie::Tech > > *ptr = (std::vector< genie::Tech,std::allocator< genie::Tech > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_TechVector" "', argument " "1"" of type '" "std::vector< genie::Tech > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_TechVector" "', argument " "1"" of type '" "std::vector< genie::Tech > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  result = (std::vector< genie::Tech > *)new std::vector< genie::Tech >((std::vector< genie::Tech > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_empty" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (bool)((std::vector< genie::Tech > const *)arg1)->empty();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_size" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = ((std::vector< genie::Tech > const *)arg1)->size();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "TechVector_swap", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_swap" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TechVector_swap" "', argument " "2"" of type '" "std::vector< genie::Tech > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector_swap" "', argument " "2"" of type '" "std::vector< genie::Tech > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::Tech > * >(argp2);
+  (arg1)->swap(*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_begin" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (arg1)->begin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Tech >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_end" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (arg1)->end();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Tech >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_rbegin" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (arg1)->rbegin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Tech >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_rend" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (arg1)->rend();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Tech >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_clear" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  (arg1)->clear();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::allocator< genie::Tech > > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_get_allocator" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = ((std::vector< genie::Tech > const *)arg1)->get_allocator();
+  resultobj = SWIG_NewPointerObj((new std::vector< genie::Tech >::allocator_type(static_cast< const std::vector< genie::Tech >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_genie__Tech_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_TechVector__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< genie::Tech > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_TechVector" "', argument " "1"" of type '" "std::vector< genie::Tech >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< genie::Tech >::size_type >(val1);
+  result = (std::vector< genie::Tech > *)new std::vector< genie::Tech >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_pop_back" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  (arg1)->pop_back();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_resize" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector_resize" "', argument " "2"" of type '" "std::vector< genie::Tech >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::size_type >(val2);
+  (arg1)->resize(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  std::vector< genie::Tech >::iterator result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_erase" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_erase" "', argument " "2"" of type '" "std::vector< genie::Tech >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_erase" "', argument " "2"" of type '" "std::vector< genie::Tech >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_genie_Tech_Sg__erase__SWIG_0(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Tech >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::iterator arg2 ;
+  std::vector< genie::Tech >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  std::vector< genie::Tech >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_erase" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_erase" "', argument " "2"" of type '" "std::vector< genie::Tech >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_erase" "', argument " "2"" of type '" "std::vector< genie::Tech >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_erase" "', argument " "3"" of type '" "std::vector< genie::Tech >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_erase" "', argument " "3"" of type '" "std::vector< genie::Tech >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_genie_Tech_Sg__erase__SWIG_1(arg1,arg2,arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Tech >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_erase(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "TechVector_erase", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_TechVector_erase__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_TechVector_erase__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'TechVector_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Tech >::erase(std::vector< genie::Tech >::iterator)\n"
+    "    std::vector< genie::Tech >::erase(std::vector< genie::Tech >::iterator,std::vector< genie::Tech >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_TechVector__SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech >::size_type arg1 ;
+  std::vector< genie::Tech >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  std::vector< genie::Tech > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_TechVector" "', argument " "1"" of type '" "std::vector< genie::Tech >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< genie::Tech >::size_type >(val1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__Tech,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_TechVector" "', argument " "2"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_TechVector" "', argument " "2"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::Tech >::value_type * >(argp2);
+  result = (std::vector< genie::Tech > *)new std::vector< genie::Tech >(arg1,(std::vector< genie::Tech >::value_type const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_TechVector(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_TechVector", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_TechVector__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_TechVector__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_TechVector__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_genie__Tech, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_TechVector__SWIG_3(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_TechVector'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Tech >::vector()\n"
+    "    std::vector< genie::Tech >::vector(std::vector< genie::Tech > const &)\n"
+    "    std::vector< genie::Tech >::vector(std::vector< genie::Tech >::size_type)\n"
+    "    std::vector< genie::Tech >::vector(std::vector< genie::Tech >::size_type,std::vector< genie::Tech >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "TechVector_push_back", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_push_back" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__Tech,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TechVector_push_back" "', argument " "2"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector_push_back" "', argument " "2"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::Tech >::value_type * >(argp2);
+  (arg1)->push_back((std::vector< genie::Tech >::value_type const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_front" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (std::vector< genie::Tech >::value_type *) &((std::vector< genie::Tech > const *)arg1)->front();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__Tech, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::Tech >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_back" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = (std::vector< genie::Tech >::value_type *) &((std::vector< genie::Tech > const *)arg1)->back();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__Tech, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::Tech >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::size_type arg2 ;
+  std::vector< genie::Tech >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "TechVector_assign", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_assign" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector_assign" "', argument " "2"" of type '" "std::vector< genie::Tech >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__Tech,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TechVector_assign" "', argument " "3"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector_assign" "', argument " "3"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::Tech >::value_type * >(argp3);
+  (arg1)->assign(arg2,(std::vector< genie::Tech >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::size_type arg2 ;
+  std::vector< genie::Tech >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_resize" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector_resize" "', argument " "2"" of type '" "std::vector< genie::Tech >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__Tech,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TechVector_resize" "', argument " "3"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector_resize" "', argument " "3"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::Tech >::value_type * >(argp3);
+  (arg1)->resize(arg2,(std::vector< genie::Tech >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_resize(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "TechVector_resize", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_TechVector_resize__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__Tech, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_TechVector_resize__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'TechVector_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Tech >::resize(std::vector< genie::Tech >::size_type)\n"
+    "    std::vector< genie::Tech >::resize(std::vector< genie::Tech >::size_type,std::vector< genie::Tech >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::iterator arg2 ;
+  std::vector< genie::Tech >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  std::vector< genie::Tech >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_insert" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_insert" "', argument " "2"" of type '" "std::vector< genie::Tech >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_insert" "', argument " "2"" of type '" "std::vector< genie::Tech >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__Tech,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TechVector_insert" "', argument " "3"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector_insert" "', argument " "3"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::Tech >::value_type * >(argp3);
+  result = std_vector_Sl_genie_Tech_Sg__insert__SWIG_0(arg1,arg2,(genie::Tech const &)*arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::Tech >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::iterator arg2 ;
+  std::vector< genie::Tech >::size_type arg3 ;
+  std::vector< genie::Tech >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_insert" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_insert" "', argument " "2"" of type '" "std::vector< genie::Tech >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "TechVector_insert" "', argument " "2"" of type '" "std::vector< genie::Tech >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TechVector_insert" "', argument " "3"" of type '" "std::vector< genie::Tech >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::Tech >::size_type >(val3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_genie__Tech,  0  | 0);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TechVector_insert" "', argument " "4"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TechVector_insert" "', argument " "4"" of type '" "std::vector< genie::Tech >::value_type const &""'"); 
+  }
+  arg4 = reinterpret_cast< std::vector< genie::Tech >::value_type * >(argp4);
+  std_vector_Sl_genie_Tech_Sg__insert__SWIG_1(arg1,arg2,arg3,(genie::Tech const &)*arg4);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_insert(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "TechVector_insert", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__Tech, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_TechVector_insert__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::Tech,std::allocator< genie::Tech > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::Tech >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_genie__Tech, SWIG_POINTER_NO_NULL | 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_TechVector_insert__SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'TechVector_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::Tech >::insert(std::vector< genie::Tech >::iterator,std::vector< genie::Tech >::value_type const &)\n"
+    "    std::vector< genie::Tech >::insert(std::vector< genie::Tech >::iterator,std::vector< genie::Tech >::size_type,std::vector< genie::Tech >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  std::vector< genie::Tech >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "TechVector_reserve", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_reserve" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TechVector_reserve" "', argument " "2"" of type '" "std::vector< genie::Tech >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::Tech >::size_type >(val2);
+  (arg1)->reserve(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_TechVector_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::Tech >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TechVector_capacity" "', argument " "1"" of type '" "std::vector< genie::Tech > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  result = ((std::vector< genie::Tech > const *)arg1)->capacity();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_TechVector(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::Tech > *arg1 = (std::vector< genie::Tech > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_TechVector" "', argument " "1"" of type '" "std::vector< genie::Tech > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::Tech > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *TechVector_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *TechVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_iterator" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (swig::SwigPyIterator *)std_vector_Sl_genie_UnitLine_Sg__iterator(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___nonzero__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (bool)std_vector_Sl_genie_UnitLine_Sg____nonzero__((std::vector< genie::UnitLine > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___bool__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (bool)std_vector_Sl_genie_UnitLine_Sg____bool__((std::vector< genie::UnitLine > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___len__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = std_vector_Sl_genie_UnitLine_Sg____len__((std::vector< genie::UnitLine > const *)arg1);
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::difference_type arg2 ;
+  std::vector< genie::UnitLine >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLineVector___getslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___getslice__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector___getslice__" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "UnitLineVector___getslice__" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::UnitLine >::difference_type >(val3);
+  try {
+    result = (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *)std_vector_Sl_genie_UnitLine_Sg____getslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::difference_type arg2 ;
+  std::vector< genie::UnitLine >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___setslice__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector___setslice__" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "UnitLineVector___setslice__" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::UnitLine >::difference_type >(val3);
+  try {
+    std_vector_Sl_genie_UnitLine_Sg____setslice____SWIG_0(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::difference_type arg2 ;
+  std::vector< genie::UnitLine >::difference_type arg3 ;
+  std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___setslice__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector___setslice__" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "UnitLineVector___setslice__" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::UnitLine >::difference_type >(val3);
+  {
+    std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *ptr = (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "UnitLineVector___setslice__" "', argument " "4"" of type '" "std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector___setslice__" "', argument " "4"" of type '" "std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    std_vector_Sl_genie_UnitLine_Sg____setslice____SWIG_1(arg1,arg2,arg3,(std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &)*arg4);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___setslice__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "UnitLineVector___setslice__", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_UnitLineVector___setslice____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_UnitLineVector___setslice____SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'UnitLineVector___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::UnitLine >::__setslice__(std::vector< genie::UnitLine >::difference_type,std::vector< genie::UnitLine >::difference_type)\n"
+    "    std::vector< genie::UnitLine >::__setslice__(std::vector< genie::UnitLine >::difference_type,std::vector< genie::UnitLine >::difference_type,std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::difference_type arg2 ;
+  std::vector< genie::UnitLine >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLineVector___delslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___delslice__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector___delslice__" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "UnitLineVector___delslice__" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::UnitLine >::difference_type >(val3);
+  try {
+    std_vector_Sl_genie_UnitLine_Sg____delslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___delitem__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector___delitem__" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::difference_type >(val2);
+  try {
+    std_vector_Sl_genie_UnitLine_Sg____delitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___getitem__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    result = (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *)std_vector_Sl_genie_UnitLine_Sg____getitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  {
+    std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *ptr = (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "UnitLineVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    std_vector_Sl_genie_UnitLine_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_genie_UnitLine_Sg____setitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___delitem__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_genie_UnitLine_Sg____delitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___delitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "UnitLineVector___delitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_UnitLineVector___delitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_UnitLineVector___delitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'UnitLineVector___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::UnitLine >::__delitem__(std::vector< genie::UnitLine >::difference_type)\n"
+    "    std::vector< genie::UnitLine >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< genie::UnitLine >::value_type *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___getitem__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector___getitem__" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::difference_type >(val2);
+  try {
+    result = (std::vector< genie::UnitLine >::value_type *) &std_vector_Sl_genie_UnitLine_Sg____getitem____SWIG_1((std::vector< genie::UnitLine > const *)arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::UnitLine >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___getitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "UnitLineVector___getitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_UnitLineVector___getitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_UnitLineVector___getitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'UnitLineVector___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::UnitLine >::__getitem__(PySliceObject *)\n"
+    "    std::vector< genie::UnitLine >::__getitem__(std::vector< genie::UnitLine >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::difference_type arg2 ;
+  std::vector< genie::UnitLine >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector___setitem__" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::difference_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__UnitLine,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "UnitLineVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::UnitLine >::value_type * >(argp3);
+  try {
+    std_vector_Sl_genie_UnitLine_Sg____setitem____SWIG_2(arg1,arg2,(genie::UnitLine const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector___setitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "UnitLineVector___setitem__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_UnitLineVector___setitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_UnitLineVector___setitem____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__UnitLine, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_UnitLineVector___setitem____SWIG_2(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'UnitLineVector___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::UnitLine >::__setitem__(PySliceObject *,std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > const &)\n"
+    "    std::vector< genie::UnitLine >::__setitem__(PySliceObject *)\n"
+    "    std::vector< genie::UnitLine >::__setitem__(std::vector< genie::UnitLine >::difference_type,std::vector< genie::UnitLine >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::value_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_pop" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  try {
+    result = std_vector_Sl_genie_UnitLine_Sg__pop(arg1);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< genie::UnitLine >::value_type(static_cast< const std::vector< genie::UnitLine >::value_type& >(result))), SWIGTYPE_p_genie__UnitLine, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLineVector_append", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_append" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__UnitLine,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "UnitLineVector_append" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector_append" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::UnitLine >::value_type * >(argp2);
+  std_vector_Sl_genie_UnitLine_Sg__append(arg1,(genie::UnitLine const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_UnitLineVector__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *result = 0 ;
+  
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  result = (std::vector< genie::UnitLine > *)new std::vector< genie::UnitLine >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_UnitLineVector__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::vector< genie::UnitLine > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *ptr = (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_UnitLineVector" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_UnitLineVector" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  result = (std::vector< genie::UnitLine > *)new std::vector< genie::UnitLine >((std::vector< genie::UnitLine > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_empty" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (bool)((std::vector< genie::UnitLine > const *)arg1)->empty();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_size" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = ((std::vector< genie::UnitLine > const *)arg1)->size();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLineVector_swap", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_swap" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "UnitLineVector_swap" "', argument " "2"" of type '" "std::vector< genie::UnitLine > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector_swap" "', argument " "2"" of type '" "std::vector< genie::UnitLine > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp2);
+  (arg1)->swap(*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_begin" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (arg1)->begin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::UnitLine >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_end" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (arg1)->end();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::UnitLine >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_rbegin" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (arg1)->rbegin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::UnitLine >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_rend" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (arg1)->rend();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::UnitLine >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_clear" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  (arg1)->clear();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::allocator< genie::UnitLine > > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_get_allocator" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = ((std::vector< genie::UnitLine > const *)arg1)->get_allocator();
+  resultobj = SWIG_NewPointerObj((new std::vector< genie::UnitLine >::allocator_type(static_cast< const std::vector< genie::UnitLine >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_genie__UnitLine_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_UnitLineVector__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< genie::UnitLine > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_UnitLineVector" "', argument " "1"" of type '" "std::vector< genie::UnitLine >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< genie::UnitLine >::size_type >(val1);
+  result = (std::vector< genie::UnitLine > *)new std::vector< genie::UnitLine >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_pop_back" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  (arg1)->pop_back();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_resize" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector_resize" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::size_type >(val2);
+  (arg1)->resize(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  std::vector< genie::UnitLine >::iterator result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_erase" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_erase" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_erase" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_genie_UnitLine_Sg__erase__SWIG_0(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::UnitLine >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::iterator arg2 ;
+  std::vector< genie::UnitLine >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  std::vector< genie::UnitLine >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_erase" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_erase" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_erase" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_erase" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_erase" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_genie_UnitLine_Sg__erase__SWIG_1(arg1,arg2,arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::UnitLine >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_erase(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "UnitLineVector_erase", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_UnitLineVector_erase__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_UnitLineVector_erase__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'UnitLineVector_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::UnitLine >::erase(std::vector< genie::UnitLine >::iterator)\n"
+    "    std::vector< genie::UnitLine >::erase(std::vector< genie::UnitLine >::iterator,std::vector< genie::UnitLine >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_UnitLineVector__SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine >::size_type arg1 ;
+  std::vector< genie::UnitLine >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  std::vector< genie::UnitLine > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_UnitLineVector" "', argument " "1"" of type '" "std::vector< genie::UnitLine >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< genie::UnitLine >::size_type >(val1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__UnitLine,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_UnitLineVector" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_UnitLineVector" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::UnitLine >::value_type * >(argp2);
+  result = (std::vector< genie::UnitLine > *)new std::vector< genie::UnitLine >(arg1,(std::vector< genie::UnitLine >::value_type const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_UnitLineVector(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_UnitLineVector", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_UnitLineVector__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_UnitLineVector__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_UnitLineVector__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_genie__UnitLine, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_UnitLineVector__SWIG_3(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_UnitLineVector'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::UnitLine >::vector()\n"
+    "    std::vector< genie::UnitLine >::vector(std::vector< genie::UnitLine > const &)\n"
+    "    std::vector< genie::UnitLine >::vector(std::vector< genie::UnitLine >::size_type)\n"
+    "    std::vector< genie::UnitLine >::vector(std::vector< genie::UnitLine >::size_type,std::vector< genie::UnitLine >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLineVector_push_back", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_push_back" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__UnitLine,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "UnitLineVector_push_back" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector_push_back" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::UnitLine >::value_type * >(argp2);
+  (arg1)->push_back((std::vector< genie::UnitLine >::value_type const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_front" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (std::vector< genie::UnitLine >::value_type *) &((std::vector< genie::UnitLine > const *)arg1)->front();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::UnitLine >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_back" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = (std::vector< genie::UnitLine >::value_type *) &((std::vector< genie::UnitLine > const *)arg1)->back();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__UnitLine, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::UnitLine >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::size_type arg2 ;
+  std::vector< genie::UnitLine >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLineVector_assign", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_assign" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector_assign" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__UnitLine,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "UnitLineVector_assign" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector_assign" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::UnitLine >::value_type * >(argp3);
+  (arg1)->assign(arg2,(std::vector< genie::UnitLine >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::size_type arg2 ;
+  std::vector< genie::UnitLine >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_resize" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector_resize" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__UnitLine,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "UnitLineVector_resize" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector_resize" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::UnitLine >::value_type * >(argp3);
+  (arg1)->resize(arg2,(std::vector< genie::UnitLine >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_resize(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "UnitLineVector_resize", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_UnitLineVector_resize__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__UnitLine, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_UnitLineVector_resize__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'UnitLineVector_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::UnitLine >::resize(std::vector< genie::UnitLine >::size_type)\n"
+    "    std::vector< genie::UnitLine >::resize(std::vector< genie::UnitLine >::size_type,std::vector< genie::UnitLine >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::iterator arg2 ;
+  std::vector< genie::UnitLine >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  std::vector< genie::UnitLine >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_insert" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_insert" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_insert" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__UnitLine,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "UnitLineVector_insert" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector_insert" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::UnitLine >::value_type * >(argp3);
+  result = std_vector_Sl_genie_UnitLine_Sg__insert__SWIG_0(arg1,arg2,(genie::UnitLine const &)*arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::UnitLine >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::iterator arg2 ;
+  std::vector< genie::UnitLine >::size_type arg3 ;
+  std::vector< genie::UnitLine >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_insert" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_insert" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "UnitLineVector_insert" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "UnitLineVector_insert" "', argument " "3"" of type '" "std::vector< genie::UnitLine >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::UnitLine >::size_type >(val3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_genie__UnitLine,  0  | 0);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "UnitLineVector_insert" "', argument " "4"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "UnitLineVector_insert" "', argument " "4"" of type '" "std::vector< genie::UnitLine >::value_type const &""'"); 
+  }
+  arg4 = reinterpret_cast< std::vector< genie::UnitLine >::value_type * >(argp4);
+  std_vector_Sl_genie_UnitLine_Sg__insert__SWIG_1(arg1,arg2,arg3,(genie::UnitLine const &)*arg4);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_insert(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "UnitLineVector_insert", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__UnitLine, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_UnitLineVector_insert__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::UnitLine >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_genie__UnitLine, SWIG_POINTER_NO_NULL | 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_UnitLineVector_insert__SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'UnitLineVector_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::UnitLine >::insert(std::vector< genie::UnitLine >::iterator,std::vector< genie::UnitLine >::value_type const &)\n"
+    "    std::vector< genie::UnitLine >::insert(std::vector< genie::UnitLine >::iterator,std::vector< genie::UnitLine >::size_type,std::vector< genie::UnitLine >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  std::vector< genie::UnitLine >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "UnitLineVector_reserve", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_reserve" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "UnitLineVector_reserve" "', argument " "2"" of type '" "std::vector< genie::UnitLine >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::UnitLine >::size_type >(val2);
+  (arg1)->reserve(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_UnitLineVector_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::UnitLine >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "UnitLineVector_capacity" "', argument " "1"" of type '" "std::vector< genie::UnitLine > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  result = ((std::vector< genie::UnitLine > const *)arg1)->capacity();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_UnitLineVector(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::UnitLine > *arg1 = (std::vector< genie::UnitLine > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_UnitLineVector" "', argument " "1"" of type '" "std::vector< genie::UnitLine > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::UnitLine > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *UnitLineVector_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *UnitLineVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_ResearchResourceCost(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::ResourceUsage< int16_t,int16_t,int8_t > *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_ResearchResourceCost", 0, 0, 0)) SWIG_fail;
+  result = (genie::ResourceUsage< int16_t,int16_t,int8_t > *)new genie::ResourceUsage< int16_t,int16_t,int8_t >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_ResearchResourceCost(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::ResourceUsage< int16_t,int16_t,int8_t > *arg1 = (genie::ResourceUsage< int16_t,int16_t,int8_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ResearchResourceCost" "', argument " "1"" of type '" "genie::ResourceUsage< int16_t,int16_t,int8_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::ResourceUsage< int16_t,int16_t,int8_t > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCost_setGameVersion(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::ResourceUsage< int16_t,int16_t,int8_t > *arg1 = (genie::ResourceUsage< int16_t,int16_t,int8_t > *) 0 ;
+  genie::GameVersion arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCost_setGameVersion", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCost_setGameVersion" "', argument " "1"" of type '" "genie::ResourceUsage< int16_t,int16_t,int8_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::ResourceUsage< int16_t,int16_t,int8_t > * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCost_setGameVersion" "', argument " "2"" of type '" "genie::GameVersion""'");
+  } 
+  arg2 = static_cast< genie::GameVersion >(val2);
+  (arg1)->setGameVersion(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCost_Type_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::ResourceUsage< int16_t,int16_t,int8_t > *arg1 = (genie::ResourceUsage< int16_t,int16_t,int8_t > *) 0 ;
+  short arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCost_Type_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCost_Type_set" "', argument " "1"" of type '" "genie::ResourceUsage< int16_t,int16_t,int8_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::ResourceUsage< int16_t,int16_t,int8_t > * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCost_Type_set" "', argument " "2"" of type '" "short""'");
+  } 
+  arg2 = static_cast< short >(val2);
+  if (arg1) (arg1)->Type = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCost_Type_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::ResourceUsage< int16_t,int16_t,int8_t > *arg1 = (genie::ResourceUsage< int16_t,int16_t,int8_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  short result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCost_Type_get" "', argument " "1"" of type '" "genie::ResourceUsage< int16_t,int16_t,int8_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::ResourceUsage< int16_t,int16_t,int8_t > * >(argp1);
+  result = (short) ((arg1)->Type);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCost_Amount_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::ResourceUsage< int16_t,int16_t,int8_t > *arg1 = (genie::ResourceUsage< int16_t,int16_t,int8_t > *) 0 ;
+  short arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  short val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCost_Amount_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCost_Amount_set" "', argument " "1"" of type '" "genie::ResourceUsage< int16_t,int16_t,int8_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::ResourceUsage< int16_t,int16_t,int8_t > * >(argp1);
+  ecode2 = SWIG_AsVal_short(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCost_Amount_set" "', argument " "2"" of type '" "short""'");
+  } 
+  arg2 = static_cast< short >(val2);
+  if (arg1) (arg1)->Amount = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCost_Amount_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::ResourceUsage< int16_t,int16_t,int8_t > *arg1 = (genie::ResourceUsage< int16_t,int16_t,int8_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  short result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCost_Amount_get" "', argument " "1"" of type '" "genie::ResourceUsage< int16_t,int16_t,int8_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::ResourceUsage< int16_t,int16_t,int8_t > * >(argp1);
+  result = (short) ((arg1)->Amount);
+  resultobj = SWIG_From_short(static_cast< short >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCost_Flag_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::ResourceUsage< int16_t,int16_t,int8_t > *arg1 = (genie::ResourceUsage< int16_t,int16_t,int8_t > *) 0 ;
+  signed char arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  signed char val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCost_Flag_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCost_Flag_set" "', argument " "1"" of type '" "genie::ResourceUsage< int16_t,int16_t,int8_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::ResourceUsage< int16_t,int16_t,int8_t > * >(argp1);
+  ecode2 = SWIG_AsVal_signed_SS_char(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCost_Flag_set" "', argument " "2"" of type '" "signed char""'");
+  } 
+  arg2 = static_cast< signed char >(val2);
+  if (arg1) (arg1)->Flag = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCost_Flag_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  genie::ResourceUsage< int16_t,int16_t,int8_t > *arg1 = (genie::ResourceUsage< int16_t,int16_t,int8_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  signed char result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCost_Flag_get" "', argument " "1"" of type '" "genie::ResourceUsage< int16_t,int16_t,int8_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< genie::ResourceUsage< int16_t,int16_t,int8_t > * >(argp1);
+  result = (signed char) ((arg1)->Flag);
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *ResearchResourceCost_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *ResearchResourceCost_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_iterator" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (swig::SwigPyIterator *)std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__iterator(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___nonzero__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (bool)std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____nonzero__((std::vector< genie::ResourceUsage< short,short,signed char > > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___bool__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (bool)std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____bool__((std::vector< genie::ResourceUsage< short,short,signed char > > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___len__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____len__((std::vector< genie::ResourceUsage< short,short,signed char > > const *)arg1);
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg2 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector___getslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___getslice__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector___getslice__" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ResearchResourceCostVector___getslice__" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val3);
+  try {
+    result = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *)std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____getslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg2 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___setslice__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector___setslice__" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ResearchResourceCostVector___setslice__" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val3);
+  try {
+    std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setslice____SWIG_0(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg2 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg3 ;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___setslice__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector___setslice__" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ResearchResourceCostVector___setslice__" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val3);
+  {
+    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *ptr = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "ResearchResourceCostVector___setslice__" "', argument " "4"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector___setslice__" "', argument " "4"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setslice____SWIG_1(arg1,arg2,arg3,(std::vector< genie::ResourceUsage< short,short,signed char >,std::allocator< genie::ResourceUsage< short,short,signed char > > > const &)*arg4);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___setslice__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector___setslice__", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_ResearchResourceCostVector___setslice____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_ResearchResourceCostVector___setslice____SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'ResearchResourceCostVector___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::__setslice__(std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::__setslice__(std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type,std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type,std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg2 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector___delslice__", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___delslice__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector___delslice__" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ResearchResourceCostVector___delslice__" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val3);
+  try {
+    std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____delslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___delitem__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector___delitem__" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val2);
+  try {
+    std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____delitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___getitem__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    result = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *)std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____getitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  {
+    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *ptr = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ResearchResourceCostVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setitem____SWIG_0(arg1,arg2,(std::vector< genie::ResourceUsage< short,short,signed char >,std::allocator< genie::ResourceUsage< short,short,signed char > > > const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___delitem__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____delitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___delitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector___delitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_ResearchResourceCostVector___delitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ResearchResourceCostVector___delitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'ResearchResourceCostVector___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::__delitem__(std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___getitem__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector___getitem__" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val2);
+  try {
+    result = (std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *) &std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____getitem____SWIG_1((std::vector< genie::ResourceUsage< short,short,signed char > > const *)arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::ResourceUsage< short,short,signed char > >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___getitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector___getitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_ResearchResourceCostVector___getitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ResearchResourceCostVector___getitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'ResearchResourceCostVector___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::__getitem__(PySliceObject *)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::__getitem__(std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type arg2 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector___setitem__" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector___setitem__" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ResearchResourceCostVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector___setitem__" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::value_type * >(argp3);
+  try {
+    std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg____setitem____SWIG_2(arg1,arg2,(genie::ResourceUsage< short,short,signed char > const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector___setitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector___setitem__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_ResearchResourceCostVector___setitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_ResearchResourceCostVector___setitem____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_ResearchResourceCostVector___setitem____SWIG_2(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'ResearchResourceCostVector___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::__setitem__(PySliceObject *,std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > const &)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::__setitem__(PySliceObject *)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::__setitem__(std::vector< genie::ResourceUsage< short,short,signed char > >::difference_type,std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_pop" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  try {
+    result = std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__pop(arg1);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< genie::ResourceUsage< short,short,signed char > >::value_type(static_cast< const std::vector< genie::ResourceUsage< short,short,signed char > >::value_type& >(result))), SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector_append", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_append" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ResearchResourceCostVector_append" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector_append" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::value_type * >(argp2);
+  std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__append(arg1,(genie::ResourceUsage< short,short,signed char > const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ResearchResourceCostVector__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *result = 0 ;
+  
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  result = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *)new std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ResearchResourceCostVector__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *ptr = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_ResearchResourceCostVector" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_ResearchResourceCostVector" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  result = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *)new std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >((std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_empty" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (bool)((std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *)arg1)->empty();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_size" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = ((std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *)arg1)->size();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector_swap", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_swap" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ResearchResourceCostVector_swap" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector_swap" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp2);
+  (arg1)->swap(*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_begin" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (arg1)->begin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::ResourceUsage< short,short,signed char > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_end" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (arg1)->end();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::ResourceUsage< short,short,signed char > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::reverse_iterator > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_rbegin" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (arg1)->rbegin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::ResourceUsage< short,short,signed char > >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::reverse_iterator > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_rend" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (arg1)->rend();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::ResourceUsage< short,short,signed char > >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_clear" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  (arg1)->clear();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::allocator< genie::ResourceUsage< short,short,signed char > > > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_get_allocator" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = ((std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *)arg1)->get_allocator();
+  resultobj = SWIG_NewPointerObj((new std::vector< genie::ResourceUsage< short,short,signed char > >::allocator_type(static_cast< const std::vector< genie::ResourceUsage< short,short,signed char > >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ResearchResourceCostVector__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_ResearchResourceCostVector" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::size_type >(val1);
+  result = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *)new std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_pop_back" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  (arg1)->pop_back();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_resize" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector_resize" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::size_type >(val2);
+  (arg1)->resize(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_erase" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_erase" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_erase" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__erase__SWIG_0(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::ResourceUsage< short,short,signed char > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > arg2 ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_erase" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_erase" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_erase" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_erase" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_erase" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__erase__SWIG_1(arg1,arg2,arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::ResourceUsage< short,short,signed char > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_erase(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector_erase", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_ResearchResourceCostVector_erase__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_ResearchResourceCostVector_erase__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'ResearchResourceCostVector_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::erase(std::vector< genie::ResourceUsage< short,short,signed char > >::iterator)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::erase(std::vector< genie::ResourceUsage< short,short,signed char > >::iterator,std::vector< genie::ResourceUsage< short,short,signed char > >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ResearchResourceCostVector__SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type arg1 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_ResearchResourceCostVector" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::size_type >(val1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_ResearchResourceCostVector" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_ResearchResourceCostVector" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::value_type * >(argp2);
+  result = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *)new std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >(arg1,(std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_ResearchResourceCostVector(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_ResearchResourceCostVector", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_ResearchResourceCostVector__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_ResearchResourceCostVector__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_ResearchResourceCostVector__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_ResearchResourceCostVector__SWIG_3(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_ResearchResourceCostVector'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::vector()\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::vector(std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const &)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::vector(std::vector< genie::ResourceUsage< short,short,signed char > >::size_type)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::vector(std::vector< genie::ResourceUsage< short,short,signed char > >::size_type,std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector_push_back", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_push_back" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ResearchResourceCostVector_push_back" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector_push_back" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::value_type * >(argp2);
+  (arg1)->push_back((std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_front" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *) &((std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *)arg1)->front();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::ResourceUsage< short,short,signed char > >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_back" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = (std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *) &((std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *)arg1)->back();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< genie::ResourceUsage< short,short,signed char > >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type arg2 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector_assign", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_assign" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector_assign" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ResearchResourceCostVector_assign" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector_assign" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::value_type * >(argp3);
+  (arg1)->assign(arg2,(std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type arg2 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_resize" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector_resize" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ResearchResourceCostVector_resize" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector_resize" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::value_type * >(argp3);
+  (arg1)->resize(arg2,(std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_resize(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector_resize", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_ResearchResourceCostVector_resize__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_ResearchResourceCostVector_resize__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'ResearchResourceCostVector_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::resize(std::vector< genie::ResourceUsage< short,short,signed char > >::size_type)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::resize(std::vector< genie::ResourceUsage< short,short,signed char > >::size_type,std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > arg2 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_insert" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_insert" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_insert" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ResearchResourceCostVector_insert" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector_insert" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::value_type * >(argp3);
+  result = std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__insert__SWIG_0(arg1,arg2,(genie::ResourceUsage< short,short,signed char > const &)*arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< genie::ResourceUsage< short,short,signed char > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  SwigValueWrapper< std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > arg2 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type arg3 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_insert" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_insert" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "ResearchResourceCostVector_insert" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ResearchResourceCostVector_insert" "', argument " "3"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::size_type >(val3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t,  0  | 0);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "ResearchResourceCostVector_insert" "', argument " "4"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ResearchResourceCostVector_insert" "', argument " "4"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &""'"); 
+  }
+  arg4 = reinterpret_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::value_type * >(argp4);
+  std_vector_Sl_genie_ResourceUsage_Sl_int16_t_Sc_int16_t_Sc_int8_t_Sg__Sg__insert__SWIG_1(arg1,arg2,arg3,(genie::ResourceUsage< short,short,signed char > const &)*arg4);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_insert(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector_insert", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_ResearchResourceCostVector_insert__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< genie::ResourceUsage< short,short,signed char > >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_genie__ResourceUsageT_short_short_signed_char_t, SWIG_POINTER_NO_NULL | 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_ResearchResourceCostVector_insert__SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'ResearchResourceCostVector_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::insert(std::vector< genie::ResourceUsage< short,short,signed char > >::iterator,std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &)\n"
+    "    std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > >::insert(std::vector< genie::ResourceUsage< short,short,signed char > >::iterator,std::vector< genie::ResourceUsage< short,short,signed char > >::size_type,std::vector< genie::ResourceUsage< short,short,signed char > >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "ResearchResourceCostVector_reserve", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_reserve" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ResearchResourceCostVector_reserve" "', argument " "2"" of type '" "std::vector< genie::ResourceUsage< short,short,signed char > >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< genie::ResourceUsage< short,short,signed char > >::size_type >(val2);
+  (arg1)->reserve(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ResearchResourceCostVector_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< genie::ResourceUsage< short,short,signed char > >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ResearchResourceCostVector_capacity" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  result = ((std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > const *)arg1)->capacity();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_ResearchResourceCostVector(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *arg1 = (std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ResearchResourceCostVector" "', argument " "1"" of type '" "std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > * >(argp1);
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *ResearchResourceCostVector_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *ResearchResourceCostVector_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_new_Int16Pair__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
   PyObject *resultobj = 0;
   std::pair< int16_t,int16_t > *result = 0 ;
@@ -25142,254 +32639,6 @@ SWIGINTERN PyObject *Int16Pair_swigregister(PyObject *SWIGUNUSEDPARM(self), PyOb
 }
 
 SWIGINTERN PyObject *Int16Pair_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  return SWIG_Python_InitShadowInstance(args);
-}
-
-SWIGINTERN int Swig_var_GV_LatestTap_set(PyObject *_val) {
-  if (sizeof(int) != sizeof(genie::GV_LatestTap)) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_AttributeError), "in variable '""arch, read-only genie::GV_LatestTap""' of type '""genie::GameVersion""'");
-  }  else {
-    int ecode = SWIG_AsVal_int (_val, reinterpret_cast< int* >(&genie::GV_LatestTap));
-    if (!SWIG_IsOK(ecode)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode), "in variable '""genie::GV_LatestTap""' of type '""genie::GameVersion""'");
-    }
-  }
-  return 0;
-fail:
-  return 1;
-}
-
-
-SWIGINTERN PyObject *Swig_var_GV_LatestTap_get(void) {
-  PyObject *pyobj = 0;
-  
-  pyobj = SWIG_From_int(static_cast< int >(genie::GV_LatestTap));
-  return pyobj;
-}
-
-
-SWIGINTERN int Swig_var_GV_LatestDE2_set(PyObject *_val) {
-  if (sizeof(int) != sizeof(genie::GV_LatestDE2)) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_AttributeError), "in variable '""arch, read-only genie::GV_LatestDE2""' of type '""genie::GameVersion""'");
-  }  else {
-    int ecode = SWIG_AsVal_int (_val, reinterpret_cast< int* >(&genie::GV_LatestDE2));
-    if (!SWIG_IsOK(ecode)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode), "in variable '""genie::GV_LatestDE2""' of type '""genie::GameVersion""'");
-    }
-  }
-  return 0;
-fail:
-  return 1;
-}
-
-
-SWIGINTERN PyObject *Swig_var_GV_LatestDE2_get(void) {
-  PyObject *pyobj = 0;
-  
-  pyobj = SWIG_From_int(static_cast< int >(genie::GV_LatestDE2));
-  return pyobj;
-}
-
-
-SWIGINTERN PyObject *_wrap_XYZF_x_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  PyObject *swig_obj[2] ;
-  
-  if (!SWIG_Python_UnpackTuple(args, "XYZF_x_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_x_set" "', argument " "1"" of type '" "genie::XYZF *""'"); 
-  }
-  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
-  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "XYZF_x_set" "', argument " "2"" of type '" "float""'");
-  } 
-  arg2 = static_cast< float >(val2);
-  if (arg1) (arg1)->x = arg2;
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_XYZF_x_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  float result;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_x_get" "', argument " "1"" of type '" "genie::XYZF *""'"); 
-  }
-  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
-  result = (float) ((arg1)->x);
-  resultobj = SWIG_From_float(static_cast< float >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_XYZF_y_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  PyObject *swig_obj[2] ;
-  
-  if (!SWIG_Python_UnpackTuple(args, "XYZF_y_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_y_set" "', argument " "1"" of type '" "genie::XYZF *""'"); 
-  }
-  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
-  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "XYZF_y_set" "', argument " "2"" of type '" "float""'");
-  } 
-  arg2 = static_cast< float >(val2);
-  if (arg1) (arg1)->y = arg2;
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_XYZF_y_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  float result;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_y_get" "', argument " "1"" of type '" "genie::XYZF *""'"); 
-  }
-  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
-  result = (float) ((arg1)->y);
-  resultobj = SWIG_From_float(static_cast< float >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_XYZF_z_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
-  float arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  float val2 ;
-  int ecode2 = 0 ;
-  PyObject *swig_obj[2] ;
-  
-  if (!SWIG_Python_UnpackTuple(args, "XYZF_z_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_z_set" "', argument " "1"" of type '" "genie::XYZF *""'"); 
-  }
-  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
-  ecode2 = SWIG_AsVal_float(swig_obj[1], &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "XYZF_z_set" "', argument " "2"" of type '" "float""'");
-  } 
-  arg2 = static_cast< float >(val2);
-  if (arg1) (arg1)->z = arg2;
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_XYZF_z_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  float result;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "XYZF_z_get" "', argument " "1"" of type '" "genie::XYZF *""'"); 
-  }
-  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
-  result = (float) ((arg1)->z);
-  resultobj = SWIG_From_float(static_cast< float >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_new_XYZF(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  genie::XYZF *result = 0 ;
-  
-  if (!SWIG_Python_UnpackTuple(args, "new_XYZF", 0, 0, 0)) SWIG_fail;
-  result = (genie::XYZF *)new genie::XYZF();
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_genie__XYZF, SWIG_POINTER_NEW |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_delete_XYZF(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  genie::XYZF *arg1 = (genie::XYZF *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_genie__XYZF, SWIG_POINTER_DISOWN |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_XYZF" "', argument " "1"" of type '" "genie::XYZF *""'"); 
-  }
-  arg1 = reinterpret_cast< genie::XYZF * >(argp1);
-  delete arg1;
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *XYZF_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *obj;
-  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_genie__XYZF, SWIG_NewClientData(obj));
-  return SWIG_Py_Void();
-}
-
-SWIGINTERN PyObject *XYZF_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   return SWIG_Python_InitShadowInstance(args);
 }
 
@@ -26482,7 +33731,7 @@ fail:
 SWIGINTERN PyObject *_wrap_DatFile_Techs_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::DatFile *arg1 = (genie::DatFile *) 0 ;
-  std::vector< Tech,std::allocator< Tech > > *arg2 = (std::vector< Tech,std::allocator< Tech > > *) 0 ;
+  std::vector< genie::Tech,std::allocator< genie::Tech > > *arg2 = (std::vector< genie::Tech,std::allocator< genie::Tech > > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -26495,11 +33744,11 @@ SWIGINTERN PyObject *_wrap_DatFile_Techs_set(PyObject *SWIGUNUSEDPARM(self), PyO
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DatFile_Techs_set" "', argument " "1"" of type '" "genie::DatFile *""'"); 
   }
   arg1 = reinterpret_cast< genie::DatFile * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_Tech_std__allocatorT_Tech_t_t, 0 |  0 );
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DatFile_Techs_set" "', argument " "2"" of type '" "std::vector< Tech,std::allocator< Tech > > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DatFile_Techs_set" "', argument " "2"" of type '" "std::vector< genie::Tech,std::allocator< genie::Tech > > *""'"); 
   }
-  arg2 = reinterpret_cast< std::vector< Tech,std::allocator< Tech > > * >(argp2);
+  arg2 = reinterpret_cast< std::vector< genie::Tech,std::allocator< genie::Tech > > * >(argp2);
   if (arg1) (arg1)->Techs = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -26514,7 +33763,7 @@ SWIGINTERN PyObject *_wrap_DatFile_Techs_get(PyObject *SWIGUNUSEDPARM(self), PyO
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< Tech,std::allocator< Tech > > *result = 0 ;
+  std::vector< genie::Tech,std::allocator< genie::Tech > > *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -26523,8 +33772,8 @@ SWIGINTERN PyObject *_wrap_DatFile_Techs_get(PyObject *SWIGUNUSEDPARM(self), PyO
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DatFile_Techs_get" "', argument " "1"" of type '" "genie::DatFile *""'"); 
   }
   arg1 = reinterpret_cast< genie::DatFile * >(argp1);
-  result = (std::vector< Tech,std::allocator< Tech > > *)& ((arg1)->Techs);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_Tech_std__allocatorT_Tech_t_t, 0 |  0 );
+  result = (std::vector< genie::Tech,std::allocator< genie::Tech > > *)& ((arg1)->Techs);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -26534,7 +33783,7 @@ fail:
 SWIGINTERN PyObject *_wrap_DatFile_UnitLines_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   genie::DatFile *arg1 = (genie::DatFile *) 0 ;
-  std::vector< UnitLine,std::allocator< UnitLine > > *arg2 = (std::vector< UnitLine,std::allocator< UnitLine > > *) 0 ;
+  std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *arg2 = (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -26547,11 +33796,11 @@ SWIGINTERN PyObject *_wrap_DatFile_UnitLines_set(PyObject *SWIGUNUSEDPARM(self),
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DatFile_UnitLines_set" "', argument " "1"" of type '" "genie::DatFile *""'"); 
   }
   arg1 = reinterpret_cast< genie::DatFile * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t, 0 |  0 );
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DatFile_UnitLines_set" "', argument " "2"" of type '" "std::vector< UnitLine,std::allocator< UnitLine > > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DatFile_UnitLines_set" "', argument " "2"" of type '" "std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *""'"); 
   }
-  arg2 = reinterpret_cast< std::vector< UnitLine,std::allocator< UnitLine > > * >(argp2);
+  arg2 = reinterpret_cast< std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > * >(argp2);
   if (arg1) (arg1)->UnitLines = *arg2;
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -26566,7 +33815,7 @@ SWIGINTERN PyObject *_wrap_DatFile_UnitLines_get(PyObject *SWIGUNUSEDPARM(self),
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< UnitLine,std::allocator< UnitLine > > *result = 0 ;
+  std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *result = 0 ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -26575,8 +33824,8 @@ SWIGINTERN PyObject *_wrap_DatFile_UnitLines_get(PyObject *SWIGUNUSEDPARM(self),
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DatFile_UnitLines_get" "', argument " "1"" of type '" "genie::DatFile *""'"); 
   }
   arg1 = reinterpret_cast< genie::DatFile * >(argp1);
-  result = (std::vector< UnitLine,std::allocator< UnitLine > > *)& ((arg1)->UnitLines);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t, 0 |  0 );
+  result = (std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *)& ((arg1)->UnitLines);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -27402,6 +34651,16 @@ static PyMethodDef SwigMethods[] = {
 	 { "SwigPyIterator___add__", _wrap_SwigPyIterator___add__, METH_VARARGS, NULL},
 	 { "SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, NULL},
 	 { "SwigPyIterator_swigregister", SwigPyIterator_swigregister, METH_O, NULL},
+	 { "XYZF_x_set", _wrap_XYZF_x_set, METH_VARARGS, NULL},
+	 { "XYZF_x_get", _wrap_XYZF_x_get, METH_O, NULL},
+	 { "XYZF_y_set", _wrap_XYZF_y_set, METH_VARARGS, NULL},
+	 { "XYZF_y_get", _wrap_XYZF_y_get, METH_O, NULL},
+	 { "XYZF_z_set", _wrap_XYZF_z_set, METH_VARARGS, NULL},
+	 { "XYZF_z_get", _wrap_XYZF_z_get, METH_O, NULL},
+	 { "new_XYZF", _wrap_new_XYZF, METH_NOARGS, NULL},
+	 { "delete_XYZF", _wrap_delete_XYZF, METH_O, NULL},
+	 { "XYZF_swigregister", XYZF_swigregister, METH_O, NULL},
+	 { "XYZF_swiginit", XYZF_swiginit, METH_VARARGS, NULL},
 	 { "delete_ISerializable", _wrap_delete_ISerializable, METH_O, NULL},
 	 { "ISerializable_setInitialReadPosition", _wrap_ISerializable_setInitialReadPosition, METH_VARARGS, NULL},
 	 { "ISerializable_getInitialReadPosition", _wrap_ISerializable_getInitialReadPosition, METH_O, NULL},
@@ -27927,6 +35186,61 @@ static PyMethodDef SwigMethods[] = {
 	 { "Civ_UniqueUnitsTechs_get", _wrap_Civ_UniqueUnitsTechs_get, METH_O, NULL},
 	 { "Civ_swigregister", Civ_swigregister, METH_O, NULL},
 	 { "Civ_swiginit", Civ_swiginit, METH_VARARGS, NULL},
+	 { "new_Tech", _wrap_new_Tech, METH_NOARGS, NULL},
+	 { "delete_Tech", _wrap_delete_Tech, METH_O, NULL},
+	 { "Tech_setGameVersion", _wrap_Tech_setGameVersion, METH_VARARGS, NULL},
+	 { "Tech_getRequiredTechsSize", _wrap_Tech_getRequiredTechsSize, METH_O, NULL},
+	 { "Tech_RequiredTechs_set", _wrap_Tech_RequiredTechs_set, METH_VARARGS, NULL},
+	 { "Tech_RequiredTechs_get", _wrap_Tech_RequiredTechs_get, METH_O, NULL},
+	 { "Tech_ResourceCosts_set", _wrap_Tech_ResourceCosts_set, METH_VARARGS, NULL},
+	 { "Tech_ResourceCosts_get", _wrap_Tech_ResourceCosts_get, METH_O, NULL},
+	 { "Tech_RequiredTechCount_set", _wrap_Tech_RequiredTechCount_set, METH_VARARGS, NULL},
+	 { "Tech_RequiredTechCount_get", _wrap_Tech_RequiredTechCount_get, METH_O, NULL},
+	 { "Tech_Civ_set", _wrap_Tech_Civ_set, METH_VARARGS, NULL},
+	 { "Tech_Civ_get", _wrap_Tech_Civ_get, METH_O, NULL},
+	 { "Tech_FullTechMode_set", _wrap_Tech_FullTechMode_set, METH_VARARGS, NULL},
+	 { "Tech_FullTechMode_get", _wrap_Tech_FullTechMode_get, METH_O, NULL},
+	 { "Tech_ResearchLocation_set", _wrap_Tech_ResearchLocation_set, METH_VARARGS, NULL},
+	 { "Tech_ResearchLocation_get", _wrap_Tech_ResearchLocation_get, METH_O, NULL},
+	 { "Tech_LanguageDLLName_set", _wrap_Tech_LanguageDLLName_set, METH_VARARGS, NULL},
+	 { "Tech_LanguageDLLName_get", _wrap_Tech_LanguageDLLName_get, METH_O, NULL},
+	 { "Tech_LanguageDLLDescription_set", _wrap_Tech_LanguageDLLDescription_set, METH_VARARGS, NULL},
+	 { "Tech_LanguageDLLDescription_get", _wrap_Tech_LanguageDLLDescription_get, METH_O, NULL},
+	 { "Tech_ResearchTime_set", _wrap_Tech_ResearchTime_set, METH_VARARGS, NULL},
+	 { "Tech_ResearchTime_get", _wrap_Tech_ResearchTime_get, METH_O, NULL},
+	 { "Tech_EffectID_set", _wrap_Tech_EffectID_set, METH_VARARGS, NULL},
+	 { "Tech_EffectID_get", _wrap_Tech_EffectID_get, METH_O, NULL},
+	 { "Tech_Type_set", _wrap_Tech_Type_set, METH_VARARGS, NULL},
+	 { "Tech_Type_get", _wrap_Tech_Type_get, METH_O, NULL},
+	 { "Tech_IconID_set", _wrap_Tech_IconID_set, METH_VARARGS, NULL},
+	 { "Tech_IconID_get", _wrap_Tech_IconID_get, METH_O, NULL},
+	 { "Tech_ButtonID_set", _wrap_Tech_ButtonID_set, METH_VARARGS, NULL},
+	 { "Tech_ButtonID_get", _wrap_Tech_ButtonID_get, METH_O, NULL},
+	 { "Tech_LanguageDLLHelp_set", _wrap_Tech_LanguageDLLHelp_set, METH_VARARGS, NULL},
+	 { "Tech_LanguageDLLHelp_get", _wrap_Tech_LanguageDLLHelp_get, METH_O, NULL},
+	 { "Tech_LanguageDLLTechTree_set", _wrap_Tech_LanguageDLLTechTree_set, METH_VARARGS, NULL},
+	 { "Tech_LanguageDLLTechTree_get", _wrap_Tech_LanguageDLLTechTree_get, METH_O, NULL},
+	 { "Tech_HotKey_set", _wrap_Tech_HotKey_set, METH_VARARGS, NULL},
+	 { "Tech_HotKey_get", _wrap_Tech_HotKey_get, METH_O, NULL},
+	 { "Tech_Name_set", _wrap_Tech_Name_set, METH_VARARGS, NULL},
+	 { "Tech_Name_get", _wrap_Tech_Name_get, METH_O, NULL},
+	 { "Tech_Name2_set", _wrap_Tech_Name2_set, METH_VARARGS, NULL},
+	 { "Tech_Name2_get", _wrap_Tech_Name2_get, METH_O, NULL},
+	 { "Tech_Repeatable_set", _wrap_Tech_Repeatable_set, METH_VARARGS, NULL},
+	 { "Tech_Repeatable_get", _wrap_Tech_Repeatable_get, METH_O, NULL},
+	 { "Tech_swigregister", Tech_swigregister, METH_O, NULL},
+	 { "Tech_swiginit", Tech_swiginit, METH_VARARGS, NULL},
+	 { "new_UnitLine", _wrap_new_UnitLine, METH_NOARGS, NULL},
+	 { "delete_UnitLine", _wrap_delete_UnitLine, METH_O, NULL},
+	 { "UnitLine_setGameVersion", _wrap_UnitLine_setGameVersion, METH_VARARGS, NULL},
+	 { "UnitLine_ID_set", _wrap_UnitLine_ID_set, METH_VARARGS, NULL},
+	 { "UnitLine_ID_get", _wrap_UnitLine_ID_get, METH_O, NULL},
+	 { "UnitLine_Name_set", _wrap_UnitLine_Name_set, METH_VARARGS, NULL},
+	 { "UnitLine_Name_get", _wrap_UnitLine_Name_get, METH_O, NULL},
+	 { "UnitLine_UnitIDs_set", _wrap_UnitLine_UnitIDs_set, METH_VARARGS, NULL},
+	 { "UnitLine_UnitIDs_get", _wrap_UnitLine_UnitIDs_get, METH_O, NULL},
+	 { "UnitLine_swigregister", UnitLine_swigregister, METH_O, NULL},
+	 { "UnitLine_swiginit", UnitLine_swiginit, METH_VARARGS, NULL},
 	 { "CivVector_iterator", _wrap_CivVector_iterator, METH_O, NULL},
 	 { "CivVector___nonzero__", _wrap_CivVector___nonzero__, METH_O, NULL},
 	 { "CivVector___bool__", _wrap_CivVector___bool__, METH_O, NULL},
@@ -28032,6 +35346,122 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_GraphicVector", _wrap_delete_GraphicVector, METH_O, NULL},
 	 { "GraphicVector_swigregister", GraphicVector_swigregister, METH_O, NULL},
 	 { "GraphicVector_swiginit", GraphicVector_swiginit, METH_VARARGS, NULL},
+	 { "TechVector_iterator", _wrap_TechVector_iterator, METH_O, NULL},
+	 { "TechVector___nonzero__", _wrap_TechVector___nonzero__, METH_O, NULL},
+	 { "TechVector___bool__", _wrap_TechVector___bool__, METH_O, NULL},
+	 { "TechVector___len__", _wrap_TechVector___len__, METH_O, NULL},
+	 { "TechVector___getslice__", _wrap_TechVector___getslice__, METH_VARARGS, NULL},
+	 { "TechVector___setslice__", _wrap_TechVector___setslice__, METH_VARARGS, NULL},
+	 { "TechVector___delslice__", _wrap_TechVector___delslice__, METH_VARARGS, NULL},
+	 { "TechVector___delitem__", _wrap_TechVector___delitem__, METH_VARARGS, NULL},
+	 { "TechVector___getitem__", _wrap_TechVector___getitem__, METH_VARARGS, NULL},
+	 { "TechVector___setitem__", _wrap_TechVector___setitem__, METH_VARARGS, NULL},
+	 { "TechVector_pop", _wrap_TechVector_pop, METH_O, NULL},
+	 { "TechVector_append", _wrap_TechVector_append, METH_VARARGS, NULL},
+	 { "TechVector_empty", _wrap_TechVector_empty, METH_O, NULL},
+	 { "TechVector_size", _wrap_TechVector_size, METH_O, NULL},
+	 { "TechVector_swap", _wrap_TechVector_swap, METH_VARARGS, NULL},
+	 { "TechVector_begin", _wrap_TechVector_begin, METH_O, NULL},
+	 { "TechVector_end", _wrap_TechVector_end, METH_O, NULL},
+	 { "TechVector_rbegin", _wrap_TechVector_rbegin, METH_O, NULL},
+	 { "TechVector_rend", _wrap_TechVector_rend, METH_O, NULL},
+	 { "TechVector_clear", _wrap_TechVector_clear, METH_O, NULL},
+	 { "TechVector_get_allocator", _wrap_TechVector_get_allocator, METH_O, NULL},
+	 { "TechVector_pop_back", _wrap_TechVector_pop_back, METH_O, NULL},
+	 { "TechVector_erase", _wrap_TechVector_erase, METH_VARARGS, NULL},
+	 { "new_TechVector", _wrap_new_TechVector, METH_VARARGS, NULL},
+	 { "TechVector_push_back", _wrap_TechVector_push_back, METH_VARARGS, NULL},
+	 { "TechVector_front", _wrap_TechVector_front, METH_O, NULL},
+	 { "TechVector_back", _wrap_TechVector_back, METH_O, NULL},
+	 { "TechVector_assign", _wrap_TechVector_assign, METH_VARARGS, NULL},
+	 { "TechVector_resize", _wrap_TechVector_resize, METH_VARARGS, NULL},
+	 { "TechVector_insert", _wrap_TechVector_insert, METH_VARARGS, NULL},
+	 { "TechVector_reserve", _wrap_TechVector_reserve, METH_VARARGS, NULL},
+	 { "TechVector_capacity", _wrap_TechVector_capacity, METH_O, NULL},
+	 { "delete_TechVector", _wrap_delete_TechVector, METH_O, NULL},
+	 { "TechVector_swigregister", TechVector_swigregister, METH_O, NULL},
+	 { "TechVector_swiginit", TechVector_swiginit, METH_VARARGS, NULL},
+	 { "UnitLineVector_iterator", _wrap_UnitLineVector_iterator, METH_O, NULL},
+	 { "UnitLineVector___nonzero__", _wrap_UnitLineVector___nonzero__, METH_O, NULL},
+	 { "UnitLineVector___bool__", _wrap_UnitLineVector___bool__, METH_O, NULL},
+	 { "UnitLineVector___len__", _wrap_UnitLineVector___len__, METH_O, NULL},
+	 { "UnitLineVector___getslice__", _wrap_UnitLineVector___getslice__, METH_VARARGS, NULL},
+	 { "UnitLineVector___setslice__", _wrap_UnitLineVector___setslice__, METH_VARARGS, NULL},
+	 { "UnitLineVector___delslice__", _wrap_UnitLineVector___delslice__, METH_VARARGS, NULL},
+	 { "UnitLineVector___delitem__", _wrap_UnitLineVector___delitem__, METH_VARARGS, NULL},
+	 { "UnitLineVector___getitem__", _wrap_UnitLineVector___getitem__, METH_VARARGS, NULL},
+	 { "UnitLineVector___setitem__", _wrap_UnitLineVector___setitem__, METH_VARARGS, NULL},
+	 { "UnitLineVector_pop", _wrap_UnitLineVector_pop, METH_O, NULL},
+	 { "UnitLineVector_append", _wrap_UnitLineVector_append, METH_VARARGS, NULL},
+	 { "UnitLineVector_empty", _wrap_UnitLineVector_empty, METH_O, NULL},
+	 { "UnitLineVector_size", _wrap_UnitLineVector_size, METH_O, NULL},
+	 { "UnitLineVector_swap", _wrap_UnitLineVector_swap, METH_VARARGS, NULL},
+	 { "UnitLineVector_begin", _wrap_UnitLineVector_begin, METH_O, NULL},
+	 { "UnitLineVector_end", _wrap_UnitLineVector_end, METH_O, NULL},
+	 { "UnitLineVector_rbegin", _wrap_UnitLineVector_rbegin, METH_O, NULL},
+	 { "UnitLineVector_rend", _wrap_UnitLineVector_rend, METH_O, NULL},
+	 { "UnitLineVector_clear", _wrap_UnitLineVector_clear, METH_O, NULL},
+	 { "UnitLineVector_get_allocator", _wrap_UnitLineVector_get_allocator, METH_O, NULL},
+	 { "UnitLineVector_pop_back", _wrap_UnitLineVector_pop_back, METH_O, NULL},
+	 { "UnitLineVector_erase", _wrap_UnitLineVector_erase, METH_VARARGS, NULL},
+	 { "new_UnitLineVector", _wrap_new_UnitLineVector, METH_VARARGS, NULL},
+	 { "UnitLineVector_push_back", _wrap_UnitLineVector_push_back, METH_VARARGS, NULL},
+	 { "UnitLineVector_front", _wrap_UnitLineVector_front, METH_O, NULL},
+	 { "UnitLineVector_back", _wrap_UnitLineVector_back, METH_O, NULL},
+	 { "UnitLineVector_assign", _wrap_UnitLineVector_assign, METH_VARARGS, NULL},
+	 { "UnitLineVector_resize", _wrap_UnitLineVector_resize, METH_VARARGS, NULL},
+	 { "UnitLineVector_insert", _wrap_UnitLineVector_insert, METH_VARARGS, NULL},
+	 { "UnitLineVector_reserve", _wrap_UnitLineVector_reserve, METH_VARARGS, NULL},
+	 { "UnitLineVector_capacity", _wrap_UnitLineVector_capacity, METH_O, NULL},
+	 { "delete_UnitLineVector", _wrap_delete_UnitLineVector, METH_O, NULL},
+	 { "UnitLineVector_swigregister", UnitLineVector_swigregister, METH_O, NULL},
+	 { "UnitLineVector_swiginit", UnitLineVector_swiginit, METH_VARARGS, NULL},
+	 { "new_ResearchResourceCost", _wrap_new_ResearchResourceCost, METH_NOARGS, NULL},
+	 { "delete_ResearchResourceCost", _wrap_delete_ResearchResourceCost, METH_O, NULL},
+	 { "ResearchResourceCost_setGameVersion", _wrap_ResearchResourceCost_setGameVersion, METH_VARARGS, NULL},
+	 { "ResearchResourceCost_Type_set", _wrap_ResearchResourceCost_Type_set, METH_VARARGS, NULL},
+	 { "ResearchResourceCost_Type_get", _wrap_ResearchResourceCost_Type_get, METH_O, NULL},
+	 { "ResearchResourceCost_Amount_set", _wrap_ResearchResourceCost_Amount_set, METH_VARARGS, NULL},
+	 { "ResearchResourceCost_Amount_get", _wrap_ResearchResourceCost_Amount_get, METH_O, NULL},
+	 { "ResearchResourceCost_Flag_set", _wrap_ResearchResourceCost_Flag_set, METH_VARARGS, NULL},
+	 { "ResearchResourceCost_Flag_get", _wrap_ResearchResourceCost_Flag_get, METH_O, NULL},
+	 { "ResearchResourceCost_swigregister", ResearchResourceCost_swigregister, METH_O, NULL},
+	 { "ResearchResourceCost_swiginit", ResearchResourceCost_swiginit, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_iterator", _wrap_ResearchResourceCostVector_iterator, METH_O, NULL},
+	 { "ResearchResourceCostVector___nonzero__", _wrap_ResearchResourceCostVector___nonzero__, METH_O, NULL},
+	 { "ResearchResourceCostVector___bool__", _wrap_ResearchResourceCostVector___bool__, METH_O, NULL},
+	 { "ResearchResourceCostVector___len__", _wrap_ResearchResourceCostVector___len__, METH_O, NULL},
+	 { "ResearchResourceCostVector___getslice__", _wrap_ResearchResourceCostVector___getslice__, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector___setslice__", _wrap_ResearchResourceCostVector___setslice__, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector___delslice__", _wrap_ResearchResourceCostVector___delslice__, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector___delitem__", _wrap_ResearchResourceCostVector___delitem__, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector___getitem__", _wrap_ResearchResourceCostVector___getitem__, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector___setitem__", _wrap_ResearchResourceCostVector___setitem__, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_pop", _wrap_ResearchResourceCostVector_pop, METH_O, NULL},
+	 { "ResearchResourceCostVector_append", _wrap_ResearchResourceCostVector_append, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_empty", _wrap_ResearchResourceCostVector_empty, METH_O, NULL},
+	 { "ResearchResourceCostVector_size", _wrap_ResearchResourceCostVector_size, METH_O, NULL},
+	 { "ResearchResourceCostVector_swap", _wrap_ResearchResourceCostVector_swap, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_begin", _wrap_ResearchResourceCostVector_begin, METH_O, NULL},
+	 { "ResearchResourceCostVector_end", _wrap_ResearchResourceCostVector_end, METH_O, NULL},
+	 { "ResearchResourceCostVector_rbegin", _wrap_ResearchResourceCostVector_rbegin, METH_O, NULL},
+	 { "ResearchResourceCostVector_rend", _wrap_ResearchResourceCostVector_rend, METH_O, NULL},
+	 { "ResearchResourceCostVector_clear", _wrap_ResearchResourceCostVector_clear, METH_O, NULL},
+	 { "ResearchResourceCostVector_get_allocator", _wrap_ResearchResourceCostVector_get_allocator, METH_O, NULL},
+	 { "ResearchResourceCostVector_pop_back", _wrap_ResearchResourceCostVector_pop_back, METH_O, NULL},
+	 { "ResearchResourceCostVector_erase", _wrap_ResearchResourceCostVector_erase, METH_VARARGS, NULL},
+	 { "new_ResearchResourceCostVector", _wrap_new_ResearchResourceCostVector, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_push_back", _wrap_ResearchResourceCostVector_push_back, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_front", _wrap_ResearchResourceCostVector_front, METH_O, NULL},
+	 { "ResearchResourceCostVector_back", _wrap_ResearchResourceCostVector_back, METH_O, NULL},
+	 { "ResearchResourceCostVector_assign", _wrap_ResearchResourceCostVector_assign, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_resize", _wrap_ResearchResourceCostVector_resize, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_insert", _wrap_ResearchResourceCostVector_insert, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_reserve", _wrap_ResearchResourceCostVector_reserve, METH_VARARGS, NULL},
+	 { "ResearchResourceCostVector_capacity", _wrap_ResearchResourceCostVector_capacity, METH_O, NULL},
+	 { "delete_ResearchResourceCostVector", _wrap_delete_ResearchResourceCostVector, METH_O, NULL},
+	 { "ResearchResourceCostVector_swigregister", ResearchResourceCostVector_swigregister, METH_O, NULL},
+	 { "ResearchResourceCostVector_swiginit", ResearchResourceCostVector_swiginit, METH_VARARGS, NULL},
 	 { "new_Int16Pair", _wrap_new_Int16Pair, METH_VARARGS, NULL},
 	 { "Int16Pair_first_set", _wrap_Int16Pair_first_set, METH_VARARGS, NULL},
 	 { "Int16Pair_first_get", _wrap_Int16Pair_first_get, METH_O, NULL},
@@ -28040,16 +35470,6 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_Int16Pair", _wrap_delete_Int16Pair, METH_O, NULL},
 	 { "Int16Pair_swigregister", Int16Pair_swigregister, METH_O, NULL},
 	 { "Int16Pair_swiginit", Int16Pair_swiginit, METH_VARARGS, NULL},
-	 { "XYZF_x_set", _wrap_XYZF_x_set, METH_VARARGS, NULL},
-	 { "XYZF_x_get", _wrap_XYZF_x_get, METH_O, NULL},
-	 { "XYZF_y_set", _wrap_XYZF_y_set, METH_VARARGS, NULL},
-	 { "XYZF_y_get", _wrap_XYZF_y_get, METH_O, NULL},
-	 { "XYZF_z_set", _wrap_XYZF_z_set, METH_VARARGS, NULL},
-	 { "XYZF_z_get", _wrap_XYZF_z_get, METH_O, NULL},
-	 { "new_XYZF", _wrap_new_XYZF, METH_NOARGS, NULL},
-	 { "delete_XYZF", _wrap_delete_XYZF, METH_O, NULL},
-	 { "XYZF_swigregister", XYZF_swigregister, METH_O, NULL},
-	 { "XYZF_swiginit", XYZF_swiginit, METH_VARARGS, NULL},
 	 { "delete_IFile", _wrap_delete_IFile, METH_O, NULL},
 	 { "IFile_freelock", _wrap_IFile_freelock, METH_O, NULL},
 	 { "IFile_setFileName", _wrap_IFile_setFileName, METH_VARARGS, NULL},
@@ -28141,14 +35561,20 @@ static void *_p_genie__DatFileTo_p_genie__IFile(void *x, int *SWIGUNUSEDPARM(new
 static void *_p_genie__UnitTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::ISerializable *)  ((genie::Unit *) x));
 }
-static void *_p_genie__DatFileTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((genie::ISerializable *) (genie::IFile *) ((genie::DatFile *) x));
+static void *_p_genie__ResourceUsageT_short_short_signed_char_tTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::ResourceUsage< short,short,signed char > *) x));
 }
 static void *_p_genie__unit__BuildingAnnexTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::ISerializable *)  ((genie::unit::BuildingAnnex *) x));
 }
+static void *_p_genie__DatFileTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *) (genie::IFile *) ((genie::DatFile *) x));
+}
 static void *_p_genie__CivTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::ISerializable *)  ((genie::Civ *) x));
+}
+static void *_p_genie__TechTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::Tech *) x));
 }
 static void *_p_genie__unit__BuildingTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::ISerializable *)  ((genie::unit::Building *) x));
@@ -28180,10 +35606,12 @@ static void *_p_genie__unit__CreatableTo_p_genie__ISerializable(void *x, int *SW
 static void *_p_genie__unit__AttackOrArmorTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((genie::ISerializable *)  ((genie::unit::AttackOrArmor *) x));
 }
-static swig_type_info _swigt__p_GameVersion = {"_p_GameVersion", "GameVersion *", 0, 0, (void*)0, 0};
+static void *_p_genie__UnitLineTo_p_genie__ISerializable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((genie::ISerializable *)  ((genie::UnitLine *) x));
+}
+static swig_type_info _swigt__p_ResearchResourceCost = {"_p_ResearchResourceCost", "ResearchResourceCost *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ResourceCost = {"_p_ResourceCost", "ResourceCost *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ResourceStorage = {"_p_ResourceStorage", "ResourceStorage *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_XYZF = {"_p_XYZF", "XYZF *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "difference_type *", 0, 0, (void*)0, 0};
@@ -28194,9 +35622,12 @@ static swig_type_info _swigt__p_genie__Graphic = {"_p_genie__Graphic", "std::vec
 static swig_type_info _swigt__p_genie__IFile = {"_p_genie__IFile", "genie::IFile *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__ISerializable = {"_p_genie__ISerializable", "genie::ISerializable *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__RandomMaps = {"_p_genie__RandomMaps", "genie::RandomMaps *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__ResourceUsageT_short_short_signed_char_t = {"_p_genie__ResourceUsageT_short_short_signed_char_t", "genie::ResourceUsage< short,short,signed char > *|std::vector< genie::ResourceUsage< short,short,signed char > >::value_type *|genie::ResourceUsage< int16_t,int16_t,int8_t > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__Tech = {"_p_genie__Tech", "std::vector< genie::Tech >::value_type *|genie::Tech *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__TechTree = {"_p_genie__TechTree", "genie::TechTree *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__TerrainBlock = {"_p_genie__TerrainBlock", "genie::TerrainBlock *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__Unit = {"_p_genie__Unit", "std::vector< genie::Unit >::value_type *|genie::Unit *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_genie__UnitLine = {"_p_genie__UnitLine", "std::vector< genie::UnitLine >::value_type *|genie::UnitLine *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__XYZF = {"_p_genie__XYZF", "genie::XYZF *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__unit__AttackOrArmor = {"_p_genie__unit__AttackOrArmor", "genie::unit::AttackOrArmor *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_genie__unit__Bird = {"_p_genie__unit__Bird", "genie::unit::Bird *", 0, 0, (void*)0, 0};
@@ -28216,6 +35647,9 @@ static swig_type_info _swigt__p_signed_char = {"_p_signed_char", "signed char *|
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_genie__Civ_t = {"_p_std__allocatorT_genie__Civ_t", "std::vector< genie::Civ >::allocator_type *|std::allocator< genie::Civ > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_genie__Graphic_t = {"_p_std__allocatorT_genie__Graphic_t", "std::vector< genie::Graphic >::allocator_type *|std::allocator< genie::Graphic > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t = {"_p_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t", "std::allocator< genie::ResourceUsage< short,short,signed char > > *|std::vector< genie::ResourceUsage< short,short,signed char > >::allocator_type *|std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_genie__Tech_t = {"_p_std__allocatorT_genie__Tech_t", "std::vector< genie::Tech >::allocator_type *|std::allocator< genie::Tech > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_genie__UnitLine_t = {"_p_std__allocatorT_genie__UnitLine_t", "std::vector< genie::UnitLine >::allocator_type *|std::allocator< genie::UnitLine > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_genie__Unit_t = {"_p_std__allocatorT_genie__Unit_t", "std::vector< genie::Unit >::allocator_type *|std::allocator< genie::Unit > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__invalid_argument = {"_p_std__invalid_argument", "std::invalid_argument *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__istream = {"_p_std__istream", "std::istream *", 0, 0, (void*)0, 0};
@@ -28227,17 +35661,18 @@ static swig_type_info _swigt__p_std__vectorT_Effect_std__allocatorT_Effect_t_t =
 static swig_type_info _swigt__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t = {"_p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t", "std::vector< GraphicAngleSound,std::allocator< GraphicAngleSound > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t = {"_p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t", "std::vector< GraphicDelta,std::allocator< GraphicDelta > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t = {"_p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t", "std::vector< PlayerColour,std::allocator< PlayerColour > > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t = {"_p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t", "std::vector< genie::Unit::ResourceStorage,std::allocator< genie::Unit::ResourceStorage > > *|std::vector< ResourceUsage< short,float,signed char >,std::allocator< ResourceUsage< short,float,signed char > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t = {"_p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t", "std::vector< genie::unit::Creatable::ResourceCost,std::allocator< genie::unit::Creatable::ResourceCost > > *|std::vector< ResourceUsage< short,short,short >,std::allocator< ResourceUsage< short,short,short > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_Sound_std__allocatorT_Sound_t_t = {"_p_std__vectorT_Sound_std__allocatorT_Sound_t_t", "std::vector< Sound,std::allocator< Sound > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_Task_std__allocatorT_Task_t_t = {"_p_std__vectorT_Task_std__allocatorT_Task_t_t", "std::vector< Task,std::allocator< Task > > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_Tech_std__allocatorT_Tech_t_t = {"_p_std__vectorT_Tech_std__allocatorT_Tech_t_t", "std::vector< Tech,std::allocator< Tech > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t = {"_p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t", "std::vector< TerrainRestriction,std::allocator< TerrainRestriction > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t = {"_p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t", "std::vector< UnitHeader,std::allocator< UnitHeader > > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t = {"_p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t", "std::vector< UnitLine,std::allocator< UnitLine > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_float_std__allocatorT_float_t_t = {"_p_std__vectorT_float_std__allocatorT_float_t_t", "std::vector< float,std::allocator< float > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t = {"_p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t", "std::vector< genie::Civ > *|std::vector< genie::Civ,std::allocator< genie::Civ > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t = {"_p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t", "std::vector< genie::Graphic,std::allocator< genie::Graphic > > *|std::vector< genie::Graphic > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t = {"_p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t", "std::vector< genie::ResourceUsage< short,short,signed char > > *|std::vector< genie::ResourceUsage< short,short,signed char >,std::allocator< genie::ResourceUsage< short,short,signed char > > > *|std::vector< genie::Tech::ResearchResourceCost,std::allocator< genie::Tech::ResearchResourceCost > > *|std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t > > *|std::vector< genie::ResourceUsage< int16_t,int16_t,int8_t >,std::allocator< genie::ResourceUsage< int16_t,int16_t,int8_t > > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_genie__ResourceUsageT_short_float_signed_char_t_std__allocatorT_genie__ResourceUsageT_short_float_signed_char_t_t_t = {"_p_std__vectorT_genie__ResourceUsageT_short_float_signed_char_t_std__allocatorT_genie__ResourceUsageT_short_float_signed_char_t_t_t", "std::vector< genie::ResourceUsage< short,float,signed char >,std::allocator< genie::ResourceUsage< short,float,signed char > > > *|std::vector< genie::Unit::ResourceStorage,std::allocator< genie::Unit::ResourceStorage > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t = {"_p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t", "std::vector< genie::Tech,std::allocator< genie::Tech > > *|std::vector< genie::Tech > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t = {"_p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t", "std::vector< genie::UnitLine,std::allocator< genie::UnitLine > > *|std::vector< genie::UnitLine > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t = {"_p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t", "std::vector< genie::Unit > *|std::vector< genie::Unit,std::allocator< genie::Unit > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t = {"_p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t", "std::vector< genie::unit::AttackOrArmor,std::allocator< genie::unit::AttackOrArmor > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t = {"_p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t", "std::vector< genie::unit::BuildingAnnex,std::allocator< genie::unit::BuildingAnnex > > *", 0, 0, (void*)0, 0};
@@ -28253,10 +35688,9 @@ static swig_type_info _swigt__p_unsigned_short = {"_p_unsigned_short", "unsigned
 static swig_type_info _swigt__p_value_type = {"_p_value_type", "value_type *", 0, 0, (void*)0, 0};
 
 static swig_type_info *swig_type_initial[] = {
-  &_swigt__p_GameVersion,
+  &_swigt__p_ResearchResourceCost,
   &_swigt__p_ResourceCost,
   &_swigt__p_ResourceStorage,
-  &_swigt__p_XYZF,
   &_swigt__p_allocator_type,
   &_swigt__p_char,
   &_swigt__p_difference_type,
@@ -28267,9 +35701,12 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_genie__IFile,
   &_swigt__p_genie__ISerializable,
   &_swigt__p_genie__RandomMaps,
+  &_swigt__p_genie__ResourceUsageT_short_short_signed_char_t,
+  &_swigt__p_genie__Tech,
   &_swigt__p_genie__TechTree,
   &_swigt__p_genie__TerrainBlock,
   &_swigt__p_genie__Unit,
+  &_swigt__p_genie__UnitLine,
   &_swigt__p_genie__XYZF,
   &_swigt__p_genie__unit__AttackOrArmor,
   &_swigt__p_genie__unit__Bird,
@@ -28289,6 +35726,9 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_size_type,
   &_swigt__p_std__allocatorT_genie__Civ_t,
   &_swigt__p_std__allocatorT_genie__Graphic_t,
+  &_swigt__p_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t,
+  &_swigt__p_std__allocatorT_genie__Tech_t,
+  &_swigt__p_std__allocatorT_genie__UnitLine_t,
   &_swigt__p_std__allocatorT_genie__Unit_t,
   &_swigt__p_std__invalid_argument,
   &_swigt__p_std__istream,
@@ -28300,17 +35740,18 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t,
   &_swigt__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t,
   &_swigt__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t,
-  &_swigt__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t,
   &_swigt__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t,
   &_swigt__p_std__vectorT_Sound_std__allocatorT_Sound_t_t,
   &_swigt__p_std__vectorT_Task_std__allocatorT_Task_t_t,
-  &_swigt__p_std__vectorT_Tech_std__allocatorT_Tech_t_t,
   &_swigt__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t,
   &_swigt__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t,
-  &_swigt__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t,
   &_swigt__p_std__vectorT_float_std__allocatorT_float_t_t,
   &_swigt__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t,
   &_swigt__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t,
+  &_swigt__p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t,
+  &_swigt__p_std__vectorT_genie__ResourceUsageT_short_float_signed_char_t_std__allocatorT_genie__ResourceUsageT_short_float_signed_char_t_t_t,
+  &_swigt__p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t,
+  &_swigt__p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t,
   &_swigt__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t,
   &_swigt__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t,
   &_swigt__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t,
@@ -28326,10 +35767,9 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_value_type,
 };
 
-static swig_cast_info _swigc__p_GameVersion[] = {  {&_swigt__p_GameVersion, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_ResearchResourceCost[] = {  {&_swigt__p_ResearchResourceCost, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ResourceCost[] = {  {&_swigt__p_ResourceCost, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ResourceStorage[] = {  {&_swigt__p_ResourceStorage, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_XYZF[] = {  {&_swigt__p_XYZF, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
@@ -28338,11 +35778,14 @@ static swig_cast_info _swigc__p_genie__Civ[] = {  {&_swigt__p_genie__Civ, 0, 0, 
 static swig_cast_info _swigc__p_genie__DatFile[] = {  {&_swigt__p_genie__DatFile, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__Graphic[] = {  {&_swigt__p_genie__Graphic, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__IFile[] = {  {&_swigt__p_genie__IFile, 0, 0, 0},  {&_swigt__p_genie__DatFile, _p_genie__DatFileTo_p_genie__IFile, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_genie__ISerializable[] = {  {&_swigt__p_genie__DatFile, _p_genie__DatFileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__BuildingAnnex, _p_genie__unit__BuildingAnnexTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Bird, _p_genie__unit__BirdTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__ISerializable, 0, 0, 0},  {&_swigt__p_genie__unit__Building, _p_genie__unit__BuildingTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__IFile, _p_genie__IFileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__DeadFish, _p_genie__unit__DeadFishTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__DamageGraphic, _p_genie__unit__DamageGraphicTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Graphic, _p_genie__GraphicTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Civ, _p_genie__CivTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Unit, _p_genie__UnitTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Type50, _p_genie__unit__Type50To_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Projectile, _p_genie__unit__ProjectileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Creatable, _p_genie__unit__CreatableTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__AttackOrArmor, _p_genie__unit__AttackOrArmorTo_p_genie__ISerializable, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__ISerializable[] = {  {&_swigt__p_genie__Tech, _p_genie__TechTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__DatFile, _p_genie__DatFileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__ResourceUsageT_short_short_signed_char_t, _p_genie__ResourceUsageT_short_short_signed_char_tTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__BuildingAnnex, _p_genie__unit__BuildingAnnexTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Bird, _p_genie__unit__BirdTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__ISerializable, 0, 0, 0},  {&_swigt__p_genie__unit__Building, _p_genie__unit__BuildingTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__IFile, _p_genie__IFileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__DeadFish, _p_genie__unit__DeadFishTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__DamageGraphic, _p_genie__unit__DamageGraphicTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Graphic, _p_genie__GraphicTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Civ, _p_genie__CivTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__Unit, _p_genie__UnitTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Type50, _p_genie__unit__Type50To_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Projectile, _p_genie__unit__ProjectileTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__Creatable, _p_genie__unit__CreatableTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__unit__AttackOrArmor, _p_genie__unit__AttackOrArmorTo_p_genie__ISerializable, 0, 0},  {&_swigt__p_genie__UnitLine, _p_genie__UnitLineTo_p_genie__ISerializable, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__RandomMaps[] = {  {&_swigt__p_genie__RandomMaps, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__ResourceUsageT_short_short_signed_char_t[] = {  {&_swigt__p_genie__ResourceUsageT_short_short_signed_char_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__Tech[] = {  {&_swigt__p_genie__Tech, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__TechTree[] = {  {&_swigt__p_genie__TechTree, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__TerrainBlock[] = {  {&_swigt__p_genie__TerrainBlock, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__Unit[] = {  {&_swigt__p_genie__Unit, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_genie__UnitLine[] = {  {&_swigt__p_genie__UnitLine, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__XYZF[] = {  {&_swigt__p_genie__XYZF, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__unit__AttackOrArmor[] = {  {&_swigt__p_genie__unit__AttackOrArmor, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_genie__unit__Bird[] = {  {&_swigt__p_genie__unit__Bird, 0, 0, 0},{0, 0, 0, 0}};
@@ -28362,6 +35805,9 @@ static swig_cast_info _swigc__p_signed_char[] = {  {&_swigt__p_signed_char, 0, 0
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_genie__Civ_t[] = {  {&_swigt__p_std__allocatorT_genie__Civ_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_genie__Graphic_t[] = {  {&_swigt__p_std__allocatorT_genie__Graphic_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t[] = {  {&_swigt__p_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_genie__Tech_t[] = {  {&_swigt__p_std__allocatorT_genie__Tech_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_genie__UnitLine_t[] = {  {&_swigt__p_std__allocatorT_genie__UnitLine_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_genie__Unit_t[] = {  {&_swigt__p_std__allocatorT_genie__Unit_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__invalid_argument[] = {  {&_swigt__p_std__invalid_argument, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__istream[] = {  {&_swigt__p_std__istream, 0, 0, 0},{0, 0, 0, 0}};
@@ -28373,17 +35819,18 @@ static swig_cast_info _swigc__p_std__vectorT_Effect_std__allocatorT_Effect_t_t[]
 static swig_cast_info _swigc__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t[] = {  {&_swigt__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t[] = {  {&_swigt__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t[] = {  {&_swigt__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t[] = {  {&_swigt__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t[] = {  {&_swigt__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_Sound_std__allocatorT_Sound_t_t[] = {  {&_swigt__p_std__vectorT_Sound_std__allocatorT_Sound_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_Task_std__allocatorT_Task_t_t[] = {  {&_swigt__p_std__vectorT_Task_std__allocatorT_Task_t_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__vectorT_Tech_std__allocatorT_Tech_t_t[] = {  {&_swigt__p_std__vectorT_Tech_std__allocatorT_Tech_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t[] = {  {&_swigt__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t[] = {  {&_swigt__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t[] = {  {&_swigt__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_float_std__allocatorT_float_t_t[] = {  {&_swigt__p_std__vectorT_float_std__allocatorT_float_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t[] = {  {&_swigt__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t[] = {  {&_swigt__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t[] = {  {&_swigt__p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_genie__ResourceUsageT_short_float_signed_char_t_std__allocatorT_genie__ResourceUsageT_short_float_signed_char_t_t_t[] = {  {&_swigt__p_std__vectorT_genie__ResourceUsageT_short_float_signed_char_t_std__allocatorT_genie__ResourceUsageT_short_float_signed_char_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t[] = {  {&_swigt__p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t[] = {  {&_swigt__p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t[] = {  {&_swigt__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t[] = {  {&_swigt__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t[] = {  {&_swigt__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -28399,10 +35846,9 @@ static swig_cast_info _swigc__p_unsigned_short[] = {  {&_swigt__p_unsigned_short
 static swig_cast_info _swigc__p_value_type[] = {  {&_swigt__p_value_type, 0, 0, 0},{0, 0, 0, 0}};
 
 static swig_cast_info *swig_cast_initial[] = {
-  _swigc__p_GameVersion,
+  _swigc__p_ResearchResourceCost,
   _swigc__p_ResourceCost,
   _swigc__p_ResourceStorage,
-  _swigc__p_XYZF,
   _swigc__p_allocator_type,
   _swigc__p_char,
   _swigc__p_difference_type,
@@ -28413,9 +35859,12 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_genie__IFile,
   _swigc__p_genie__ISerializable,
   _swigc__p_genie__RandomMaps,
+  _swigc__p_genie__ResourceUsageT_short_short_signed_char_t,
+  _swigc__p_genie__Tech,
   _swigc__p_genie__TechTree,
   _swigc__p_genie__TerrainBlock,
   _swigc__p_genie__Unit,
+  _swigc__p_genie__UnitLine,
   _swigc__p_genie__XYZF,
   _swigc__p_genie__unit__AttackOrArmor,
   _swigc__p_genie__unit__Bird,
@@ -28435,6 +35884,9 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_size_type,
   _swigc__p_std__allocatorT_genie__Civ_t,
   _swigc__p_std__allocatorT_genie__Graphic_t,
+  _swigc__p_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t,
+  _swigc__p_std__allocatorT_genie__Tech_t,
+  _swigc__p_std__allocatorT_genie__UnitLine_t,
   _swigc__p_std__allocatorT_genie__Unit_t,
   _swigc__p_std__invalid_argument,
   _swigc__p_std__istream,
@@ -28446,17 +35898,18 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__vectorT_GraphicAngleSound_std__allocatorT_GraphicAngleSound_t_t,
   _swigc__p_std__vectorT_GraphicDelta_std__allocatorT_GraphicDelta_t_t,
   _swigc__p_std__vectorT_PlayerColour_std__allocatorT_PlayerColour_t_t,
-  _swigc__p_std__vectorT_ResourceUsageT_short_float_signed_char_t_std__allocatorT_ResourceUsageT_short_float_signed_char_t_t_t,
   _swigc__p_std__vectorT_ResourceUsageT_short_short_short_t_std__allocatorT_ResourceUsageT_short_short_short_t_t_t,
   _swigc__p_std__vectorT_Sound_std__allocatorT_Sound_t_t,
   _swigc__p_std__vectorT_Task_std__allocatorT_Task_t_t,
-  _swigc__p_std__vectorT_Tech_std__allocatorT_Tech_t_t,
   _swigc__p_std__vectorT_TerrainRestriction_std__allocatorT_TerrainRestriction_t_t,
   _swigc__p_std__vectorT_UnitHeader_std__allocatorT_UnitHeader_t_t,
-  _swigc__p_std__vectorT_UnitLine_std__allocatorT_UnitLine_t_t,
   _swigc__p_std__vectorT_float_std__allocatorT_float_t_t,
   _swigc__p_std__vectorT_genie__Civ_std__allocatorT_genie__Civ_t_t,
   _swigc__p_std__vectorT_genie__Graphic_std__allocatorT_genie__Graphic_t_t,
+  _swigc__p_std__vectorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_std__allocatorT_genie__ResourceUsageT_int16_t_int16_t_int8_t_t_t_t,
+  _swigc__p_std__vectorT_genie__ResourceUsageT_short_float_signed_char_t_std__allocatorT_genie__ResourceUsageT_short_float_signed_char_t_t_t,
+  _swigc__p_std__vectorT_genie__Tech_std__allocatorT_genie__Tech_t_t,
+  _swigc__p_std__vectorT_genie__UnitLine_std__allocatorT_genie__UnitLine_t_t,
   _swigc__p_std__vectorT_genie__Unit_std__allocatorT_genie__Unit_t_t,
   _swigc__p_std__vectorT_genie__unit__AttackOrArmor_std__allocatorT_genie__unit__AttackOrArmor_t_t,
   _swigc__p_std__vectorT_genie__unit__BuildingAnnex_std__allocatorT_genie__unit__BuildingAnnex_t_t,
@@ -29205,39 +36658,6 @@ SWIG_init(void) {
   
   SWIG_InstallConstants(d,swig_const_table);
   
-  globals = SWIG_globals();
-  if (!globals) {
-    PyErr_SetString(PyExc_TypeError, "Failure to create SWIG globals.");
-#if PY_VERSION_HEX >= 0x03000000
-    return NULL;
-#else
-    return;
-#endif
-  }
-  PyDict_SetItemString(md, "cvar", globals);
-  Py_DECREF(globals);
-  SWIG_addvarlink(globals, "ISerializable_dat_internal_ver", Swig_var_ISerializable_dat_internal_ver_get, Swig_var_ISerializable_dat_internal_ver_set);
-  SWIG_addvarlink(globals, "ISerializable_scn_ver", Swig_var_ISerializable_scn_ver_get, Swig_var_ISerializable_scn_ver_set);
-  SWIG_addvarlink(globals, "ISerializable_scn_plr_data_ver", Swig_var_ISerializable_scn_plr_data_ver_get, Swig_var_ISerializable_scn_plr_data_ver_set);
-  SWIG_addvarlink(globals, "ISerializable_scn_internal_ver", Swig_var_ISerializable_scn_internal_ver_get, Swig_var_ISerializable_scn_internal_ver_set);
-  SWIG_addvarlink(globals, "ISerializable_scn_trigger_ver", Swig_var_ISerializable_scn_trigger_ver_get, Swig_var_ISerializable_scn_trigger_ver_set);
-  SWIG_Python_SetConstant(d, "Building_BUILDING_ANNEXES_SIZE",SWIG_From_unsigned_SS_short(static_cast< unsigned short >(genie::unit::Building::BUILDING_ANNEXES_SIZE)));
-  SWIG_Python_SetConstant(d, "Building_LOOTABLE_RES_COUNT",SWIG_From_unsigned_SS_short(static_cast< unsigned short >(genie::unit::Building::LOOTABLE_RES_COUNT)));
-  SWIG_Python_SetConstant(d, "UT_EyeCandy",SWIG_From_int(static_cast< int >(genie::UT_EyeCandy)));
-  SWIG_Python_SetConstant(d, "UT_Trees",SWIG_From_int(static_cast< int >(genie::UT_Trees)));
-  SWIG_Python_SetConstant(d, "UT_Flag",SWIG_From_int(static_cast< int >(genie::UT_Flag)));
-  SWIG_Python_SetConstant(d, "UT_25",SWIG_From_int(static_cast< int >(genie::UT_25)));
-  SWIG_Python_SetConstant(d, "UT_Dead_Fish",SWIG_From_int(static_cast< int >(genie::UT_Dead_Fish)));
-  SWIG_Python_SetConstant(d, "UT_Bird",SWIG_From_int(static_cast< int >(genie::UT_Bird)));
-  SWIG_Python_SetConstant(d, "UT_Combatant",SWIG_From_int(static_cast< int >(genie::UT_Combatant)));
-  SWIG_Python_SetConstant(d, "UT_Projectile",SWIG_From_int(static_cast< int >(genie::UT_Projectile)));
-  SWIG_Python_SetConstant(d, "UT_Creatable",SWIG_From_int(static_cast< int >(genie::UT_Creatable)));
-  SWIG_Python_SetConstant(d, "UT_Building",SWIG_From_int(static_cast< int >(genie::UT_Building)));
-  SWIG_Python_SetConstant(d, "UT_AoeTrees",SWIG_From_int(static_cast< int >(genie::UT_AoeTrees)));
-  
-  // thread safe initialization
-  swig::container_owner_attribute();
-  
   SWIG_Python_SetConstant(d, "GV_None",SWIG_From_int(static_cast< int >(genie::GV_None)));
   SWIG_Python_SetConstant(d, "GV_TEST",SWIG_From_int(static_cast< int >(genie::GV_TEST)));
   SWIG_Python_SetConstant(d, "GV_MIK",SWIG_From_int(static_cast< int >(genie::GV_MIK)));
@@ -29277,8 +36697,41 @@ SWIG_init(void) {
   SWIG_Python_SetConstant(d, "GV_C15",SWIG_From_int(static_cast< int >(genie::GV_C15)));
   SWIG_Python_SetConstant(d, "GV_SWGB",SWIG_From_int(static_cast< int >(genie::GV_SWGB)));
   SWIG_Python_SetConstant(d, "GV_CC",SWIG_From_int(static_cast< int >(genie::GV_CC)));
+  globals = SWIG_globals();
+  if (!globals) {
+    PyErr_SetString(PyExc_TypeError, "Failure to create SWIG globals.");
+#if PY_VERSION_HEX >= 0x03000000
+    return NULL;
+#else
+    return;
+#endif
+  }
+  PyDict_SetItemString(md, "cvar", globals);
+  Py_DECREF(globals);
   SWIG_addvarlink(globals, "GV_LatestTap", Swig_var_GV_LatestTap_get, Swig_var_GV_LatestTap_set);
   SWIG_addvarlink(globals, "GV_LatestDE2", Swig_var_GV_LatestDE2_get, Swig_var_GV_LatestDE2_set);
+  SWIG_addvarlink(globals, "ISerializable_dat_internal_ver", Swig_var_ISerializable_dat_internal_ver_get, Swig_var_ISerializable_dat_internal_ver_set);
+  SWIG_addvarlink(globals, "ISerializable_scn_ver", Swig_var_ISerializable_scn_ver_get, Swig_var_ISerializable_scn_ver_set);
+  SWIG_addvarlink(globals, "ISerializable_scn_plr_data_ver", Swig_var_ISerializable_scn_plr_data_ver_get, Swig_var_ISerializable_scn_plr_data_ver_set);
+  SWIG_addvarlink(globals, "ISerializable_scn_internal_ver", Swig_var_ISerializable_scn_internal_ver_get, Swig_var_ISerializable_scn_internal_ver_set);
+  SWIG_addvarlink(globals, "ISerializable_scn_trigger_ver", Swig_var_ISerializable_scn_trigger_ver_get, Swig_var_ISerializable_scn_trigger_ver_set);
+  SWIG_Python_SetConstant(d, "Building_BUILDING_ANNEXES_SIZE",SWIG_From_unsigned_SS_short(static_cast< unsigned short >(genie::unit::Building::BUILDING_ANNEXES_SIZE)));
+  SWIG_Python_SetConstant(d, "Building_LOOTABLE_RES_COUNT",SWIG_From_unsigned_SS_short(static_cast< unsigned short >(genie::unit::Building::LOOTABLE_RES_COUNT)));
+  SWIG_Python_SetConstant(d, "UT_EyeCandy",SWIG_From_int(static_cast< int >(genie::UT_EyeCandy)));
+  SWIG_Python_SetConstant(d, "UT_Trees",SWIG_From_int(static_cast< int >(genie::UT_Trees)));
+  SWIG_Python_SetConstant(d, "UT_Flag",SWIG_From_int(static_cast< int >(genie::UT_Flag)));
+  SWIG_Python_SetConstant(d, "UT_25",SWIG_From_int(static_cast< int >(genie::UT_25)));
+  SWIG_Python_SetConstant(d, "UT_Dead_Fish",SWIG_From_int(static_cast< int >(genie::UT_Dead_Fish)));
+  SWIG_Python_SetConstant(d, "UT_Bird",SWIG_From_int(static_cast< int >(genie::UT_Bird)));
+  SWIG_Python_SetConstant(d, "UT_Combatant",SWIG_From_int(static_cast< int >(genie::UT_Combatant)));
+  SWIG_Python_SetConstant(d, "UT_Projectile",SWIG_From_int(static_cast< int >(genie::UT_Projectile)));
+  SWIG_Python_SetConstant(d, "UT_Creatable",SWIG_From_int(static_cast< int >(genie::UT_Creatable)));
+  SWIG_Python_SetConstant(d, "UT_Building",SWIG_From_int(static_cast< int >(genie::UT_Building)));
+  SWIG_Python_SetConstant(d, "UT_AoeTrees",SWIG_From_int(static_cast< int >(genie::UT_AoeTrees)));
+  
+  // thread safe initialization
+  swig::container_owner_attribute();
+  
   SWIG_Python_SetConstant(d, "DatFile_FILE_VERSION_SIZE",SWIG_From_unsigned_SS_short(static_cast< unsigned short >(genie::DatFile::FILE_VERSION_SIZE)));
 #if PY_VERSION_HEX >= 0x03000000
   return m;

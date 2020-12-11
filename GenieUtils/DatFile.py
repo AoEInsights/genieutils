@@ -122,6 +122,60 @@ class SwigPyIterator(object):
 # Register SwigPyIterator in _DatFile:
 _DatFile.SwigPyIterator_swigregister(SwigPyIterator)
 
+GV_None = _DatFile.GV_None
+GV_TEST = _DatFile.GV_TEST
+GV_MIK = _DatFile.GV_MIK
+GV_DAVE = _DatFile.GV_DAVE
+GV_MATT = _DatFile.GV_MATT
+GV_AoEB = _DatFile.GV_AoEB
+GV_AoE = _DatFile.GV_AoE
+GV_RoR = _DatFile.GV_RoR
+GV_Tapsa = _DatFile.GV_Tapsa
+GV_T2 = _DatFile.GV_T2
+GV_T3 = _DatFile.GV_T3
+GV_T4 = _DatFile.GV_T4
+GV_T5 = _DatFile.GV_T5
+GV_T6 = _DatFile.GV_T6
+GV_T7 = _DatFile.GV_T7
+GV_T8 = _DatFile.GV_T8
+GV_AoKE3 = _DatFile.GV_AoKE3
+GV_AoKA = _DatFile.GV_AoKA
+GV_AoKB = _DatFile.GV_AoKB
+GV_AoK = _DatFile.GV_AoK
+GV_TC = _DatFile.GV_TC
+GV_Cysion = _DatFile.GV_Cysion
+GV_C2 = _DatFile.GV_C2
+GV_C3 = _DatFile.GV_C3
+GV_C4 = _DatFile.GV_C4
+GV_CK = _DatFile.GV_CK
+GV_C5 = _DatFile.GV_C5
+GV_C6 = _DatFile.GV_C6
+GV_C7 = _DatFile.GV_C7
+GV_C8 = _DatFile.GV_C8
+GV_C9 = _DatFile.GV_C9
+GV_C10 = _DatFile.GV_C10
+GV_C11 = _DatFile.GV_C11
+GV_C12 = _DatFile.GV_C12
+GV_C13 = _DatFile.GV_C13
+GV_C14 = _DatFile.GV_C14
+GV_C15 = _DatFile.GV_C15
+GV_SWGB = _DatFile.GV_SWGB
+GV_CC = _DatFile.GV_CC
+class XYZF(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+    x = property(_DatFile.XYZF_x_get, _DatFile.XYZF_x_set)
+    y = property(_DatFile.XYZF_y_get, _DatFile.XYZF_y_set)
+    z = property(_DatFile.XYZF_z_get, _DatFile.XYZF_z_set)
+
+    def __init__(self):
+        _DatFile.XYZF_swiginit(self, _DatFile.new_XYZF())
+    __swig_destroy__ = _DatFile.delete_XYZF
+
+# Register XYZF in _DatFile:
+_DatFile.XYZF_swigregister(XYZF)
+cvar = _DatFile.cvar
+
 class ISerializable(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -161,7 +215,6 @@ class ISerializable(object):
 
 # Register ISerializable in _DatFile:
 _DatFile.ISerializable_swigregister(ISerializable)
-cvar = _DatFile.cvar
 
 class Graphic(ISerializable):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
@@ -587,6 +640,59 @@ _DatFile.Civ_swigregister(Civ)
 def Civ_getNameSize():
     return _DatFile.Civ_getNameSize()
 
+class Tech(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.Tech_swiginit(self, _DatFile.new_Tech())
+    __swig_destroy__ = _DatFile.delete_Tech
+
+    def setGameVersion(self, gv):
+        return _DatFile.Tech_setGameVersion(self, gv)
+
+    def getRequiredTechsSize(self):
+        return _DatFile.Tech_getRequiredTechsSize(self)
+    RequiredTechs = property(_DatFile.Tech_RequiredTechs_get, _DatFile.Tech_RequiredTechs_set)
+    ResourceCosts = property(_DatFile.Tech_ResourceCosts_get, _DatFile.Tech_ResourceCosts_set)
+    RequiredTechCount = property(_DatFile.Tech_RequiredTechCount_get, _DatFile.Tech_RequiredTechCount_set)
+    Civ = property(_DatFile.Tech_Civ_get, _DatFile.Tech_Civ_set)
+    FullTechMode = property(_DatFile.Tech_FullTechMode_get, _DatFile.Tech_FullTechMode_set)
+    ResearchLocation = property(_DatFile.Tech_ResearchLocation_get, _DatFile.Tech_ResearchLocation_set)
+    LanguageDLLName = property(_DatFile.Tech_LanguageDLLName_get, _DatFile.Tech_LanguageDLLName_set)
+    LanguageDLLDescription = property(_DatFile.Tech_LanguageDLLDescription_get, _DatFile.Tech_LanguageDLLDescription_set)
+    ResearchTime = property(_DatFile.Tech_ResearchTime_get, _DatFile.Tech_ResearchTime_set)
+    EffectID = property(_DatFile.Tech_EffectID_get, _DatFile.Tech_EffectID_set)
+    Type = property(_DatFile.Tech_Type_get, _DatFile.Tech_Type_set)
+    IconID = property(_DatFile.Tech_IconID_get, _DatFile.Tech_IconID_set)
+    ButtonID = property(_DatFile.Tech_ButtonID_get, _DatFile.Tech_ButtonID_set)
+    LanguageDLLHelp = property(_DatFile.Tech_LanguageDLLHelp_get, _DatFile.Tech_LanguageDLLHelp_set)
+    LanguageDLLTechTree = property(_DatFile.Tech_LanguageDLLTechTree_get, _DatFile.Tech_LanguageDLLTechTree_set)
+    HotKey = property(_DatFile.Tech_HotKey_get, _DatFile.Tech_HotKey_set)
+    Name = property(_DatFile.Tech_Name_get, _DatFile.Tech_Name_set)
+    Name2 = property(_DatFile.Tech_Name2_get, _DatFile.Tech_Name2_set)
+    Repeatable = property(_DatFile.Tech_Repeatable_get, _DatFile.Tech_Repeatable_set)
+
+# Register Tech in _DatFile:
+_DatFile.Tech_swigregister(Tech)
+
+class UnitLine(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.UnitLine_swiginit(self, _DatFile.new_UnitLine())
+    __swig_destroy__ = _DatFile.delete_UnitLine
+
+    def setGameVersion(self, gv):
+        return _DatFile.UnitLine_setGameVersion(self, gv)
+    ID = property(_DatFile.UnitLine_ID_get, _DatFile.UnitLine_ID_set)
+    Name = property(_DatFile.UnitLine_Name_get, _DatFile.UnitLine_Name_set)
+    UnitIDs = property(_DatFile.UnitLine_UnitIDs_get, _DatFile.UnitLine_UnitIDs_set)
+
+# Register UnitLine in _DatFile:
+_DatFile.UnitLine_swigregister(UnitLine)
+
 class CivVector(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -905,6 +1011,341 @@ class GraphicVector(object):
 # Register GraphicVector in _DatFile:
 _DatFile.GraphicVector_swigregister(GraphicVector)
 
+class TechVector(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        return _DatFile.TechVector_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        return _DatFile.TechVector___nonzero__(self)
+
+    def __bool__(self):
+        return _DatFile.TechVector___bool__(self)
+
+    def __len__(self):
+        return _DatFile.TechVector___len__(self)
+
+    def __getslice__(self, i, j):
+        return _DatFile.TechVector___getslice__(self, i, j)
+
+    def __setslice__(self, *args):
+        return _DatFile.TechVector___setslice__(self, *args)
+
+    def __delslice__(self, i, j):
+        return _DatFile.TechVector___delslice__(self, i, j)
+
+    def __delitem__(self, *args):
+        return _DatFile.TechVector___delitem__(self, *args)
+
+    def __getitem__(self, *args):
+        return _DatFile.TechVector___getitem__(self, *args)
+
+    def __setitem__(self, *args):
+        return _DatFile.TechVector___setitem__(self, *args)
+
+    def pop(self):
+        return _DatFile.TechVector_pop(self)
+
+    def append(self, x):
+        return _DatFile.TechVector_append(self, x)
+
+    def empty(self):
+        return _DatFile.TechVector_empty(self)
+
+    def size(self):
+        return _DatFile.TechVector_size(self)
+
+    def swap(self, v):
+        return _DatFile.TechVector_swap(self, v)
+
+    def begin(self):
+        return _DatFile.TechVector_begin(self)
+
+    def end(self):
+        return _DatFile.TechVector_end(self)
+
+    def rbegin(self):
+        return _DatFile.TechVector_rbegin(self)
+
+    def rend(self):
+        return _DatFile.TechVector_rend(self)
+
+    def clear(self):
+        return _DatFile.TechVector_clear(self)
+
+    def get_allocator(self):
+        return _DatFile.TechVector_get_allocator(self)
+
+    def pop_back(self):
+        return _DatFile.TechVector_pop_back(self)
+
+    def erase(self, *args):
+        return _DatFile.TechVector_erase(self, *args)
+
+    def __init__(self, *args):
+        _DatFile.TechVector_swiginit(self, _DatFile.new_TechVector(*args))
+
+    def push_back(self, x):
+        return _DatFile.TechVector_push_back(self, x)
+
+    def front(self):
+        return _DatFile.TechVector_front(self)
+
+    def back(self):
+        return _DatFile.TechVector_back(self)
+
+    def assign(self, n, x):
+        return _DatFile.TechVector_assign(self, n, x)
+
+    def resize(self, *args):
+        return _DatFile.TechVector_resize(self, *args)
+
+    def insert(self, *args):
+        return _DatFile.TechVector_insert(self, *args)
+
+    def reserve(self, n):
+        return _DatFile.TechVector_reserve(self, n)
+
+    def capacity(self):
+        return _DatFile.TechVector_capacity(self)
+    __swig_destroy__ = _DatFile.delete_TechVector
+
+# Register TechVector in _DatFile:
+_DatFile.TechVector_swigregister(TechVector)
+
+class UnitLineVector(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        return _DatFile.UnitLineVector_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        return _DatFile.UnitLineVector___nonzero__(self)
+
+    def __bool__(self):
+        return _DatFile.UnitLineVector___bool__(self)
+
+    def __len__(self):
+        return _DatFile.UnitLineVector___len__(self)
+
+    def __getslice__(self, i, j):
+        return _DatFile.UnitLineVector___getslice__(self, i, j)
+
+    def __setslice__(self, *args):
+        return _DatFile.UnitLineVector___setslice__(self, *args)
+
+    def __delslice__(self, i, j):
+        return _DatFile.UnitLineVector___delslice__(self, i, j)
+
+    def __delitem__(self, *args):
+        return _DatFile.UnitLineVector___delitem__(self, *args)
+
+    def __getitem__(self, *args):
+        return _DatFile.UnitLineVector___getitem__(self, *args)
+
+    def __setitem__(self, *args):
+        return _DatFile.UnitLineVector___setitem__(self, *args)
+
+    def pop(self):
+        return _DatFile.UnitLineVector_pop(self)
+
+    def append(self, x):
+        return _DatFile.UnitLineVector_append(self, x)
+
+    def empty(self):
+        return _DatFile.UnitLineVector_empty(self)
+
+    def size(self):
+        return _DatFile.UnitLineVector_size(self)
+
+    def swap(self, v):
+        return _DatFile.UnitLineVector_swap(self, v)
+
+    def begin(self):
+        return _DatFile.UnitLineVector_begin(self)
+
+    def end(self):
+        return _DatFile.UnitLineVector_end(self)
+
+    def rbegin(self):
+        return _DatFile.UnitLineVector_rbegin(self)
+
+    def rend(self):
+        return _DatFile.UnitLineVector_rend(self)
+
+    def clear(self):
+        return _DatFile.UnitLineVector_clear(self)
+
+    def get_allocator(self):
+        return _DatFile.UnitLineVector_get_allocator(self)
+
+    def pop_back(self):
+        return _DatFile.UnitLineVector_pop_back(self)
+
+    def erase(self, *args):
+        return _DatFile.UnitLineVector_erase(self, *args)
+
+    def __init__(self, *args):
+        _DatFile.UnitLineVector_swiginit(self, _DatFile.new_UnitLineVector(*args))
+
+    def push_back(self, x):
+        return _DatFile.UnitLineVector_push_back(self, x)
+
+    def front(self):
+        return _DatFile.UnitLineVector_front(self)
+
+    def back(self):
+        return _DatFile.UnitLineVector_back(self)
+
+    def assign(self, n, x):
+        return _DatFile.UnitLineVector_assign(self, n, x)
+
+    def resize(self, *args):
+        return _DatFile.UnitLineVector_resize(self, *args)
+
+    def insert(self, *args):
+        return _DatFile.UnitLineVector_insert(self, *args)
+
+    def reserve(self, n):
+        return _DatFile.UnitLineVector_reserve(self, n)
+
+    def capacity(self):
+        return _DatFile.UnitLineVector_capacity(self)
+    __swig_destroy__ = _DatFile.delete_UnitLineVector
+
+# Register UnitLineVector in _DatFile:
+_DatFile.UnitLineVector_swigregister(UnitLineVector)
+
+class ResearchResourceCost(ISerializable):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        _DatFile.ResearchResourceCost_swiginit(self, _DatFile.new_ResearchResourceCost())
+    __swig_destroy__ = _DatFile.delete_ResearchResourceCost
+
+    def setGameVersion(self, gv):
+        return _DatFile.ResearchResourceCost_setGameVersion(self, gv)
+    Type = property(_DatFile.ResearchResourceCost_Type_get, _DatFile.ResearchResourceCost_Type_set)
+    Amount = property(_DatFile.ResearchResourceCost_Amount_get, _DatFile.ResearchResourceCost_Amount_set)
+    Flag = property(_DatFile.ResearchResourceCost_Flag_get, _DatFile.ResearchResourceCost_Flag_set)
+
+# Register ResearchResourceCost in _DatFile:
+_DatFile.ResearchResourceCost_swigregister(ResearchResourceCost)
+
+class ResearchResourceCostVector(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        return _DatFile.ResearchResourceCostVector_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        return _DatFile.ResearchResourceCostVector___nonzero__(self)
+
+    def __bool__(self):
+        return _DatFile.ResearchResourceCostVector___bool__(self)
+
+    def __len__(self):
+        return _DatFile.ResearchResourceCostVector___len__(self)
+
+    def __getslice__(self, i, j):
+        return _DatFile.ResearchResourceCostVector___getslice__(self, i, j)
+
+    def __setslice__(self, *args):
+        return _DatFile.ResearchResourceCostVector___setslice__(self, *args)
+
+    def __delslice__(self, i, j):
+        return _DatFile.ResearchResourceCostVector___delslice__(self, i, j)
+
+    def __delitem__(self, *args):
+        return _DatFile.ResearchResourceCostVector___delitem__(self, *args)
+
+    def __getitem__(self, *args):
+        return _DatFile.ResearchResourceCostVector___getitem__(self, *args)
+
+    def __setitem__(self, *args):
+        return _DatFile.ResearchResourceCostVector___setitem__(self, *args)
+
+    def pop(self):
+        return _DatFile.ResearchResourceCostVector_pop(self)
+
+    def append(self, x):
+        return _DatFile.ResearchResourceCostVector_append(self, x)
+
+    def empty(self):
+        return _DatFile.ResearchResourceCostVector_empty(self)
+
+    def size(self):
+        return _DatFile.ResearchResourceCostVector_size(self)
+
+    def swap(self, v):
+        return _DatFile.ResearchResourceCostVector_swap(self, v)
+
+    def begin(self):
+        return _DatFile.ResearchResourceCostVector_begin(self)
+
+    def end(self):
+        return _DatFile.ResearchResourceCostVector_end(self)
+
+    def rbegin(self):
+        return _DatFile.ResearchResourceCostVector_rbegin(self)
+
+    def rend(self):
+        return _DatFile.ResearchResourceCostVector_rend(self)
+
+    def clear(self):
+        return _DatFile.ResearchResourceCostVector_clear(self)
+
+    def get_allocator(self):
+        return _DatFile.ResearchResourceCostVector_get_allocator(self)
+
+    def pop_back(self):
+        return _DatFile.ResearchResourceCostVector_pop_back(self)
+
+    def erase(self, *args):
+        return _DatFile.ResearchResourceCostVector_erase(self, *args)
+
+    def __init__(self, *args):
+        _DatFile.ResearchResourceCostVector_swiginit(self, _DatFile.new_ResearchResourceCostVector(*args))
+
+    def push_back(self, x):
+        return _DatFile.ResearchResourceCostVector_push_back(self, x)
+
+    def front(self):
+        return _DatFile.ResearchResourceCostVector_front(self)
+
+    def back(self):
+        return _DatFile.ResearchResourceCostVector_back(self)
+
+    def assign(self, n, x):
+        return _DatFile.ResearchResourceCostVector_assign(self, n, x)
+
+    def resize(self, *args):
+        return _DatFile.ResearchResourceCostVector_resize(self, *args)
+
+    def insert(self, *args):
+        return _DatFile.ResearchResourceCostVector_insert(self, *args)
+
+    def reserve(self, n):
+        return _DatFile.ResearchResourceCostVector_reserve(self, n)
+
+    def capacity(self):
+        return _DatFile.ResearchResourceCostVector_capacity(self)
+    __swig_destroy__ = _DatFile.delete_ResearchResourceCostVector
+
+# Register ResearchResourceCostVector in _DatFile:
+_DatFile.ResearchResourceCostVector_swigregister(ResearchResourceCostVector)
+
 class Int16Pair(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -931,59 +1372,6 @@ class Int16Pair(object):
 
 # Register Int16Pair in _DatFile:
 _DatFile.Int16Pair_swigregister(Int16Pair)
-
-GV_None = _DatFile.GV_None
-GV_TEST = _DatFile.GV_TEST
-GV_MIK = _DatFile.GV_MIK
-GV_DAVE = _DatFile.GV_DAVE
-GV_MATT = _DatFile.GV_MATT
-GV_AoEB = _DatFile.GV_AoEB
-GV_AoE = _DatFile.GV_AoE
-GV_RoR = _DatFile.GV_RoR
-GV_Tapsa = _DatFile.GV_Tapsa
-GV_T2 = _DatFile.GV_T2
-GV_T3 = _DatFile.GV_T3
-GV_T4 = _DatFile.GV_T4
-GV_T5 = _DatFile.GV_T5
-GV_T6 = _DatFile.GV_T6
-GV_T7 = _DatFile.GV_T7
-GV_T8 = _DatFile.GV_T8
-GV_AoKE3 = _DatFile.GV_AoKE3
-GV_AoKA = _DatFile.GV_AoKA
-GV_AoKB = _DatFile.GV_AoKB
-GV_AoK = _DatFile.GV_AoK
-GV_TC = _DatFile.GV_TC
-GV_Cysion = _DatFile.GV_Cysion
-GV_C2 = _DatFile.GV_C2
-GV_C3 = _DatFile.GV_C3
-GV_C4 = _DatFile.GV_C4
-GV_CK = _DatFile.GV_CK
-GV_C5 = _DatFile.GV_C5
-GV_C6 = _DatFile.GV_C6
-GV_C7 = _DatFile.GV_C7
-GV_C8 = _DatFile.GV_C8
-GV_C9 = _DatFile.GV_C9
-GV_C10 = _DatFile.GV_C10
-GV_C11 = _DatFile.GV_C11
-GV_C12 = _DatFile.GV_C12
-GV_C13 = _DatFile.GV_C13
-GV_C14 = _DatFile.GV_C14
-GV_C15 = _DatFile.GV_C15
-GV_SWGB = _DatFile.GV_SWGB
-GV_CC = _DatFile.GV_CC
-class XYZF(object):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-    __repr__ = _swig_repr
-    x = property(_DatFile.XYZF_x_get, _DatFile.XYZF_x_set)
-    y = property(_DatFile.XYZF_y_get, _DatFile.XYZF_y_set)
-    z = property(_DatFile.XYZF_z_get, _DatFile.XYZF_z_set)
-
-    def __init__(self):
-        _DatFile.XYZF_swiginit(self, _DatFile.new_XYZF())
-    __swig_destroy__ = _DatFile.delete_XYZF
-
-# Register XYZF in _DatFile:
-_DatFile.XYZF_swigregister(XYZF)
 
 class IFile(ISerializable):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")

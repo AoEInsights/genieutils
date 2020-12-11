@@ -15,7 +15,7 @@ setup(
     name='GenieUtils',
     version='1.0',
     author='Kevin Armenat',
-    author_email='kevin@armen.at',
+    author_email='contact@aoe2insights.com',
     packages=find_packages(),
     ext_modules=[dat_file],
     include_package_data=True

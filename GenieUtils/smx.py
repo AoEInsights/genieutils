@@ -1,4 +1,8 @@
-# Copyright 2019-2020 the openage authors. See copying.md for legal info.
+# Copyright 2019-2020 the openage authors. See COPYING.md for legal info.
+
+# Pure python implementation of
+# https://github.com/SFTtech/openage/blob/master/openage/convert/value_object/read/media/smx.pyx
+# see https://github.com/SFTtech/openage/ for further information
 
 import logging
 from collections import namedtuple

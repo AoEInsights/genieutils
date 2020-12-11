@@ -1,9 +1,13 @@
-# Copyright 2013-2020 the openage authors. See copying.md for legal info.
+# Copyright 2013-2020 the openage authors. See COPYING.md for legal info.
+
+# Pure python implementation of
+# https://github.com/SFTtech/openage/blob/master/openage/convert/value_object/read/media/slp.pyx
+# see https://github.com/SFTtech/openage/ for further information
 
 import logging
 from collections import namedtuple
-from enum import Enum, auto, IntEnum
-from struct import Struct, unpack_from
+from enum import auto, IntEnum
+from struct import Struct
 
 import numpy
 from GenieUtils.colors import PaletteConfig
@@ -26,6 +30,7 @@ cmd_pack = namedtuple("cmd_pack", ("count", "dpos"))
 
 boundary_def = namedtuple("boundary_def", ("left", "right", "full_row"))
 
+
 class PixelType(IntEnum):
     STANDARD = auto()
     SHADOW = auto()
@@ -41,6 +46,7 @@ class PixelType(IntEnum):
 class SlpType(IntEnum):
     STANDARD = auto()
     SHADOW = auto()
+
 
 pixel = namedtuple("pixel", ("type", "value"))
 
